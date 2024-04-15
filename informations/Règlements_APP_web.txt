@@ -1,0 +1,53 @@
+Mini-projet Site Web APP
+
+Objectif : valoriser son APP au travers d'un site web
+
+Contexte : Les Apprentissages par Problèmes et par Projets à Polytech Annecy-Chambéry
+
+Par équipe APP, réalisez un site web autour de vos APP en 16h de travail, accompagnés par l'équipe pédagogique.
+
+Cahier des charges
+Par équipe d'APP, vous devez réaliser un site web pour la présentation et la valorisation de vos travaux d'APP. Ce site sera alimenté au fil de vos 4 semestres. Il sera mis en ligne et permettra :
+
+    d'apporter de la visibilité externe (via un processus de mise en ligne) afin de montrer à l'extérieur les sujets d'étude et les réalisations. La cible est donc les professionnels qui chercheront peut-être à vous recruter plus tard, mais également de futurs étudiants qui seront motivés à la vue de votre travail,
+    de faciliter l'accès à des documents publics ou des ressources entre les équipes successives d'APP (garder une trace dans le temps et faciliter une transmission de l'information),
+    de mettre en ligne un démonstrateur de vos réalisations.
+
+Le contenu de votre site pourra s'organiser autour des différentes rubriques:
+
+    Contexte et objectifs (description du projet, positionnement, enjeux)
+    Démonstration (valorisation)
+    Ressources pédagogiques que vous seriez amenés à réaliser (tutoriels, capsules vidéo, ...)
+    Documents publics (zone de partage de documents publiables comme les rapports, les supports de présentation, les liens vers des informations en relation avec la thématique du projet, ...)
+    Bilan et compétences développées
+
+Vous avez la possibilité de proposer ou d'organiser vos thématiques différemment en fonction de votre projet APP. Le contenu du site pourra ensuite être complété au fil des semestres.
+
+La gestion des informations
+Votre site web doit vous amener à gérer des informations nécessitant la mise en place d'une base de données :
+
+    la liste des participants à l'APP en prenant en compte les possibles évolutions semestre après semestre,
+    la liste des séances d'APP (éventuellement avec une mise à jour automatique via une extraction depuis le logiciel d'emploi du temps ADE),
+    la gestion de documents produits dans le cadre de votre APP,
+    une galerie photos,
+    des données ou mesures impliquées dans un démonstrateur en ligne sur lequel une interaction avec le visiteur peut être créée,
+    la trace des visites et commentaires laissés sur votre site,
+    etc.
+
+Impératif !
+
+Afin de faciliter le portage de votre site, vous devez impérativement respecter les conventions suivantes:
+
+    Les fichiers de votre site doivent se trouver dans le répertoire /public_html/[ANNEE APP]_[NOM_APP]/ avec [ANNEE APP] l'année de fin de l'APP et [NOM_APP] son nom.
+    Exemple: /public_html/2025_SON/
+    La page principale du site doit porter le nom [ANNEE APP]_[NOM_APP].php
+    Exemple: /public_html/2025_SON/2025_SON.php
+    Un répertoire spécifique /public_html/[ANNEE APP]_[NOM_APP]/sql doit contenir l'ensemble de vos fichiers sql nécessaires à la mise en place de la base de données (schéma, données initiales, requêtes)
+    Exemple: /public_html/2025_SON/sql/
+    Les paramètres de connexion à la base de données doivent se trouver dans /public_html/bd_app.php et contenir les variables suivantes:
+    $mysqlUsername = "user name";
+    $mysqlPassword = "password";
+    $mysqlDatabase = "db name";
+    $mysqlHost = "host name";
+    Les tables doivent être préfixées par "[ANNEE APP]_[NOM_APP]_"
+    Exemple d'une table utilisateur: 2025_SON_utilisateur

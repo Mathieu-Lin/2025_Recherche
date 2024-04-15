@@ -5,12 +5,13 @@
 // // de session passé dans une requête GET, POST ou par un cookie.																//
 // // Fonction ob_start() permet d'utiliser les fonctions header.																	//
 // //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-session_save_path('/home/linm/public_html/Techno_web/PolyRecherche/'); /*à changer*/
+session_save_path('/home/linm/public_html/2025_Recherche/');
 ob_start();
 session_start();
 
+require_once('./../bd_app.php');
 /*Connexion à la base de données sur le serveur tp-epua*/
-$conn = @mysqli_connect("tp-epua:3308", "linm", "2dMy6nL4"); /*à changer*/
+$conn = @mysqli_connect($mysqlHost, $mysqlUsername, $mysqlPassword);
 
 /*connexion à la base de donnée depuis la machine virtuelle INFO642*/
 /*$conn = @mysqli_connect("localhost", "etu", "bdtw2021");*/
@@ -28,7 +29,7 @@ if (mysqli_connect_errno()) {
     //////////////////////////////////////////////////////////////////////////////////////////////
     //////////////////////////////////////////////////////////////////////////////////////////////
     /*Sélection de la base de données*/
-    mysqli_select_db($conn, "linm"); /*à changer*/
+    mysqli_select_db($conn, $mysqlDatabase);
     /*mysqli_select_db($conn, "etu"); */ /*sélection de la base sous la VM info642*/
 
     /*Encodage UTF8 pour les échanges avecla BD*/
