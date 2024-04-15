@@ -2,7 +2,8 @@
 <html lang="en">
 
 <?php
-include_once("./src/requests/F_BDD_Accueil.php");
+// Les fonctions importés : 
+require_once("./src/requests/F_BDD_Accueil.php");
 ?>
 
 <head>
