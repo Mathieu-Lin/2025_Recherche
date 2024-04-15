@@ -1,0 +1,11 @@
+Notice d'utilisation / Charte d'utilisation
+
+- Pages
+Tu mets juste php et les balises
+
+- Styles 
+Tu mets juste le style adapté pour UNE page
+
+- Requests
+Tu mets des fonctions qui font une requete SQL pour UNE page
+

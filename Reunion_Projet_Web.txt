@@ -1,0 +1,32 @@
+Légende : → obligatoire , + facultative
+
+PolyResearch (titre page accueil)
+
+→Page d'accueil 
+
+→Page connexion et inscription +(si possible mdp oublié)
+
+→ Partie Chercheur (Droit d'accès) 
+→ Modification profile, +(supprimer un compte) + photo? + (lien linkedin etc.)
+→ Ajouter recherche (redirection google direction) (piece jointe + lien articles)
+→ Page liste des chercheurs
+→ Page liste des recherches d'un chercheur
+→ Page visualisation 
++ Page actualités 
++ Page d'emploi du temps
++ 
+
+
+→ PArtie Visiteur (Droit d'accès)
+→ Page liste des chercheurs
+→ Page liste des recherches d'un chercheur
+→ Page visualisation 
+
++ Fontion recherche
+
+
+/////////////
+lieu + type + date : publication
+citations
+publications
+filtrage
