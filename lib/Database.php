@@ -5,7 +5,7 @@
 // // de session passé dans une requête GET, POST ou par un cookie.																//
 // // Fonction ob_start() permet d'utiliser les fonctions header.																	//
 // //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-session_save_path('/home/linm/public_html/2025_Recherche/');
+session_save_path('/home/' . $mysqlUsername . '/public_html/2025_Recherche/');
 ob_start();
 session_start();
 
