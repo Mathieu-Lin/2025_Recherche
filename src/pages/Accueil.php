@@ -2,6 +2,8 @@
 <html lang="en">
 
 <?php
+// Session 
+$_SESSION['page'] = 1;
 // Les fonctions importés : 
 require_once("./src/requests/F_BDD_Accueil.php");
 ?>
@@ -17,8 +19,8 @@ require_once("./src/requests/F_BDD_Accueil.php");
 
 <body>
     <?php
-    echo "<h5> Coucou </h5>"
-
+    echo "<h5> Coucou </h5>";
+    var_dump($conn); // Connection SQL
 
     ?>
 </body>

@@ -53,7 +53,7 @@ if (mysqli_connect_errno()) {
         lien_pdf VARCHAR(255),
         lien_article VARCHAR(255),
         description TEXT,
-        nombre_citations INT DEFAULT 0,
+        type VARCHAR(50),
         date_publication DATE NOT NULL
     )",
         "CREATE TABLE IF NOT EXISTS 2025_Recherche_chercheur_publication (
@@ -63,13 +63,14 @@ if (mysqli_connect_errno()) {
         FOREIGN KEY (id_chercheur) REFERENCES 2025_Recherche_chercheur(id) ON DELETE CASCADE ON UPDATE CASCADE,
         FOREIGN KEY (id_publication) REFERENCES 2025_Recherche_publication(id) ON DELETE CASCADE ON UPDATE CASCADE
     )",
-        "CREATE TABLE IF NOT EXISTS 2025_Recherche_citations_publication (
+        "CREATE TABLE IF NOT EXISTS 2025_Recherche_citation_publication (
         id_publication INT UNSIGNED NOT NULL,
-        id_citations INT UNSIGNED NOT NULL,
+        id_citation INT UNSIGNED NOT NULL,
         PRIMARY KEY (id_publication, id_citations),
-        FOREIGN KEY (id_citations) REFERENCES 2025_Recherche_publication(id) ON DELETE CASCADE ON UPDATE CASCADE,
+        FOREIGN KEY (id_citation) REFERENCES 2025_Recherche_publication(id) ON DELETE CASCADE ON UPDATE CASCADE,
         FOREIGN KEY (id_publication) REFERENCES 2025_Recherche_publication(id) ON DELETE CASCADE ON UPDATE CASCADE
-    )",
+    )"
+        /** ,
         "CREATE TABLE IF NOT EXISTS 2025_Recherche_entreprise (
         id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
         titre VARCHAR(255) NOT NULL,
@@ -94,7 +95,7 @@ if (mysqli_connect_errno()) {
         PRIMARY KEY (id_chercheur, id_entreprise),
         FOREIGN KEY (id_chercheur) REFERENCES 2025_Recherche_chercheur(id) ON DELETE CASCADE ON UPDATE CASCADE,
         FOREIGN KEY (id_entreprise) REFERENCES 2025_Recherche_entreprise(id) ON DELETE CASCADE ON UPDATE CASCADE
-    )"
+    )"*/
     ];
 
     // Execute each SQL statement to create tables
