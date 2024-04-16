@@ -66,7 +66,7 @@ if (mysqli_connect_errno()) {
         "CREATE TABLE IF NOT EXISTS 2025_Recherche_citation_publication (
         id_publication INT UNSIGNED NOT NULL,
         id_citation INT UNSIGNED NOT NULL,
-        PRIMARY KEY (id_publication, id_citations),
+        PRIMARY KEY (id_publication, id_citation),
         FOREIGN KEY (id_citation) REFERENCES 2025_Recherche_publication(id) ON DELETE CASCADE ON UPDATE CASCADE,
         FOREIGN KEY (id_publication) REFERENCES 2025_Recherche_publication(id) ON DELETE CASCADE ON UPDATE CASCADE
     )"
