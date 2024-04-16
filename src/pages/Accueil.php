@@ -10,6 +10,7 @@ require_once("./src/requests/F_BDD_Accueil.php");
     <meta charset="UTF-8">
     <?php  //css a ajouter apres 
     ?>
+    <link rel="stylesheet" type="text/css" href="./src/styles/Global.css">
     <link rel="stylesheet" type="text/css" href="./src/styles/Accueil.css">
     <title>PolyRecherche - Accueil</title>
 </head>
