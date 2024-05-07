@@ -22,5 +22,7 @@ require_once("./src/requests/F_BDD_Accueil.php");
     echo "<h5> Coucou </h5>";
     var_dump($conn); // Connection SQL
 
+
+
     ?>
 </body>
