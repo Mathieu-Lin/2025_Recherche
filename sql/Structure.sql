@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost:3308
--- Généré le : mar. 07 mai 2024 à 15:40
+-- Généré le : lun. 13 mai 2024 à 00:43
 -- Version du serveur :  5.7.33
 -- Version de PHP : 7.4.33
 
@@ -65,6 +65,17 @@ CREATE TABLE `2025_editors` (
 -- --------------------------------------------------------
 
 --
+-- Structure de la table `2025_links`
+--
+
+CREATE TABLE `2025_links` (
+  `id_publication` int(11) NOT NULL,
+  `id_attachment` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
 -- Structure de la table `2025_publications`
 --
 
@@ -77,7 +88,6 @@ CREATE TABLE `2025_publications` (
   `update_date` date NOT NULL,
   `title_type` varchar(200) DEFAULT NULL,
   `pages` varchar(50) DEFAULT NULL,
-  `id_attachment` int(11) DEFAULT NULL,
   `id_editor` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -145,11 +155,17 @@ ALTER TABLE `2025_editors`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Index pour la table `2025_links`
+--
+ALTER TABLE `2025_links`
+  ADD PRIMARY KEY (`id_publication`,`id_attachment`),
+  ADD KEY `fk_attachment_link` (`id_attachment`);
+
+--
 -- Index pour la table `2025_publications`
 --
 ALTER TABLE `2025_publications`
   ADD PRIMARY KEY (`id`),
-  ADD KEY `fk_publication_attachment` (`id_attachment`),
   ADD KEY `fk_publication_editor` (`id_editor`);
 
 --
@@ -213,10 +229,16 @@ ALTER TABLE `2025_users`
 --
 
 --
+-- Contraintes pour la table `2025_links`
+--
+ALTER TABLE `2025_links`
+  ADD CONSTRAINT `fk_attachment_link` FOREIGN KEY (`id_attachment`) REFERENCES `2025_attachments` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `fk_publication_link` FOREIGN KEY (`id_publication`) REFERENCES `2025_publications` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
 -- Contraintes pour la table `2025_publications`
 --
 ALTER TABLE `2025_publications`
-  ADD CONSTRAINT `fk_publication_attachment` FOREIGN KEY (`id_attachment`) REFERENCES `2025_attachments` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `fk_publication_editor` FOREIGN KEY (`id_editor`) REFERENCES `2025_editors` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --

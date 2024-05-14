@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost:3308
--- Généré le : mar. 07 mai 2024 à 15:41
+-- Généré le : lun. 13 mai 2024 à 00:50
 -- Version du serveur :  5.7.33
 -- Version de PHP : 7.4.33
 
@@ -55,10 +55,10 @@ INSERT INTO `2025_editors` (`id`, `name`) VALUES
 -- Déchargement des données de la table `2025_publications`
 --
 
-INSERT INTO `2025_publications` (`id`, `title`, `description`, `type`, `publication_date`, `update_date`, `title_type`, `pages`, `id_attachment`, `id_editor`) VALUES
-(1, 'How to bring together fault tolerance and data consistency to enable grid data sharing', 'This paper addresses the challenge of transparent data sharing within computing Grids built as cluster federations. On such platforms, the availability of storage resources may change in a dynamic way, often due to hardware failures. We focus on the problem of handling the consistency of replicated data in the presence of failures. We propose a software architecture which decouples consistency management from fault tolerance management. We illustrate this architecture with a case study showing how to design a consistency protocol using fault‐tolerant building blocks. As a proof of concept, we describe a prototype implementation of this protocol within JUXMEM, a software experimental platform for Grid data sharing, and we report on a preliminary experimental evaluation of the proposed approach. Copyright © 2006 John Wiley & Sons, Ltd.', 'Revue', '2006-11-01', '2024-05-07', 'Concurrency and Computation: Practice and Experience', '1705-1723', 1, 1),
-(2, 'Matchmaking in multi-player on-line games: studying user traces to improve the user experience', 'Designing and implementing a quality matchmaking service for Multiplayer Online Games requires an extensive knowledge of the habits, behaviors and expectations of the players. Gathering and analyzing traces of real games offers insight on these matters, but game server providers are very protective of such data in order to deter possible reuse by the competition and to prevent cheating. We circumvented this issue by gathering public data from a League of Legends server (information over more than 28 million game sessions). In this paper, we present our database which is freely available online, and we detail the analysis and conclusions we draw from this data regarding the expected requirements for the matchmaking service.', 'Livre', '2014-03-19', '2024-05-07', 'Proceedings of Network and Operating System Support on Digital Audio and Video Workshop', '7-12', 2, NULL),
-(3, 'A Survey on Resilience in Information Sharing on Networks: Taxonomy and Applied Techniques', 'Information sharing is vital in any communication network environment to enable network operating services take decisions based on the information collected by several deployed computing devices. The various networks that compose cyberspace, as Internet-of-Things (IoT) ecosystems, have significantly increased the need to constantly share information, which is often subject to disturbances. In this sense, the damage of anomalous operations boosted researches aimed at improving resilience to information sharing. Hence, in this survey, we present a systematization of knowledge about scientific efforts for achieving resilience to information sharing on networks. First, we introduce a taxonomy to organize the strategies applied to attain resilience to information sharing on networks, offering brief concepts about network anomalies and connectivity services. Then, we detail the taxonomy in the face of malicious …', 'Source', '2024-01-01', '2024-05-07', 'ACM Computing Surveys', NULL, 3, 2);
+INSERT INTO `2025_publications` (`id`, `title`, `description`, `type`, `publication_date`, `update_date`, `title_type`, `pages`, `id_editor`) VALUES
+(1, 'How to bring together fault tolerance and data consistency to enable grid data sharing', 'This paper addresses the challenge of transparent data sharing within computing Grids built as cluster federations. On such platforms, the availability of storage resources may change in a dynamic way, often due to hardware failures. We focus on the problem of handling the consistency of replicated data in the presence of failures. We propose a software architecture which decouples consistency management from fault tolerance management. We illustrate this architecture with a case study showing how to design a consistency protocol using fault‐tolerant building blocks. As a proof of concept, we describe a prototype implementation of this protocol within JUXMEM, a software experimental platform for Grid data sharing, and we report on a preliminary experimental evaluation of the proposed approach. Copyright © 2006 John Wiley & Sons, Ltd.', 'Revue', '2006-11-01', '2024-05-07', 'Concurrency and Computation: Practice and Experience', '1705-1723', 1),
+(2, 'Matchmaking in multi-player on-line games: studying user traces to improve the user experience', 'Designing and implementing a quality matchmaking service for Multiplayer Online Games requires an extensive knowledge of the habits, behaviors and expectations of the players. Gathering and analyzing traces of real games offers insight on these matters, but game server providers are very protective of such data in order to deter possible reuse by the competition and to prevent cheating. We circumvented this issue by gathering public data from a League of Legends server (information over more than 28 million game sessions). In this paper, we present our database which is freely available online, and we detail the analysis and conclusions we draw from this data regarding the expected requirements for the matchmaking service.', 'Livre', '2014-03-19', '2024-05-07', 'Proceedings of Network and Operating System Support on Digital Audio and Video Workshop', '7-12', NULL),
+(3, 'A Survey on Resilience in Information Sharing on Networks: Taxonomy and Applied Techniques', 'Information sharing is vital in any communication network environment to enable network operating services take decisions based on the information collected by several deployed computing devices. The various networks that compose cyberspace, as Internet-of-Things (IoT) ecosystems, have significantly increased the need to constantly share information, which is often subject to disturbances. In this sense, the damage of anomalous operations boosted researches aimed at improving resilience to information sharing. Hence, in this survey, we present a systematization of knowledge about scientific efforts for achieving resilience to information sharing on networks. First, we introduce a taxonomy to organize the strategies applied to attain resilience to information sharing on networks, offering brief concepts about network anomalies and connectivity services. Then, we detail the taxonomy in the face of malicious …', 'Source', '2024-01-01', '2024-05-07', 'ACM Computing Surveys', NULL, 2);
 
 --
 -- Déchargement des données de la table `2025_publish`
@@ -84,6 +84,16 @@ INSERT INTO `2025_quotes` (`id_publication`, `id_quote`) VALUES
 INSERT INTO `2025_users` (`id`, `lastname`, `firstname`, `email`, `phone_number`, `password`, `registration_date`, `description`, `update_date`, `id_author`) VALUES
 (1, 'Iddouch', 'Ikram', 'Ikram@gmail.com', NULL, 'Ikram', '2024-05-07', NULL, '2024-05-07', NULL),
 (2, 'Monnet', 'Sébastien', 'sebastien.monnet@univ-smb.fr', NULL, '123456', '2024-05-07', NULL, '2024-05-07', 1);
+
+--
+-- Déchargement des données de la table `2025_links`
+--
+
+INSERT INTO `2025_links` (`id_publication`, `id_attachment`) VALUES
+(1, 1),
+(2, 2),
+(3, 3);
+
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
