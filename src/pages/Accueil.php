@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
 
 <?php
 // Session 
@@ -24,3 +22,5 @@ require_once("./src/requests/F_BDD_Accueil.php");
 
     ?>
 </body>
+
+
