@@ -5,24 +5,30 @@ require_once("./lib/Database.php");
 <html lang="en">
 <body>
 
+<?php require_once("./src/components/header.php"); ?>
 <?php
-require_once("./src/components/header.php");
-if (!isset($_SESSION["page"])) {
-    require_once('./src/pages/Accueil.php');
-} else {
-    if ($_SESSION["page"] == 1) {
+// Vérifiez si le paramètre 'page' est défini dans l'URL
+if(isset($_GET['page'])) {
+    // Récupérez la valeur du paramètre 'page' depuis l'URL
+    $page = $_GET['page'];
+
+    // Incluez le fichier correspondant à la valeur de 'page'
+    if ($page == 1) {
         require_once('./src/pages/Accueil.php');
-    } elseif ($_SESSION["page"] == 2) {
+    } elseif ($page == 2) {
         require_once('./src/pages/Inscription.php');
-    } elseif ($_SESSION["page"] == 3) {
-        require_once('./src/pages/Connexion.php');
+    } elseif ($page == 3) {
+        require_once('./src/pages/Graphe.php');
     } else {
         require_once('./src/pages/Accueil.php'); 
     }
+} else {
+    // Si 'page' n'est pas défini dans l'URL, incluez la page d'accueil par défaut
+    require_once('./src/pages/Accueil.php');
 }
+?>
 
-?>
+<?php require_once("./src/components/footer.php"); ?>
+
 </body>
-<?php
-require_once("./src/components/footer.php");
-?>
+</html>
