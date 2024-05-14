@@ -9,12 +9,23 @@ $_SESSION['page'] = 3;
 </head>
 <body>
     <script>
+        <?php
+        $sql = 'SELECT pub.title AS titre_publication, b.title AS titre_cite FROM `2025_quotes` JOIN `2025_publications` pub ON `2025_quotes`.id_publication = pub.id JOIN `2025_publications` b ON `2025_quotes`.id_quote = b.id';
+
+        // Exécution de la requête SQL
+        $result1 = mysqli_query($conn, $sql);
+        
+        // Récupération des résultats
+        $citations = [];
+        while ($row = mysqli_fetch_assoc($result1)) {
+            $citations[] = ['source' => $row['titre_publication'], 'target' => $row['titre_cite']];
+        }
+        
+        // Convertir le tableau PHP en JSON pour l'utiliser en JavaScript
+        $citations_json = json_encode($citations);
+        ?>
         // Données de citation
-        var citations = [
-            {source: "Publication 1", target: "Publication 2"},
-            {source: "Publication 2", target: "Publication 3"},
-            // Ajoutez plus de citations ici
-        ];
+        var citations = <?php echo $citations_json; ?>;
 
         // Créer un dictionnaire des noeuds
         var nodes = {};
@@ -41,13 +52,31 @@ $_SESSION['page'] = 3;
         var link = svg.selectAll(".link")
             .data(citations)
             .enter().append("line")
-            .attr("class", "link");
+            .attr("class", "link")
+            .style("stroke", "#999")  // Couleur des liens
+            .style("stroke-width", "2px");  // Épaisseur des liens
 
         var node = svg.selectAll(".node")
             .data(simulation.nodes())
             .enter().append("circle")
             .attr("class", "node")
-            .attr("r", 5);  // Rayon du cercle
+            .attr("r", 5)  // Rayon du cercle
+            .on("mouseover", function(d) {
+                // Afficher le nom du titre lorsque la souris passe sur le nœud
+                svg.append("text")
+                    .attr("id", "tooltip")
+                    .attr("x", d.x)
+                    .attr("y", d.y)
+                    .text(d.name);
+            })
+            .on("mouseout", function(d) {
+                // Enlever le nom du titre lorsque la souris quitte le nœud
+                d3.select("#tooltip").remove();
+            })
+            .on("click", function(d) {
+                // Action à effectuer lorsque le nœud est cliqué
+                alert("Vous avez cliqué sur : " + d.name);
+            });
 
         // Mise à jour de la position des noeuds et des liens
         function tick() {
