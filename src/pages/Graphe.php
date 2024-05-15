@@ -5,9 +5,34 @@ $_SESSION['page'] = 3;
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="./src/styles/Graphe.css">
     <script src="https://d3js.org/d3.v4.min.js"></script>
 </head>
-<body>
+<!-- <body style="background-image: url('assets/background.png');"> -->
+<body style="background-color:gainsboro;">
+<main>
+        <section id="titre" class="text-center text-white p-4" style="background-color: #0a4275;">
+            <h1>Graphe de citation</h1>
+        </section>
+        <section id="image" class="text-center">
+            <img src="assets/graphe2.png" alt="Exemple de graphe">
+        </section>
+        <section id="introduction">
+            <h2>Introduction au Graphe de Citation</h2>
+            <p>Un graphe de citation est un outil visuel permettant de représenter les liens entre les articles cités dans vos publications. Il facilite la navigation entre les différents contenus et met en évidence les relations entre eux.</p>
+        </section>
+        <section id="fonctionnalites">
+            <h2>Fonctionnalités</h2>
+            <p>Les fonctionnalités du graphe de citation incluent la possibilité de cliquer sur un article pour afficher les articles qu'il cite et ceux qui le citent à leur tour, ainsi que la capacité à explorer les différents clusters thématiques.</p>
+        </section>
+        <section id="utilisation">
+            <h2>Utilisation</h2>
+            <p>Le graphe de citation peut être utilisé pour découvrir des articles connexes ou suivre la progression logique des idées à travers vos publications.</p>
+        </section>
+        <section id="comment-acceder">
+            <h2>Comment Accéder au Graphe de Citation</h2>
+            <p>Vous pouvez accéder au graphe de citation en cliquant sur le lien dédié dans le menu de navigation.</p>
+        </section>
     <script>
         <?php
         $sql = 'SELECT pub.title AS titre_publication, b.title AS titre_cite FROM `2025_quotes` JOIN `2025_publications` pub ON `2025_quotes`.id_publication = pub.id JOIN `2025_publications` b ON `2025_quotes`.id_quote = b.id';
@@ -89,5 +114,6 @@ $_SESSION['page'] = 3;
                 .attr("cy", function(d) { return d.y; });
         }
     </script>
+    </main>
 </body>
 </html>
