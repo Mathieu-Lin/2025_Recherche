@@ -14,10 +14,9 @@ $_SESSION['page'] = 1;
 <body>
     <?php
     echo "<h5> Coucou </h5>";
+    var_dump($conn); // Connection SQL
+
+
+
     ?>
 </body>
-<?php
-session_destroy();
-?>
-
-
