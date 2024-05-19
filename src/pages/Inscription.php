@@ -12,8 +12,8 @@ $_SESSION['page'] = 2;
 </head>
 
 <body>
-<form action="" method="post">
-    <label for="email">Email:</label><br>
+    <form action="" method="post">
+        <label for="email">Email:</label><br>
         <input type="email" id="email" name="email" required><br><br>
 
         <label for="password">Mot de passe:</label><br>
