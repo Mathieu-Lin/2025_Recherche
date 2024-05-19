@@ -1,13 +1,34 @@
 <?php
 require_once("./lib/Database.php");
+?>
+<!DOCTYPE html>
+<html lang="en">
+<body>
 
-if (!isset($_SESSION["page"])) {
-    require_once('./src/pages/Accueil.php');
-} else {
-    // blabla
-    if ($_SESSION["page"] == 1) {
+<?php require_once("./src/components/header.php"); ?>
+<?php
+// Vérifiez si le paramètre 'page' est défini dans l'URL
+if(isset($_GET['page'])) {
+    // Récupérez la valeur du paramètre 'page' depuis l'URL
+    $page = $_GET['page'];
+
+    // Incluez le fichier correspondant à la valeur de 'page'
+    if ($page == 1) {
         require_once('./src/pages/Accueil.php');
+    } elseif ($page == 2) {
+        require_once('./src/pages/Inscription.php');
+    } elseif ($page == 3) {
+        require_once('./src/pages/Graphe.php');
     } else {
-        require_once('./2025_Recherche.php');
+        require_once('./src/pages/Accueil.php'); 
     }
+} else {
+    // Si 'page' n'est pas défini dans l'URL, incluez la page d'accueil par défaut
+    require_once('./src/pages/Accueil.php');
 }
+?>
+
+<?php require_once("./src/components/footer.php"); ?>
+
+</body>
+</html>

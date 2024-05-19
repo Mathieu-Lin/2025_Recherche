@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <?php
-// Session 
 $_SESSION['page'] = 1;
-// Les fonctions importés : 
-require_once("./src/requests/F_BDD_Accueil.php");
 ?>
 
 <head>
