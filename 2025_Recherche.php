@@ -22,6 +22,10 @@ require_once("./lib/Database.php");
         // Incluez le fichier correspondant à la valeur de 'page'
         if ($page == "Accueil") {
             require_once('./src/pages/Accueil.php');
+        } elseif ($page == "Publications") {
+            require_once('./src/pages/Publications.php');
+        } elseif ($page == "Graphe") {
+            require_once('./src/pages/Graphe.php');
         } elseif ($page == "ProfilAuteur" && $_SESSION["id_author"] != "") {
             require_once('./src/pages/Auteur.php');
         } elseif ($page == "Profil" && $_SESSION["user"] != "") {
@@ -34,8 +38,6 @@ require_once("./lib/Database.php");
             require_once('./src/pages/Connexion.php');
         } elseif ($page == "Inscription" && $_SESSION["user"] == "") {
             require_once('./src/pages/Inscription.php');
-        } elseif ($page == "Graphe") {
-            require_once('./src/pages/Graphe.php');
         } else {
             $_SESSION["user"] = "";
             $_SESSION["id_author"] = "";

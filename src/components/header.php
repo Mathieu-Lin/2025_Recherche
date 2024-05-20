@@ -24,7 +24,7 @@
                         <a class="nav-link" href="?page=Accueil">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Recherche</a>
+                        <a class="nav-link" href="?page=Publications">Recherche</a>
                     </li>
 
                     <li class="nav-item">
