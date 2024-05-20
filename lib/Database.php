@@ -7,6 +7,12 @@ require_once('./../bd_app.php');
 session_save_path('/home/' . $mysqlUsername . '/public_html/2025_Recherche/');
 session_start();
 
+if ($_SESSION["user"] == null) {
+    $_SESSION["user"] = "";
+}
+if ($_SESSION["id_author"] == null) {
+    $_SESSION["id_author"] = "";
+}
 
 /*Connexion à la base de données sur le serveur tp-epua*/
 $conn = @mysqli_connect($mysqlHost, $mysqlUsername, $mysqlPassword);
