@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost:3308
--- Généré le : lun. 13 mai 2024 à 00:43
+-- Généré le : lun. 20 mai 2024 à 11:05
 -- Version du serveur :  5.7.33
 -- Version de PHP : 7.4.33
 
@@ -48,7 +48,8 @@ CREATE TABLE `2025_authors` (
   `phone_number` varchar(100) DEFAULT NULL,
   `job` varchar(100) DEFAULT NULL,
   `description` text,
-  `update_date` date NOT NULL
+  `update_date` date NOT NULL,
+  `profile_picture` blob
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -129,7 +130,8 @@ CREATE TABLE `2025_users` (
   `registration_date` date NOT NULL,
   `description` text,
   `update_date` date NOT NULL,
-  `id_author` int(11) DEFAULT NULL
+  `id_author` int(11) DEFAULT NULL,
+  `profile_picture` blob
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
