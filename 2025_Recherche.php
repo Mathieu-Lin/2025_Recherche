@@ -27,6 +27,7 @@ if ($_SESSION["id_author"] == null) {
             require_once('./src/pages/Utilisateur.php');
         } elseif ($page == "Deconnexion" && $_SESSION["user"] != "") {
             $_SESSION["user"] = "";
+            $_SESSION["id_author"] = "";
             require_once('./src/pages/Accueil.php');
         } elseif ($page == "Connexion" && $_SESSION["user"] == "") {
             require_once('./src/pages/Connexion.php');
