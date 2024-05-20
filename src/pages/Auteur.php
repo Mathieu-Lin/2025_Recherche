@@ -1,7 +1,6 @@
 <?php
-include 'fonctions.php';
-$conn = connectDatabase();  // Établir la connexion à la base de données
-$author = getAuteur($conn, 'Monnet');  // Récupérer l'auteur par son nom de famille
+require_once("./src/requests/fAuteur.php");
+$author = getAuteur($conn, 1);  // Récupérer l'auteur par son nom de famille
 
 // Vérifier si l'auteur existe
 if ($author) {
@@ -30,21 +29,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $citations = getCitations($conn, $author['id']);
 }
 ?>
-<!DOCTYPE html>
-<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
-    <title>Profil Auteur</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./src/styles/Global.css">
+    <link rel="stylesheet" type="text/css" href="./src/styles/Auteur.css">
+    <title>PolyRecherche - Profil Auteur</title>
 </head>
+
 <body>
+    <?php require_once("./src/components/header.php"); ?>
     <div class="profile-container">
         <h2>Profil de l'Auteur</h2>
         <!-- Inclure l'image -->
         <div class="profile-image">
             <img src="victor.jpg" alt="Image de l'auteur">
         </div>
-        
+
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
             <input type="hidden" name="id" value="<?php echo htmlspecialchars($author['id']); ?>">
 
@@ -66,7 +68,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <label for="description">Description</label>
             <textarea id="description" name="description" readonly><?php echo htmlspecialchars($author['description']); ?></textarea>
         </form>
-        
+
         <!-- Afficher les publications de l'auteur -->
         <div class="publications">
             <h3>Publications de l'Auteur</h3>
@@ -88,8 +90,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 } ?>
             </ol>
         </div>
-        
-    
+
+
     </div>
+    <?php
+    require_once("./src/components/footer.php");
+    ?>
 </body>
-</html>

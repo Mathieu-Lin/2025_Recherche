@@ -1,0 +1,84 @@
+
+.profile-container {
+    width: 100%;
+    max-width: 800px; /* Augmenté pour mieux ajuster plus de champs */
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    backdrop-filter: blur(10px);
+    animation: slideIn 1s ease-in-out;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 20px; /* Ajouté pour espacement */
+    overflow: hidden; /* Assure que l'image est bien contenue dans le cercle */
+}
+
+.profile-image img {
+    width: 100%; /* Pour remplir le conteneur */
+    height: auto; /* Pour conserver les proportions */
+    border-radius: 50%; /* Garder le bord arrondi */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #aba8a8dd;
+    border-radius: 5px;
+    width: calc(100% - 22px);
+    background-color: #f4f4f4; /* Couleur de fond grise */
+}
+
+textarea {
+    height: 100px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.publications,
+.citations {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.publications h3,
+.citations h3 {
+    font-size: 1.2em;
+    color: #333;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.publications ol,
+.citations ol {
+    padding-left: 20px;
+    list-style-type: decimal;
+}
+
+.publications li,
+.citations li {
+    margin-bottom: 10px;
+}
+
+.publications li a,
+.citations li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.publications li a:hover,
+.citations li a:hover {
+    text-decoration: underline;
+}

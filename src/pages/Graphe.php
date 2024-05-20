@@ -1,7 +1,3 @@
-<?php
-$_SESSION['page'] = "Graphe";
-?>
-
 <!DOCTYPE html>
 <html>
 
@@ -9,10 +5,12 @@ $_SESSION['page'] = "Graphe";
     <link rel="stylesheet" type="text/css" href="./src/styles/Graphe.css">
     <link rel="stylesheet" type="text/css" href="./src/styles/Global.css">
     <script src="https://d3js.org/d3.v4.min.js"></script>
+    <title>PolyRecherche - Graphe</title>
 </head>
 <!-- <body style="background-image: url('assets/background.png');"> -->
 
 <body style="background-color:gainsboro;">
+    <?php require_once("./src/components/header.php"); ?>
     <main>
         <section id="titre" class="text-center text-white p-4" style="background-color: #0a4275;">
             <h1>Graphe de citation</h1>
@@ -135,6 +133,7 @@ $_SESSION['page'] = "Graphe";
             }
         </script>
     </main>
+    <?php require_once("./src/components/footer.php"); ?>
 </body>
 
 </html>

@@ -26,12 +26,40 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Recherche</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="?page=Inscription">Inscription</a>
-                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="?page=Graphe">Graphe</a>
                     </li>
+                    <?php
+                    if ($_SESSION["user"] != "") {
+                        if ($_SESSION["id_author"] != "") {
+                    ?>
+                            <li class="nav-item">
+                                <a class="nav-link" href="?page=ProfilAuteur">Auteur</a>
+                            </li>
+                        <?php
+                        }
+                        ?>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="?page=Profil">Profil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="?page=Deconnexion">Deconnexion</a>
+                        </li>
+                    <?php
+                    } else {
+                    ?>
+                        <li class="nav-item">
+                            <a class="nav-link" href="?page=Connexion">Connexion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="?page=Inscription">Inscription</a>
+                        </li>
+                    <?php
+                    }
+                    ?>
+
                 </ul>
             </div>
         </nav>

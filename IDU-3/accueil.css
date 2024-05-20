@@ -1,4 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+header {
+    background-color: #004080;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .logo img {
     height: 50px;
@@ -37,6 +51,33 @@ main {
     margin-bottom: 100px; /* Espace pour le footer */
 }
 
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+footer .social-media a {
+    color: white;
+    text-decoration: none;
+}
 
 .logo-section {
     background-color: #f0f0f0;
@@ -44,11 +85,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow-x: auto;
-}
-
-.logo-container-first {
-    margin: 0 10px 0px 200px;
 }
 
 .logo-container {
@@ -150,14 +186,4 @@ main {
 .about ul li {
     font-size: 16px;
     margin-bottom: 10px;
-}
-
-.logo-section{
-    background-color: #f0f0f0; padding: 20px; display: flex; justify-content: center; align-items: center;
-
-
-}
-
-.logo-container {
-    margin-right: 20px;
 }
