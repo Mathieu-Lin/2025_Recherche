@@ -1,11 +1,6 @@
 <?php
 require_once("./lib/Database.php");
-if ($_SESSION["user"] == null) {
-    $_SESSION["user"] = "";
-}
-if ($_SESSION["id_author"] == null) {
-    $_SESSION["id_author"] = "";
-}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,6 +10,12 @@ if ($_SESSION["id_author"] == null) {
     <?php
     // Vérifiez si le paramètre 'page' est défini dans l'URL
     if (isset($_GET['page'])) {
+        if ($_SESSION["user"] == null) {
+            $_SESSION["user"] = "";
+        }
+        if ($_SESSION["id_author"] == null) {
+            $_SESSION["id_author"] = "";
+        }
         // Récupérez la valeur du paramètre 'page' depuis l'URL
         $page = $_GET['page'];
 
@@ -36,10 +37,14 @@ if ($_SESSION["id_author"] == null) {
         } elseif ($page == "Graphe") {
             require_once('./src/pages/Graphe.php');
         } else {
+            $_SESSION["user"] = "";
+            $_SESSION["id_author"] = "";
             require_once('./src/pages/Accueil.php');
         }
     } else {
         // Si 'page' n'est pas défini dans l'URL, incluez la page d'accueil par défaut
+        $_SESSION["user"] = "";
+        $_SESSION["id_author"] = "";
         require_once('./src/pages/Accueil.php');
     }
     ?>
