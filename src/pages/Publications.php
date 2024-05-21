@@ -13,7 +13,7 @@
     <div class="container">
         <!-- Formulaire de recherche -->
         <div class="search-form">
-            <form action="index.php" method="GET">
+            <form action="?page=Publications" method="GET">
                 <input type="text" name="search" placeholder="Rechercher...">
                 <button type="submit">Rechercher</button>
             </form>
@@ -25,8 +25,8 @@
         $articlesParPage = 5;
 
         // Page actuelle
-        if (isset($_GET['page']) && is_numeric($_GET['page'])) {
-            $page = intval($_GET['page']);
+        if (isset($_GET['listpub']) && is_numeric($_GET['listpub'])) {
+            $page = intval($_GET['listpub']);
         } else {
             $page = 1;
         }
@@ -89,16 +89,52 @@
         $totalArticles = $donnees['total'];
         $totalPages = ceil($totalArticles / $articlesParPage);
         ?>
-
-        <!-- Pagination -->
         <div class="pagination">
             <?php
-            for ($i = 1; $i <= $totalPages; $i++) {
-                if ($i === $page) {
-                    echo "<a href='index.php?page=$i' class='current'>$i</a>";
-                } else {
-                    echo "<a href='index.php?page=$i'>$i</a>";
+            $range = 3; // Nombre de pages à afficher avant et après la page actuelle
+            // Bouton "Précédent"
+            if ($page > 1) {
+                $prev_page = $page - 1;
+                echo "<a href='?page=Publications&listpub=$prev_page";
+                if (isset($_GET['search'])) echo "&search=" . $_GET['search'];
+                echo "'>Précédent</a>";
+            }
+            // Lien pour la première page
+            if ($page > $range + 1) {
+                echo "<a href='?page=Publications&listpub=1";
+                if (isset($_GET['search'])) echo "&search=" . $_GET['search'];
+                echo "'>1</a>";
+                if ($page > $range + 2) {
+                    echo "<span>...</span>";
                 }
+            }
+            // Liens pour les pages dans la plage
+            for ($i = max(1, $page - $range); $i <= min($totalPages, $page + $range); $i++) {
+                if ($i === $page) {
+                    echo "<a href='?page=Publications&listpub=$i' class='current'>$i</a>";
+                } else {
+                    echo "<a href='?page=Publications&listpub=$i";
+                    if (isset($_GET['search'])) echo "&search=" . $_GET['search'];
+                    echo "'>$i</a>";
+                }
+            }
+
+            // Lien pour la dernière page
+            if ($page < $totalPages - $range) {
+                if ($page < $totalPages - $range - 1) {
+                    echo "<span>...</span>";
+                }
+                echo "<a href='?page=Publications&listpub=$totalPages";
+                if (isset($_GET['search'])) echo "&search=" . $_GET['search'];
+                echo "'>$totalPages</a>";
+            }
+
+            // Bouton "Suivant"
+            if ($page < $totalPages) {
+                $next_page = $page + 1;
+                echo "<a href='?page=Publications&listpub=$next_page";
+                if (isset($_GET['search'])) echo "&search=" . $_GET['search'];
+                echo "'>Suivant</a>";
             }
             ?>
         </div>
