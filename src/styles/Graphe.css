@@ -1,4 +1,4 @@
-#cy {
+/* #cy {
     width: 300px;
     height: 250px;
     display: block;
@@ -47,4 +47,100 @@ section {
 }
 #image img {
     display: inline-block;
+} */
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+} */
+
+/* #container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#graph {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#publication-info {
+    width: 300px;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+} */
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#graph {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#graph img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
+
+#publication-info {
+    width: 300px;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    #publication-info {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #graph {
+        margin-right: 0;
+    }
+}
+
+svg {
+    width: 100%;
+    height: 600px; 
+    background-color: white;
+}
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+}
+#image img {
+    width: 100%;       /* Makes the image responsive to the container width */
+    max-width: 600px;  /* Sets a maximum size to ensure it doesn't get too large */
+    height: auto;      /* Keeps the image aspect ratio intact */
 }
