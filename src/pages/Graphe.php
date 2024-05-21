@@ -50,7 +50,14 @@
     $result1 = mysqli_query($conn, $sql);
     $citations = [];
     while ($row = mysqli_fetch_assoc($result1)) {
-        $citations[] = ['source' => $row['titre_publication'], 'target' => $row['titre_cite']];
+        $citations[] = [
+            'source' => $row['titre_publication'],
+            'source_date' => $row['date_publication'],
+            'source_author_firstname' => $row['firstname'],
+            'source_author_lastname' => $row['lastname'],
+            'target' => $row['titre_cite'],
+            'target_date' => $row['date_cite']
+        ];
     }
     $citations_json = json_encode($citations);
     ?>
@@ -58,9 +65,21 @@
     var nodes = {};
 
     citations.forEach(function(link) {
-        link.source = nodes[link.source] || (nodes[link.source] = {name: link.source});
-        link.target = nodes[link.target] || (nodes[link.target] = {name: link.target});
-    });
+    if (!nodes[link.source]) {
+        nodes[link.source] = {
+            name: link.source,
+            data: link  
+        };
+    }
+    if (!nodes[link.target]) {
+        nodes[link.target] = {
+            name: link.target,
+            data: link  
+        };
+    }
+    link.source = nodes[link.source];
+    link.target = nodes[link.target];
+});
 
     var width = 600, height = 600;
 
@@ -121,8 +140,10 @@
             .on("click", function(d) {
             // Afficher le nom complet de la publication dans une div à côté du graphe
             var publicationInfo = document.getElementById("publication-info");
-            publicationInfo.innerHTML = "<h3>Nom complet de la publication :</h3>" +
-                                        "<p>" + d.name + "</p>";
+            publicationInfo.innerHTML = "<h3>Publication Information:</h3>" +
+                                        "<p><b>Titre:</b> " + d.name + "<br>" +
+                                        "<b>Date:</b> " + d.data.source_date + "<br>" +
+                                        "<b>Autheur:</b> " + d.data.source_author_firstname + " " + d.data.source_author_lastname + "<br><br></p>";
             });
     function tick() {
         link.attr("x1", function(d) { return d.source.x; })
