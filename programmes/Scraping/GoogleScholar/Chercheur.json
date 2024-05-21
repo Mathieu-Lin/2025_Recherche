@@ -1,0 +1,1998 @@
+[
+    {
+        "titre": "Argobots: A lightweight low-level threading and tasking framework",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:iH-uZ7U-co4C",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=5274900004365740611",
+        "auteurs": [
+            "Sangmin Seo",
+            "Abdelhalim Amer",
+            "Pavan Balaji",
+            "Cyril Bordage",
+            "George Bosilca",
+            "Alex Brooks",
+            "Philip Carns",
+            "Adrián Castelló",
+            "Damien Genet",
+            "Thomas Herault",
+            "Shintaro Iwasaki",
+            "Prateek Jindal",
+            "Laxmikant V Kalé",
+            "Sriram Krishnamoorthy",
+            "Jonathan Lifflander",
+            "Huiwei Lu",
+            "Esteban Meneses",
+            "Marc Snir",
+            "Yanhua Sun",
+            "Kenjiro Taura",
+            "Pete Beckman"
+        ],
+        "date_de_publication": "2017-10-24",
+        "type_titre": "IEEE Transactions on Parallel and Distributed Systems",
+        "type": "Revue",
+        "editeurs": "IEEE",
+        "description": "In the past few decades, a number of user-level threading and tasking models have been proposed in the literature to address the shortcomings of OS-level threads, primarily with respect to cost and flexibility. Current state-of-the-art user-level threading and tasking models, however, either are too specific to applications or architectures or are not as powerful or flexible. In this paper, we present Argobots, a lightweight, low-level threading and tasking framework that is designed as a portable and performant substrate for high-level programming models or runtime systems. Argobots offers a carefully designed execution model that balances generality of functionality with providing a rich set of controls to allow specialization by end users or high-level programming models. We describe the design, implementation, and performance characterization of Argobots and present integrations with three high-level models …",
+        "pages": "512-526",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/8082139/",
+        "lien_pdf": "https://ieeexplore.ieee.org/ielaam/71/8289387/8082139-aam.pdf"
+    },
+    {
+        "titre": "ACR: Automatic checkpoint/restart for soft and hard error protection",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:L8Ckcad2t8MC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=10998568652278208009",
+        "auteurs": [
+            "Xiang Ni",
+            "Esteban Meneses",
+            "Nikhil Jain",
+            "Laxmikant V Kalé"
+        ],
+        "date_de_publication": "2013-11-17",
+        "type_titre": "Proceedings of the international conference on high performance computing, networking, storage and analysis",
+        "type": "Livre",
+        "editeurs": "",
+        "description": "As machines increase in scale, many researchers have predicted that failure rates will correspondingly increase. Soft errors do not inhibit execution, but may silently generate incorrect results. Recent trends have shown that soft error rates are increasing, and hence they must be detected and handled to maintain correctness. We present a holistic methodology for automatically detecting and recovering from soft or hard faults with minimal application intervention. This is demonstrated by ACR: an automatic checkpoint/restart framework that performs application replication and automatically adapts the checkpoint period using online information about the current failure rate. ACR performs an application- and user-oblivious recovery. We empirically test ACR by injecting failures that follow different distributions for five applications and show low overhead when scaled to 131,072 cores. We also analyze the interaction …",
+        "pages": "1-12",
+        "lien_article": "https://dl.acm.org/doi/abs/10.1145/2503210.2503266",
+        "lien_pdf": "http://charm.cs.illinois.edu/newPapers/13-24/paper.pdf"
+    },
+    {
+        "titre": "Periodic hierarchical load balancing for large supercomputers",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:zYLM7Y9cAGgC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=9094129097897329886",
+        "auteurs": [
+            "Gengbin Zheng",
+            "Abhinav Bhatele",
+            "Esteban Meneses",
+            "Laxmikant V Kale"
+        ],
+        "date_de_publication": "2011-11-01",
+        "type_titre": "",
+        "type": "",
+        "editeurs": "Sage Publications",
+        "description": "Large parallel machines with hundreds of thousands of processors are becoming more prevalent. Ensuring good load balance is critical for scaling certain classes of parallel applications on even thousands of processors. Centralized load balancing algorithms suffer from scalability problems, especially on machines with a relatively small amount of memory. Fully distributed load balancing algorithms, on the other hand, tend to take longer to arrive at good solutions. In this paper, we present an automatic dynamic hierarchical load balancing method that overcomes the scalability challenges of centralized schemes and longer running times of traditional distributed schemes. Our solution overcomes these issues by creating multiple levels of load balancing domains which form a tree. This hierarchical method is demonstrated within a measurement-based load balancing framework in Charm++. We discuss techniques to …",
+        "pages": "371-385",
+        "lien_article": "https://journals.sagepub.com/doi/abs/10.1177/1094342010394383",
+        "lien_pdf": "http://people.cs.pitt.edu/~babay/courses/cs3551/papers/zheng11_hierarchical.pdf"
+    },
+    {
+        "titre": "Hierarchical load balancing for charm++ applications on large supercomputers",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:qjMakFHDy7sC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=302613704975002105",
+        "auteurs": [
+            "Gengbin Zheng",
+            "Esteban Meneses",
+            "Abhinav Bhatele",
+            "Laxmikant V Kale"
+        ],
+        "date_de_publication": "2010-09-13",
+        "type_titre": "2010 39th International Conference on Parallel Processing Workshops",
+        "type": "Conférence",
+        "editeurs": "IEEE",
+        "description": "Large parallel machines with hundreds of thousands of processors are being built. Recent studies have shown that ensuring good load balance is critical for scaling certain classes of parallel applications on even thousands of processors. Centralized load balancing algorithms suffer from scalability problems, especially on machines with relatively small amount of memory. Fully distributed load balancing algorithms, on the other hand, tend to yield poor load balance on very large machines. In this paper, we present an automatic dynamic hierarchical load balancing method that overcomes the scalability challenges of centralized schemes and poor solutions of traditional distributed schemes. This is done by creating multiple levels of aggressive load balancing domains which form a tree. This hierarchical method is demonstrated within a measurement-based load balancing framework in Charm++. We present …",
+        "pages": "436-444",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/5599103/",
+        "lien_pdf": "http://charm.cs.uiuc.edu/newPapers/10-08/paper.pdf"
+    },
+    {
+        "titre": "Team-based message logging: Preliminary results",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:u-x6o8ySG0sC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=18047528786994801119",
+        "auteurs": [
+            "Esteban Meneses",
+            "Celso L Mendes",
+            "Laxmikant V Kalé"
+        ],
+        "date_de_publication": "2010-05-17",
+        "type_titre": "2010 10th IEEE/ACM International Conference on Cluster, Cloud and Grid Computing",
+        "type": "Conférence",
+        "editeurs": "IEEE",
+        "description": "Fault tolerance will be a fundamental imperative in the next decade as machines containing hundreds of thousands of cores will be installed at various locations. In this context, the traditional checkpoint/restart model does not seem to be a suitable option, since it makes all the processors roll back to their latest checkpoint in case of a single failure in one of the processors. In-memory message logging is an alternative that avoids this global restoration process and instead replays the messages to the failed processor. However, there is a large memory overhead associated with message logging because each message must be logged so it can be played back if a failure occurs. In this paper, we introduce a technique to alleviate the demand of memory in message logging by grouping processors into teams. These teams act as a failure unit: if one team member fails, all the other members in that team roll back to their …",
+        "pages": "697-702",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/5493401/",
+        "lien_pdf": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=7fec5deb002b7df270034d87056158bad31ce30f"
+    },
+    {
+        "titre": "On the use of cluster-based partial message logging to improve fault tolerance for mpi hpc applications",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:5nxA0vEk-isC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=9930050432823710543",
+        "auteurs": [
+            "Thomas Ropars",
+            "Amina Guermouche",
+            "Bora Uçar",
+            "Esteban Meneses",
+            "Laxmikant V Kalé",
+            "Franck Cappello"
+        ],
+        "date_de_publication": "2011-01-01",
+        "type_titre": "Euro-Par 2011 Parallel Processing: 17th International Conference, Euro-Par 2011, Bordeaux, France, August 29-September 2, 2011, Proceedings, Part I 17",
+        "type": "Conférence",
+        "editeurs": "Springer Berlin Heidelberg",
+        "description": " Fault tolerance is becoming a major concern in HPC systems. The two traditional approaches for message passing applications, coordinated checkpointing and message logging, have severe scalability issues. Coordinated checkpointing protocols make all processes roll back after a failure. Message logging protocols log a huge amount of data and can induce an overhead on communication performance. Hierarchical rollback-recovery protocols based on the combination of coordinated checkpointing and message logging are an alternative. These partial message logging protocols are based on process clustering: only messages between clusters are logged to limit the consequence of a failure to one cluster. These protocols would work efficiently only if one can find clusters of processes in the applications such that the ratio of logged messages is very low. We study the communication patterns of …",
+        "pages": "567-578",
+        "lien_article": "https://link.springer.com/chapter/10.1007/978-3-642-23400-2_53",
+        "lien_pdf": "https://inria.hal.science/hal-00786558/document"
+    },
+    {
+        "titre": "Assessing energy efficiency of fault tolerance protocols for HPC systems",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:dhFuZR0502QC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=12792532037421694576",
+        "auteurs": [
+            "Esteban Meneses",
+            "Osman Sarood",
+            "Laxmikant V Kalé"
+        ],
+        "date_de_publication": "2012-10-24",
+        "type_titre": "2012 IEEE 24th International Symposium on Computer Architecture and High Performance Computing",
+        "type": "Conférence",
+        "editeurs": "IEEE",
+        "description": "An exascale machine is expected to be delivered in the time frame 2018-2020. Such a machine will be able to tackle some of the hardest computational problems and to extend our understanding of Nature and the universe. However, to make that a reality, the HPC community has to solve a few important challenges. Resilience will become a prominent problem because an exascale machine will experience frequent failures due to the large amount of components it will encompass. Some form of fault tolerance has to be incorporated in the system to maintain the progress rate of applications as high as possible. In parallel, the system will have to be more careful about power management. There are two dimensions of power. First, in a power-limited environment, all the layers of the system have to adhere to that limitation (including the fault tolerance layer). Second, power will be relevant due to energy consumption …",
+        "pages": "35-42",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/6374769/",
+        "lien_pdf": "http://charm.cs.illinois.edu/newPapers/12-37/paper.pdf"
+    },
+    {
+        "titre": "Hiding checkpoint overhead in HPC applications with a semi-blocking algorithm",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:9ZlFYXVOiuMC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=599073390173001686",
+        "auteurs": [
+            "Xiang Ni",
+            "Esteban Meneses",
+            "Laxmikant V Kalé"
+        ],
+        "date_de_publication": "2012-09-24",
+        "type_titre": "2012 IEEE International Conference on Cluster Computing",
+        "type": "Conférence",
+        "editeurs": "IEEE",
+        "description": "The HPC community has seen a steady increase in the number of components in every generation of supercomputers. Assembling a large number of components into a single cluster makes a machine more powerful, but also much more prone to failures. Therefore, fault tolerance has become a major concern in HPC. To deal with node crashes in large systems, checkpoint/restart is by far the preferred method. A typical way to implement checkpoints is by using a blocking algorithm, which suspends the execution of the application while the checkpoint is safely stored. One limitation of the blocking algorithm is that it saturates the network bandwidth at the time of checkpoint. This problem will become even more critical because the projected network bandwidth increase will not match the increase in memory per node. To alleviate this problem, we have developed a semi-blocking checkpoint algorithm that overlaps …",
+        "pages": "364-372",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/6337799/",
+        "lien_pdf": "https://www.academia.edu/download/58211213/4-3-HideChkp-Cluster-2012.pdf"
+    },
+    {
+        "titre": "Using migratable objects to enhance fault tolerance schemes in supercomputers",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:TQgYirikUcIC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=7011250068529300446",
+        "auteurs": [
+            "Esteban Meneses",
+            "Xiang Ni",
+            "Gengbin Zheng",
+            "Celso L Mendes",
+            "Laxmikant V Kale"
+        ],
+        "date_de_publication": "2014-07-23",
+        "type_titre": "IEEE transactions on parallel and distributed systems",
+        "type": "Revue",
+        "editeurs": "IEEE",
+        "description": "Supercomputers have seen an exponential increase in their size in the last two decades. Such a high growth rate is expected to take us to exascale in the timeframe 2018-2022. But, to bring a productive exascale environment about, it is necessary to focus on several key challenges. One of those challenges is fault tolerance. Machines at extreme scale will experience frequent failures and will require the system to avoid or overcome those failures. Various techniques have recently been developed to tolerate failures. The impact of these techniques and their scalability can be substantially enhanced by a parallel programming model called migratable objects. In this paper, we demonstrate how the migratable-objects model facilitates and improves several fault tolerance approaches. Our experimental results on thousands of cores suggest fault tolerance schemes based on migratable objects have low performance …",
+        "pages": "2061-2074",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/6862914/",
+        "lien_pdf": "https://repositoriotec.tec.ac.cr/bitstream/handle/2238/7150/Using%20Migratable%20Objects%20to%20Enhance%20Fault%20Tolerance%20Schemes%20in%20Supercomputers.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "titre": "A'cool'way of improving the reliability of hpc machines",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:-f6ydRqryjwC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=1711398091618154997",
+        "auteurs": [
+            "Osman Sarood",
+            "Esteban Meneses",
+            "Laxmikant V Kale"
+        ],
+        "date_de_publication": "2013-11-17",
+        "type_titre": "Proceedings of the International Conference on High Performance Computing, Networking, Storage and Analysis",
+        "type": "Livre",
+        "editeurs": "",
+        "description": "Soaring energy consumption, accompanied by declining reliability, together loom as the biggest hurdles for the next generation of supercomputers. Recent reports have expressed concern that reliability at exascale level could degrade to the point where failures become a norm rather than an exception. HPC researchers are focusing on improving existing fault tolerance protocols to address these concerns. Research on improving hardware reliability, i.e., machine component reliability, has also been making progress independently. In this paper, we try to bridge this gap and explore the potential of combining both software and hardware aspects towards improving reliability of HPC machines. Fault rates are known to double for every 10°C rise in core temperature. We leverage this notion to experimentally demonstrate the potential of restraining core temperatures and load balancing to achieve two-fold benefits …",
+        "pages": "1-12",
+        "lien_article": "https://dl.acm.org/doi/abs/10.1145/2503210.2503228",
+        "lien_pdf": "http://charm.cs.illinois.edu/newPapers/13-25/paper.pdf"
+    },
+    {
+        "titre": "Energy profile of rollback-recovery strategies in high performance computing",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:HDshCWvjkbEC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=18080028383634570076",
+        "auteurs": [
+            "Esteban Meneses",
+            "Osman Sarood",
+            "Laxmikant V Kalé"
+        ],
+        "date_de_publication": "2014-10-01",
+        "type_titre": "Parallel Computing",
+        "type": "Revue",
+        "editeurs": "North-Holland",
+        "description": "Extreme-scale computing is set to provide the infrastructure for the advances and breakthroughs that will solve some of the hardest problems in science and engineering. However, resilience and energy concerns loom as two of the major challenges for machines at that scale. The number of components that will be assembled in the supercomputers plays a fundamental role in these challenges. First, a large number of parts will substantially increase the failure rate of the system compared to the failure frequency of current machines. Second, those components have to fit within the power envelope of the installation and keep the energy consumption within operational margins. Extreme-scale machines will have to incorporate fault tolerance mechanisms and honor the energy and power restrictions. Therefore, it is essential to understand how fault tolerance and energy consumption interplay. This paper presents a …",
+        "pages": "536-547",
+        "lien_article": "https://www.sciencedirect.com/science/article/pii/S0167819114000350",
+        "lien_pdf": "https://www.sciencedirect.com/science/article/am/pii/S0167819114000350"
+    },
+    {
+        "titre": "Power, reliability, and performance: One system to rule them all",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:bEWYMUwI8FkC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=7638494516740487729",
+        "auteurs": [
+            "Bilge Acun",
+            "Akhil Langer",
+            "Esteban Meneses",
+            "Harshitha Menon",
+            "Osman Sarood",
+            "Ehsan Totoni",
+            "Laxmikant V Kalé"
+        ],
+        "date_de_publication": "2016-10-19",
+        "type_titre": "Computer",
+        "type": "Revue",
+        "editeurs": "IEEE",
+        "description": "In a design based on the Charm++ parallel programming framework, an adaptive runtime system dynamically interacts with a datacenter's resource manager to control power by intelligently scheduling jobs, reallocating resources, and reconfiguring hardware. It simultaneously manages reliability by cooling the system to the running application's optimal level and maintains performance through load balancing.",
+        "pages": "30-37",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/7598172/",
+        "lien_pdf": "https://repositoriotec.tec.ac.cr/bitstream/handle/2238/6706/power-reliability-performance-one-system-to-rule-them-all.pdf?sequence=1"
+    },
+    {
+        "titre": "Communication and topology-aware load balancing in charm++ with treematch",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:mB3voiENLucC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=290862823494500854",
+        "auteurs": [
+            "Emmanuel Jeannot",
+            "Esteban Meneses",
+            "Guillaume Mercier",
+            "François Tessier",
+            "Gengbin Zheng"
+        ],
+        "date_de_publication": "2013-09-23",
+        "type_titre": "2013 IEEE International Conference on Cluster Computing (CLUSTER)",
+        "type": "Conférence",
+        "editeurs": "IEEE",
+        "description": "Programming multicore or manycore architectures is a hard challenge particularly if one wants to fully take advantage of their computing power. Moreover, a hierarchical topology implies that communication performance is heterogeneous and this characteristic should also be exploited. We developed two load balancers for Charm++ that take into account both aspects, depending on the fact that the application is compute-bound or communication-bound. This work is based on our TREEMATCH library that computes process placement in order to reduce an application communication costs based on the hardware topology. We show that the proposed load-balancing schemes manage to improve the execution times for the two aforementioned classes of parallel applications.",
+        "pages": "1-8",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/6702666/",
+        "lien_pdf": "https://inria.hal.science/hal-00851148/document"
+    },
+    {
+        "titre": "Evaluation of simple causal message logging for large-scale fault tolerant HPC systems",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:IjCSPb-OGe4C",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=7234630997885140466",
+        "auteurs": [
+            "Esteban Meneses",
+            "Greg Bronevetsky",
+            "Laxmikant V Kale"
+        ],
+        "date_de_publication": "2011-05-16",
+        "type_titre": "2011 IEEE International Symposium on Parallel and Distributed Processing Workshops and Phd Forum",
+        "type": "Conférence",
+        "editeurs": "IEEE",
+        "description": "The era of petascale computing brought machines with hundreds of thousands of processors. The next generation of exascale supercomputers will make available clusters with millions of processors. In those machines, mean time between failures will range from a few minutes to few tens of minutes, making the crash of a processor the common case, instead of a rarity. Parallel applications running on those large machines will need to simultaneously survive crashes and maintain high productivity. To achieve that, fault tolerance techniques will have to go beyond checkpoint/restart, which requires all processors to roll back in case of a failure. Incorporating some form of message logging will provide a framework where only a subset of processors are rolled back after a crash. In this paper, we discuss why a simple causal message logging protocol seems a promising alternative to provide fault tolerance in large …",
+        "pages": "1533-1540",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/6009012/",
+        "lien_pdf": "https://www.researchgate.net/profile/Greg-Bronevetsky/publication/220950678_Evaluation_of_Simple_Causal_Message_Logging_for_Large-Scale_Fault_Tolerant_HPC_Systems/links/0912f507d74afb862e000000/Evaluation-of-Simple-Causal-Message-Logging-for-Large-Scale-Fault-Tolerant-HPC-Systems.pdf"
+    },
+    {
+        "titre": "A study of checkpointing in large scale training of deep neural networks",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:EUQCXRtRnyEC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=6308847926784120786",
+        "auteurs": [
+            "Elvis Rojas",
+            "Albert Njoroge Kahira",
+            "Esteban Meneses",
+            "Leonardo Bautista Gomez",
+            "Rosa M Badia"
+        ],
+        "date_de_publication": "2020-12-01",
+        "type_titre": "arXiv preprint arXiv:2012.00825",
+        "type": "Revue",
+        "editeurs": "",
+        "description": "Deep learning (DL) applications are increasingly being deployed on HPC systems, to leverage the massive parallelism and computing power of those systems for DL model training. While significant effort has been put to facilitate distributed training by DL frameworks, fault tolerance has been largely ignored. In this work, we evaluate checkpoint-restart, a common fault tolerance technique in HPC workloads. We perform experiments with three state-of-the-art DL frameworks common in HPC Chainer, PyTorch, and TensorFlow). We evaluate the computational cost of checkpointing, file formats and file sizes, the impact of scale, and deterministic checkpointing. Our evaluation shows some critical differences in checkpoint mechanisms and exposes several bottlenecks in existing checkpointing implementations. We provide discussion points that can aid users in selecting a fault-tolerant framework to use in HPC. We also provide takeaway points that framework developers can use to facilitate better checkpointing of DL workloads in HPC.",
+        "pages": "",
+        "lien_article": "https://arxiv.org/abs/2012.00825",
+        "lien_pdf": "https://arxiv.org/pdf/2012.00825"
+    },
+    {
+        "titre": "Scalable replay with partial-order dependencies for message-logging fault tolerance",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:R3hNpaxXUhUC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=3271780857377603866",
+        "auteurs": [
+            "Jonathan Lifflander",
+            "Esteban Meneses",
+            "Harshitha Menon",
+            "Phil Miller",
+            "Sriram Krishnamoorthy",
+            "Laxmikant V Kalé"
+        ],
+        "date_de_publication": "2014-09-22",
+        "type_titre": "2014 IEEE International Conference on Cluster Computing (CLUSTER)",
+        "type": "Conférence",
+        "editeurs": "IEEE",
+        "description": "Deterministic replay of a parallel application is commonly used for discovering bugs or to recover from a hard fault with message-logging fault tolerance. For message passing programs, a major source of overhead during forward execution is recording the order in which messages are sent and received. During replay, this ordering must be used to deterministically reproduce the execution. Previous work in replay algorithms often makes minimal assumptions about the programming model and application to maintain generality. However, in many applications, only a partial order must be recorded due to determinism intrinsic in the program, ordering constraints imposed by the execution model, and events that are commutative (their relative execution order during replay does not need to be reproduced exactly). In this paper, we present a novel algebraic framework for reasoning about the minimum dependencies …",
+        "pages": "19-28",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/6968739/",
+        "lien_pdf": "http://charm.cs.illinois.edu/newPapers/14-31/presentation-cluster.pdf"
+    },
+    {
+        "titre": "A message-logging protocol for multicore systems",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:4DMP91E08xMC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=9150834622609682761",
+        "auteurs": [
+            "Esteban Meneses",
+            "Xiang Ni",
+            "Laxmikant V Kalé"
+        ],
+        "date_de_publication": "2012-06-25",
+        "type_titre": "IEEE/IFIP International Conference on Dependable Systems and Networks Workshops (DSN 2012)",
+        "type": "Conférence",
+        "editeurs": "IEEE",
+        "description": "Although many details of an eventual Exascale machine remain unknown, we can safely make a couple of assumptions. Exascale machines will be composed of multicore nodes and will experience frequent failures. The latter means that effective resilience support is imperative to make Exascale machines usable. The former opens up opportunities for exploring new alternatives to provide resilience support. This paper examines a new fault tolerance protocol for multicore systems. The paper contains three major parts. In the first part, we start by showing evidence that a node (and not a core) is the appropriate unit of failure. When a crash hits a machine, it usually renders unusable a whole node. Rarely, the crash brings down more than one node. The second part describes a message logging protocol that tolerates the failure of whole nodes and uses an efficient shared memory scheme to minimize overhead. We …",
+        "pages": "1-6",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/6264673/",
+        "lien_pdf": "https://www.academia.edu/download/77648384/paper.pdf"
+    },
+    {
+        "titre": "Analyzing the interplay of failures and workload on a leadership-class supercomputer",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:4JMBOYKVnBMC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=1942809549053344364",
+        "auteurs": [
+            "Esteban Meneses",
+            "Xiang Ni",
+            "Terry Jones",
+            "Don Maxwell"
+        ],
+        "date_de_publication": "2015-01-01",
+        "type_titre": "computing",
+        "type": "Revue",
+        "editeurs": "",
+        "description": "The unprecedented computational power of current supercomputers now makes possible the exploration of complex problems in many scientific fields, from genomic analysis to computational fluid dynamics. Modern machines are powerful because they are massive: they assemble millions of cores and a huge quantity of disks, cards, routers, and other components. But it is precisely the size of these machines that glooms the future of supercomputing. A system that comprises many components has a high chance to fail, and fail often. In order to make the next generation of supercomputers usable, it is imperative to use some type of fault tolerance platform to run applications on large machines. Most fault tolerance strategies can be optimized for the peculiarities of each system and boost efficacy by keeping the system productive. In this paper, we aim to understand how failure characterization can improve resilience in several layers of the software stack: applications, runtime systems, and job schedulers. We examine the Titan supercomputer, one of the fastest systems in the world. We analyze a full year of Titan in production and distill the failure patterns of the machine. By looking into Titan’s log files and using the criteria of experts, we provide a detailed description of the types of failures. In addition, we inspect the job submission files and describe how the system is used. Using those two sources, we cross correlate failures in the machine to executing jobs and provide a picture of how failures affect the user experience. We believe such characterization is fundamental in developing appropriate fault tolerance solutions for Cray systems similar to …",
+        "pages": "4",
+        "lien_article": "https://cug.org/proceedings/cug2015_proceedings/includes/files/pap169-file1.pdf",
+        "lien_pdf": "https://cug.org/proceedings/cug2015_proceedings/includes/files/pap169-file1.pdf"
+    },
+    {
+        "titre": "Dynamic load balance for optimized message logging in fault tolerant hpc applications",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:qxL8FJ1GzNcC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=16896825178785605284",
+        "auteurs": [
+            "Esteban Meneses",
+            "Laxmikant V Kalé",
+            "Greg Bronevetsky"
+        ],
+        "date_de_publication": "2011-09-26",
+        "type_titre": "2011 IEEE International Conference on Cluster Computing",
+        "type": "Conférence",
+        "editeurs": "IEEE",
+        "description": "Computing systems will grow significantly larger in the near future to satisfy the needs of computational scientists in areas like climate modeling, biophysics and cosmology. Supercomputers being installed in the next few years will comprise millions of cores, hundreds of thousands of processor chips and millions of physical components. However, it is expected that failures become more prevalent in those machines to the point where 10% of an Exascale system will be wasted just recovering from failures. Further, with such large numbers of cores, fine-grained and dynamic load balance will become increasingly critical for maintaining good system utilization. This paper addresses both fault tolerance and load balancing by presenting a novel extension of traditional message logging protocols based on team check pointing. Message logging makes it possible to recover from localized failures by rolling back just the …",
+        "pages": "281-289",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/6061146/",
+        "lien_pdf": "https://www.academia.edu/download/103421024/paper.pdf"
+    },
+    {
+        "titre": "Analyzing a five-year failure record of a leadership-class supercomputer",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:2P1L_qKh6hAC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=12460872355352301749",
+        "auteurs": [
+            "Elvis Rojas",
+            "Esteban Meneses",
+            "Terry Jones",
+            "Don Maxwell"
+        ],
+        "date_de_publication": "2019-10-15",
+        "type_titre": "2019 31st International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD)",
+        "type": "Conférence",
+        "editeurs": "IEEE",
+        "description": "Extreme-scale computing systems are required to solve some of the grand challenges in science and technology. From astrophysics to molecular biology, supercomputers are an essential tool to accelerate scientific discovery. However, large computing systems are prone to failures due to their complexity. It is crucial to develop an understanding of how these systems fail to design reliable supercomputing platforms for the future. This paper examines a five-year failure and workload record of a leadership-class supercomputer. To the best of our knowledge, five years represents the vast majority of the lifespan of a supercomputer. This is the first time such analysis is performed on a top 10 modern supercomputer. We performed a failure categorization and found out that: i) most errors are GPU-related, with roughly 37% of them being double-bit errors on the cards; ii) failures are not evenly spread across the physical …",
+        "pages": "196-203",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/8924181/",
+        "lien_pdf": "https://www.osti.gov/servlets/purl/1960715"
+    },
+    {
+        "titre": "Simulation-based evaluation of school reopening strategies during COVID-19: A case study of São Paulo, Brazil",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:UxriW0iASnsC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=13019871368549961039",
+        "auteurs": [
+            "EHM Cruz",
+            "JM Maciel",
+            "CL Clozato",
+            "MS Serpa",
+            "POA Navaux",
+            "E Meneses",
+            "M Abdalah",
+            "M Diener"
+        ],
+        "date_de_publication": "2021-01-01",
+        "type_titre": "Epidemiology & Infection",
+        "type": "Revue",
+        "editeurs": "Cambridge University Press",
+        "description": "During the coronavirus disease 2019 (COVID-19) pandemic, many countries opted for strict public health measures, including closing schools. After some time, they have started relaxing some of those restrictions. To avoid overwhelming health systems, predictions for the number of new COVID-19 cases need to be considered when choosing a school reopening strategy. Using a computer simulation based on a stochastic compartmental model that includes a heterogeneous and dynamic network, we analyse different strategies to reopen schools in the São Paulo Metropolitan Area, including one similar to the official reopening plan. Our model allows us to describe different types of relations between people, each type with a different infectiousness. Based on our simulations and model assumptions, our results indicate that reopening schools with all students at once has a big impact on the number of new COVID …",
+        "pages": "e118",
+        "lien_article": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0950268821001059",
+        "lien_pdf": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E529BF7967E18BA0687EC4E1001096D2/S0950268821001059a.pdf/simulationbased_evaluation_of_school_reopening_strategies_during_covid19_a_case_study_of_sao_paulo_brazil.pdf"
+    },
+    {
+        "titre": "Scalable message-logging techniques for effective fault tolerance in HPC applications",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:_Qo2XoVZTnwC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=7640894286578531602",
+        "auteurs": [
+            "Esteban Meneses Rojas"
+        ],
+        "date_de_publication": "2013-01-01",
+        "type_titre": "",
+        "type": "",
+        "editeurs": "",
+        "description": "An important set of challenges emerge as the High Performance Computing (HPC) community aims to reach extreme scale. Resilience and energy consumption are two of those challenges. Extreme-scale machines are expected to have a high failure frequency. This is an inevitable consequence of the mismatch between two trends. The number of components assembled in supercomputers grows exponentially. However, the improvement on the reliability of each individual component is much slower. At the same time, the vast number of components in a single machine will consume a non-trivial amount of energy. To keep a supercomputer within operational margins, HPC systems have to be both reliable and energy-aware. For an application to be able to run and make progress in spite of constant interruptions, it has to incorporate some fashion of fault tolerance. Rollback-recovery techniques provide a framework …",
+        "pages": "",
+        "lien_article": "https://search.proquest.com/openview/c5b42a3aa562632c37e9f54948f6f754/1?pq-origsite=gscholar&cbl=18750",
+        "lien_pdf": "https://www.ideals.illinois.edu/items/45429/bitstreams/134580/object?dl=1"
+    },
+    {
+        "titre": "Vectors and graphs: Two representations to cluster web sites using hyperstructure",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:d1gkVwhDpl0C",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=12953800797828096937",
+        "auteurs": [
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2006-10-25",
+        "type_titre": "2006 Fourth Latin American Web Congress",
+        "type": "Conférence",
+        "editeurs": "IEEE",
+        "description": "Web site clustering consists in finding meaningful groups of related Web sites. How related is some Web site to another is a question that depends on how we represent Web sites. Traditionally, vectors and graphs have been two important structures to represent individuals in a population. Both representations can play an important role in the Web area if hyper structure is considered. By analyzing the way Web sites are linked, we can build vectors or graphs to understand how a Web site collection is partitioned. In this paper, we analyze these two models and four associated algorithms: k-means and self-organizing maps (SOM) with vectors, simulated annealing and genetic algorithms with graphs. For testing these ideas we clustered some Web sites in the Central American Web. We compare the results for clustering this Web site collection using both models and show what kind of clusters each one produces",
+        "pages": "172-178",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/4022107/",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "Using symbolic objects to cluster web documents",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:u5HHmVD_uO8C",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=4113344237176527936",
+        "auteurs": [
+            "Esteban Meneses",
+            "Oldemar Rodríguez-Rojas"
+        ],
+        "date_de_publication": "2006-05-23",
+        "type_titre": "Proceedings of the 15th international conference on World Wide Web",
+        "type": "Livre",
+        "editeurs": "",
+        "description": "Web Clustering is useful for several activities in the WWW, from automatically building web directories to improve retrieval performance. Nevertheless, due to the huge size of the web, a linear mechanism must be employed to cluster web documents. The k-means is one classic algorithm used in this problem. We present a variant of the vector model to be used with the k-means algorithm. Our representation uses symbolic objects for clustering web documents. Some experiments were done with positive results and future work is optimistic.",
+        "pages": "967-968",
+        "lien_article": "https://dl.acm.org/doi/abs/10.1145/1135777.1135968",
+        "lien_pdf": "https://www.academia.edu/download/40549915/Using_symbolic_objects_to_cluster_web_do20151201-30718-1hvhkdy.pdf"
+    },
+    {
+        "titre": "A symbolic representation for distributed web document clustering",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:Tyk-4Ss8FVUC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=15767145142473009903",
+        "auteurs": [
+            "M Esteban",
+            "OR Rodrıguez"
+        ],
+        "date_de_publication": "2006-01-01",
+        "type_titre": "the Proceedings of Fourth Latin American Web Congress, Cholula, Mexico",
+        "type": "Revue",
+        "editeurs": "",
+        "description": "Web clustering is an important activity to improve many other tasks in the Web, from automatically building web directories to web searching and indexing. However, due to the huge size of the Web, a platform for high performance computing must be used to cluster a really big collection of web documents. In this paper, we propose a new representation to model web documents for distributed clustering. Symbolic objects can address the clustering problem for a distributed environment in a better way. After running a couple of experiments, we show how symbolic objects can outperform a classic representation when comparing the clustering accuracy.",
+        "pages": "",
+        "lien_article": "https://scholar.google.com/scholar?cluster=15767145142473009903&hl=en&oi=scholarr",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "Convergence through a weak consistency model: Timed causal consistency",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:hqOjcs7Dif8C",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=8634790888012495312",
+        "auteurs": [
+            "Francisco J Torres-Rojas",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2005-12-02",
+        "type_titre": "CLEI electronic journal",
+        "type": "Revue",
+        "editeurs": "",
+        "description": "Given a distributed system with several shared objects and many processes concurrently updating and reading them, it is convenient that the system achieves convergence on the value of these objects. Such property can be guaranteed depending on the consistency model being employed. Causal Consistency is a weak consistency model that is easy and cheap to implement. However, due to the lack of real-time considerations, this model cannot offer convergence. A solution for overcoming that problem is to include time aspects within the framework of the model. This is the aim of Timed Causal Consistency.",
+        "pages": "108",
+        "lien_article": "https://www.clei.org/cleiej/index.php/cleiej/article/download/318/113",
+        "lien_pdf": "https://www.clei.org/cleiej/index.php/cleiej/article/download/318/113"
+    },
+    {
+        "titre": "The Charm++ parallel programming system",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:wbdj-CoPYUoC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=6153850984493871207",
+        "auteurs": [
+            "Laxmikant Kalé",
+            "Bilge Acun",
+            "Seonmyeong Bak",
+            "Aaron Becker",
+            "Milind Bhandarkar",
+            "Nitin Bhat",
+            "Abhinav Bhatele",
+            "Eric Bohm",
+            "Cyril Bordage",
+            "Robert Brunner",
+            "Ronak Buch",
+            "Sayantan Chakravorty",
+            "Kavitha Chandrasekar",
+            "Jaemin Choi",
+            "Michael Denardo",
+            "Jayant DeSouza",
+            "Matthias Diener",
+            "Harshit Dokania",
+            "Isaac Dooley",
+            "Wayne Fenton",
+            "Juan Galvez",
+            "Fillipo Gioachin",
+            "Abhishek Gupta",
+            "Gagan Gupta",
+            "Manish Gupta",
+            "Attila Gursoy",
+            "Vipul Harsh",
+            "Fang Hu",
+            "Chao Huang",
+            "Narain Jagathesan",
+            "Nikhil Jain",
+            "Pritish Jetley",
+            "Prateek Jindal",
+            "Raghavendra Kanakagiri",
+            "Greg Koenig",
+            "Sanjeev Krishnan",
+            "Sameer Kumar",
+            "David Kunzman",
+            "Michael Lang",
+            "Akhil Langer",
+            "Orion Lawlor",
+            "Chee Wai Lee",
+            "Jonathan Lifflander",
+            "Karthik Mahesh",
+            "Celso Mendes",
+            "Harshitha Menon",
+            "Chao Mei",
+            "Esteban Meneses",
+            "Eric Mikida",
+            "Phil Miller",
+            "Ryan Mokos",
+            "Venkatasubrahmanian Narayanan",
+            "Xiang Ni",
+            "Kevin Nomura",
+            "Sameer Paranjpye",
+            "Parthasarathy Ramachandran",
+            "Balkrishna Ramkumar",
+            "Evan Ramos",
+            "Michael Robson",
+            "Neelam Saboo",
+            "Vikram Saletore",
+            "Osman Sarood",
+            "Karthik Senthil",
+            "Nimish Shah",
+            "Wennie Shu",
+            "Amitabh B Sinha",
+            "Yanhua Sun",
+            "Zehra Sura",
+            "Ehsan Totoni",
+            "Krishnan Varadarajan",
+            "Ramprasad Venkataraman",
+            "Jackie Wang",
+            "Lukasz Wesolowski",
+            "Sam White",
+            "Terry Wilmarth",
+            "Jeff Wright",
+            "Joshua Yelon",
+            "Gengbin Zheng"
+        ],
+        "date_de_publication": "2019-08-01",
+        "type_titre": "",
+        "type": "",
+        "editeurs": "Aug",
+        "description": "",
+        "pages": "35-71",
+        "lien_article": "https://scholar.google.com/scholar?cluster=6153850984493871207&hl=en&oi=scholarr",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "BS-SOLCTRA: Towards a parallel magnetic plasma confinement simulation framework for modular stellarator devices",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:pqnbT2bcN3wC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=12470380674237212125",
+        "auteurs": [
+            "Diego Jiménez",
+            "Luis Campos-Duarte",
+            "Ricardo Solano-Piedra",
+            "Luis Alonso Araya-Solano",
+            "Esteban Meneses",
+            "Iván Vargas"
+        ],
+        "date_de_publication": "2020-01-01",
+        "type_titre": "High Performance Computing: 6th Latin American Conference, CARLA 2019, Turrialba, Costa Rica, September 25–27, 2019, Revised Selected Papers 6",
+        "type": "Conférence",
+        "editeurs": "Springer International Publishing",
+        "description": " Hand in hand, computer simulations and High Performance Computing are catalyzing advances in experimental and theoretical fusion physics and the design and construction of new confinement devices that are spearheading the quest for alternative energy sources. This paper presents the Biot-Savart Solver for Computing and Tracing Magnetic Field Lines (BS-SOLCTRA), a field line tracing code developed during the first Stellarator of Costa Rica (SCR-1) campaign. We present the process towards turning BS-SOLCTRA into a full parallel simulation framework for stellarator devices. Message passing, shared-memory programming, and vectorization form the underlying parallel infrastructure and provide scalable execution. The implemented parallel simulator led to a 1, 550X speedup when compared to the original sequential version. We also present the new powerful scientific visualization capabilities …",
+        "pages": "33-48",
+        "lien_article": "https://link.springer.com/chapter/10.1007/978-3-030-41005-6_3",
+        "lien_pdf": "https://www.researchgate.net/profile/Ivan-Vargas-Blanco/publication/339220298_BS-SOLCTRA_Towards_a_Parallel_Magnetic_Plasma_Confinement_Simulation_Framework_for_Modular_Stellarator_Devices/links/5e73e72b92851c35875987fc/BS-SOLCTRA-Towards-a-Parallel-Magnetic-Plasma-Confinement-Simulation-Framework-for-Modular-Stellarator-Devices.pdf"
+    },
+    {
+        "titre": "Camel: collective-aware message logging",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:RHpTSmoSYBkC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=9404465809259961034",
+        "auteurs": [
+            "Esteban Meneses",
+            "Laxmikant V Kalé"
+        ],
+        "date_de_publication": "2015-07-01",
+        "type_titre": "The Journal of Supercomputing",
+        "type": "Revue",
+        "editeurs": "Springer US",
+        "description": " The continuous progress in the performance of supercomputers has made possible the understanding of many fundamental problems in science. Simulation, the third scientific pillar, constantly demands more powerful machines to use algorithms that would otherwise be unviable. That will inevitably lead to the deployment of an exascale machine during the next decade. However, fault tolerance is a major challenge that has to be overcome to make such a machine usable. With an unprecedented number of parts, machines at extreme scale will have a small mean-time-between-failures. The popular checkpoint/restart mechanism used in today’s machines may not be effective at that scale. One promising way to revamp checkpoint/restart is to use message-logging techniques. By storing messages during execution and replaying them in case of a failure, message logging is able to shorten recovery time and …",
+        "pages": "2516-2538",
+        "lien_article": "https://link.springer.com/article/10.1007/s11227-015-1402-3",
+        "lien_pdf": "https://core.ac.uk/download/pdf/83115899.pdf"
+    },
+    {
+        "titre": "Parallel computing for processing data from intelligent transportation systems",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:ldfaerwXgEUC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=4372435539179468855",
+        "auteurs": [
+            "Jonathan Denis",
+            "Renzo Massobrio",
+            "Sergio Nesmachnow",
+            "Alfredo Cristóbal",
+            "Andrei Tchernykh",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2019-01-01",
+        "type_titre": "Supercomputing: 10th International Conference on Supercomputing in Mexico, ISUM 2019, Monterrey, Mexico, March 25–29, 2019, Revised Selected Papers 10",
+        "type": "Conférence",
+        "editeurs": "Springer International Publishing",
+        "description": " This article describes the application of parallel computing techniques for efficiently processing large volumes of data from ITS. This is a relevant problem in nowadays societies, especially when working under the novel paradigm of smart cities. The proposed approach applies parallel multithreading computing for processing Global Positioning System records for a case study on the Intelligent Transportation System in Montevideo, Uruguay. The experimental analysis is performed on a high performance computing platform, considering a large volume of data and different computing resources. The main results indicate that the proposed approach allows achieving good speedup values, thus reducing the execution time to process more than 120 GB of data from 921 to 77 min, when using 32 threads. In addition, a web application to illustrate the results of the proposed approach for computing the average speed of …",
+        "pages": "266-281",
+        "lien_article": "https://link.springer.com/chapter/10.1007/978-3-030-38043-4_22",
+        "lien_pdf": "https://www.researchgate.net/profile/Renzo-Massobrio/publication/338106369_Parallel_Computing_for_Processing_Data_from_Intelligent_Transportation_Systems/links/5e3aa97392851c7f7f1d4c44/Parallel-Computing-for-Processing-Data-from-Intelligent-Transportation-Systems.pdf"
+    },
+    {
+        "titre": "Comparative analysis of de bruijn graph parallel genome assemblers",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:BqipwSGYUEgC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=12639190921625568199",
+        "auteurs": [
+            "Carlos Gamboa-Venegas",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2018-07-18",
+        "type_titre": "2018 IEEE International Work Conference on Bioinspired Intelligence (IWOBI)",
+        "type": "Conférence",
+        "editeurs": "IEEE",
+        "description": "Finding the genome of new species remains as one of the most crucial tasks in molecular biology. To achieve that end,  de novo  sequence assembly feeds from the vast amount of data provided by Next-Generation Sequencing technology. Therefore, genome assemblers demand a high amount of computational resources, and parallel implementations of those assemblers are readily available. This paper presents a comparison of three well-known de novo genome assemblers: Velvet, ABySS and SOAPdenovo, all of them using de Bruijn graphs and having a parallel implementation. We based our analysis on parallel execution time, scalability, quality of assembly, and sensitivity to the choice of a critical parameter ( k -mer size). We found one of the tools clearly stands out for providing faster execution time and better quality in the output. Also, all assemblers are mildly sensitive to the choice of k-mer size and they …",
+        "pages": "1-8",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/8464194/",
+        "lien_pdf": "http://repositorio.conare.ac.cr:8080/bitstream/handle/20.500.12337/4003/Comparative%20Analysis%20of%20de%20Bruijn%20Graph%20Parallel%20Genome%20Assemblers_GAMBOA-VENEGAS_MEN%C3%89SES.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "titre": "Programaçao paralela em charm++",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:TFP_iSt0sucC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=2446168976325957952",
+        "auteurs": [
+            "LL Pilla",
+            "E Meneses"
+        ],
+        "date_de_publication": "2015-01-01",
+        "type_titre": "ERAD/RS, Gramado, RS, Brasil",
+        "type": "Revue",
+        "editeurs": "",
+        "description": "",
+        "pages": "",
+        "lien_article": "https://scholar.google.com/scholar?cluster=2446168976325957952&hl=en&oi=scholarr",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "Design and analysis of a message logging protocol for fault tolerant multicore systems",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:WF5omc3nYNoC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=7685592907934468786",
+        "auteurs": [
+            "Esteban Meneses",
+            "Xiang Ni",
+            "Laxmikant V Kalé"
+        ],
+        "date_de_publication": "2011-07-01",
+        "type_titre": "Parallel Programming Laboratory, Department of Computer Science, University of Illinois at Urbana-Champaign, Tech. Rep",
+        "type": "Revue",
+        "editeurs": "",
+        "description": "A look at Exascale reveals a future with multicore supercomputers that will inexorably experience frequent failures. Providing scalable and efficient fault tolerance support is one of the major concerns to pave the road for the next generation of machines. Checkpoint/restart remains as the standard de facto approach to provide fault tolerance in supercomputers. However, its high recovery cost has brought the attention of the community to an alternative mechanism, message logging. In this paper we present the design of a message logging protocol that targets multicore machines based on two fundamental assumptions. First, a multicore node is the minimum unit of failure and very frequently only one node goes down per failure. Second, the shared memory is a key resource to bring down the overhead of message logging. This paper also presents an analysis of failure data from recent supercomputers that show that most of the time a failure involves one single computational node. We offer two different distributions to model the data. Using those distributions we build a model for the survivability of the message logging protocol to multiple concurrent failures. We demonstrate our technique has a low overhead. The results of an experiment with a stencil program show the execution time penalty is below 5% when the program scales up to 1024 cores. Moreover, even when the protocol was designed to tolerate one single failure at a time, it provides a high probability of survival to a failure involving any number of nodes. Using real-world data from recent supercomputers we demonstrate the chances of survive any failure are higher than 99%.",
+        "pages": "11-30",
+        "lien_article": "https://www.researchgate.net/profile/Esteban-Meneses-3/publication/266506766_Design_and_Analysis_of_a_Message_Logging_Protocol_for_Fault_Tolerant_Multicore_Systems/links/5570932008aeec5e6fd26d18/Design-and-Analysis-of-a-Message-Logging-Protocol-for-Fault-Tolerant-Multicore-Systems.pdf",
+        "lien_pdf": "https://www.researchgate.net/profile/Esteban-Meneses-3/publication/266506766_Design_and_Analysis_of_a_Message_Logging_Protocol_for_Fault_Tolerant_Multicore_Systems/links/5570932008aeec5e6fd26d18/Design-and-Analysis-of-a-Message-Logging-Protocol-for-Fault-Tolerant-Multicore-Systems.pdf"
+    },
+    {
+        "titre": "Clustering Parallel Applications to Enhance Message Logging Protocols",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:2osOgNQ5qMEC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=14331816078175306423",
+        "auteurs": [
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "",
+        "type_titre": "",
+        "type": "",
+        "editeurs": "",
+        "description": "Esteban Meneses Page 1 Clustering Parallel Applications to Enhance Message Logging \nProtocols Esteban Meneses Monday, November 22, 2010 Page 2 4th Workshop INRIA-Illinois \nJoint Laboratory on Petascale Computing Jaguar is the top 2 supercomputer in the world with \n224,162 cores... During 537 days (Aug-22-2008 to Feb-10-2010) 2.33 failures per day \nSequoia will have 1.6 million cores and an exascale machine around 100 million cores... We \nwill see failures all the time Monday, November 22, 2010 Page 3 4th Workshop INRIA-Illinois \nJoint Laboratory on Petascale Computing Agenda ✦ Clusters and Message Logging. ✦ Static \nClustering (MPI). ✦ Dynamic Clustering (Charm++). ✦ Future Work. Monday, November 22, \n2010 Page 4 4th Workshop INRIA-Illinois Joint Laboratory on Petascale Computing Message \nLogging ✦ Every message sent may be logged. ✦ Advantage: only the failed rank is rolled back…",
+        "pages": "",
+        "lien_article": "https://wiki.ncsa.illinois.edu/download/attachments/17630761/INRIA-UIUC-WS4-emenese.pdf",
+        "lien_pdf": "https://wiki.ncsa.illinois.edu/download/attachments/17630761/INRIA-UIUC-WS4-emenese.pdf"
+    },
+    {
+        "titre": "Understanding soft error sensitivity of deep learning models and frameworks through checkpoint alteration",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:KxtntwgDAa4C",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=6008254037148641193",
+        "auteurs": [
+            "Elvis Rojas",
+            "Diego Pérez",
+            "Jon C Calhoun",
+            "Leonardo Bautista Gomez",
+            "Terry Jones",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2021-09-07",
+        "type_titre": "2021 IEEE International Conference on Cluster Computing (CLUSTER)",
+        "type": "Conférence",
+        "editeurs": "IEEE",
+        "description": "The convergence of artificial intelligence, high-performance computing (HPC), and data science brings unique opportunities for marked advance discoveries and that leverage synergies across scientific domains. Recently, deep learning (DL) models have been successfully applied to a wide spectrum of fields, from social network analysis to climate modeling. Such advances greatly benefit from already available HPC infrastructure, mainly GPU-enabled supercomputers. However, those powerful computing systems are exposed to failures, particularly silent data corruption (SDC) in which bit-flips occur without the program crashing. Consequently, exploring the impact of SDCs in DL models is vital for maintaining progress in many scientific domains. This paper uses a distinctive methodology to inject faults into training phases of DL models. We use checkpoint file alteration to study the effect of having bit-flips in …",
+        "pages": "492-503",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/9556041/",
+        "lien_pdf": "https://upcommons.upc.edu/bitstream/handle/2117/364744/Understanding_Soft_Error_Sensitivity_and_Robustness_of_Deep_Learning_Models_through_Checkpoint_Alteration.pdf?sequence=1"
+    },
+    {
+        "titre": "Hierarchical load balancing for large scale supercomputers",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:rO6llkc54NcC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=6851637415231741099",
+        "auteurs": [
+            "Gengbin Zheng",
+            "Esteban Meneses",
+            "Abhinav Bhatelé",
+            "Laxmikant V Kalé"
+        ],
+        "date_de_publication": "2010-09-01",
+        "type_titre": "Third International Workshop on Parallel Programming Models and Systems Software for High-End Computing (P2S2)",
+        "type": "Revue",
+        "editeurs": "",
+        "description": "",
+        "pages": "",
+        "lien_article": "https://scholar.google.com/scholar?cluster=6851637415231741099&hl=en&oi=scholarr",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "Seismicity during the recent activity (2009–2020) of Turrialba volcano, Costa Rica",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:K3LRdlH-MEoC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=14020740006235645573",
+        "auteurs": [
+            "Leonardo van der Laat",
+            "Mauricio M Mora",
+            "Javier Fco Pacheco",
+            "Philippe Lesage",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2022-11-01",
+        "type_titre": "Journal of Volcanology and Geothermal Research",
+        "type": "Revue",
+        "editeurs": "Elsevier",
+        "description": "Turrialba is a stratovolcano located at the easternmost part of the Costa Rican volcanic front. After remaining quiescent for more than a century, in 1996 it started to show signs of unrest, until a first phreatomagmatic explosion occurred on January, 2010. Since then, the activity evolved from phreatic to magmatic, in a series of distinct eruptive phases. In this paper, we investigate the seismic records that span the whole eruptive process (2010-present), in order to identify precursory signals and characterize the volcanic evolution. A long-term analysis was carried out based on the continuous records, as well as seismic catalogs (volcano-tectonic seismicity, harmonic tremor, etc.). In addition, the gradual character of the evolution of this eruption allowed for the analysis of independent precursory stages. Thus, we inspected in detail the most important of those periods, particularly, prior to the first 2010 phreatomagmatic …",
+        "pages": "107651",
+        "lien_article": "https://www.sciencedirect.com/science/article/pii/S0377027322001822",
+        "lien_pdf": "https://www.sciencedirect.com/science/article/pii/S0377027322001822"
+    },
+    {
+        "titre": "Parallelization of a denoising algorithm for tonal bioacoustic signals using openacc directives",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:GnPB-g6toBAC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=9202793199726037627",
+        "auteurs": [
+            "Jorge Castro",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2018-07-18",
+        "type_titre": "2018 IEEE International Work Conference on Bioinspired Intelligence (IWOBI)",
+        "type": "Conférence",
+        "editeurs": "IEEE",
+        "description": "Automatic segmentation and classification methods for bioacoustic signals enable real-time monitoring, population estimation, as well as other important tasks for the conservation, management, and study of wildlife. These methods normally require a filter or a denoising strategy to enhance relevant information in the input signal and avoid false positive detections. This denoising stage is usually the performance bottleneck of such methods. In this paper, we parallelize a denoising algorithm for tonal bioacoustic signals using mainly OpenACC directives. The implemented program was executed in both multicore and GPU architectures. The proposed parallelized algorithm achieves a higher speedup on GPU than CPU, leading to a 10.67 speedup compared to the original sequential algorithm in C++.",
+        "pages": "1-8",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/8464129/",
+        "lien_pdf": "https://repositorio.conare.ac.cr/bitstream/handle/20.500.12337/4005/Parallelization%20of%20a%20Denoising%20Algorithm%20for%20Tonal%20Bioacoustic%20Signals%20using%20OpenACC%20Directives_CASTRO_MENESES.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "titre": "A draft genome assembly of “Cas” (Psidium friedrichsthalianum (O. Berg) Nied.): an indigenous crop of Costa Rica untapped",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:CHSYGLWDkRkC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=5800536765994798174",
+        "auteurs": [
+            "Mónica Rojas-Gómez",
+            "Jose Pablo Jiménez-Madrigal",
+            "Maripaz Montero-Vargas",
+            "Randall Loaiza-Montoya",
+            "Max Chavarría",
+            "Esteban Meneses",
+            "Eric J Fuchs"
+        ],
+        "date_de_publication": "2022-01-01",
+        "type_titre": "Genetic Resources and Crop Evolution",
+        "type": "Revue",
+        "editeurs": "Springer Netherlands",
+        "description": " Psidium friedrichsthalianum (O. Berg) Nied. is a tropical tree species in the Myrtaceae family, natively distributed from southern Mexico to eastern Venezuela and Ecuador and commonly known as \"Cas'', \"Costa Rican guava\" or “Sour Guava”. The “Cas” produces a fruit with a rather distinctive acidic flavor and has bioactive compounds with biological potential equal or greater than common Guava; is considered an indigenous crop in Costa Rica with characteristics as a functional food untapped. This species has not been completely domesticated, and can be found in home gardens, paddocks, small groups, and, more recently, in small and medium sized plantations. Also, the plantations of this species do not have technical and scientific support or agronomic promotion from industry, nor are there genetic resources or germplasm readily available to farmers. This limits its commercial development and the …",
+        "pages": "39-47",
+        "lien_article": "https://link.springer.com/article/10.1007/s10722-021-01291-5",
+        "lien_pdf": "https://www.researchsquare.com/article/rs-707890/latest.pdf"
+    },
+    {
+        "titre": "Using Parallel Computing for Seismo-Volcanic Event Location based on Seismic Amplitudes",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:RGFaLdJalmkC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=5603356536036413793",
+        "auteurs": [
+            "Guillermo Corneio-Surez",
+            "Leonardo Van der Laat",
+            "Esteban Meneses",
+            "Javier Pacheco",
+            "Mauricio Mora"
+        ],
+        "date_de_publication": "2018-11-07",
+        "type_titre": "2018 IEEE 38th Central America and Panama Convention (CONCAPAN XXXVIII)",
+        "type": "Conférence",
+        "editeurs": "IEEE",
+        "description": "Volcanoes are very complex geophysical systems where fluids of different nature interact with porous rock at different physical conditions and within a complex matrix of conduits. Two types of seismicity are generated by this complex interactions. The first type is characterized by fracture of the elastic media, in which we have the volcano-tectonic events (VT) that produce two distinctive phases: a compressional phase (P wave) and a shear wave (S wave) that travels with different velocities within solid media. The second type is characterized by low frequencies, in which we have a wide variety of long period events (LP) and volcanic tremors. These signals are produced by fluid motion within restricted paths and have normally emergent onsets and no distinctive P or S wave phases. Classical earthquake source location procedures take advantage of the distinctive phases and their different propagation velocity …",
+        "pages": "1-6",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/8596363/",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "Algunas Propiedades Interesantes de los Relojes Vectoriales",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:9yKSN-GCB0IC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=10175597585593609929",
+        "auteurs": [
+            "Francisco J Torres-Rojas",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2003-01-01",
+        "type_titre": "Proceedings of Jornadas Chilenas de Computación",
+        "type": "Revue",
+        "editeurs": "",
+        "description": "RESUMEN Los Relojes Vectoriales logran capturar con precisión las relaciones causales en un Sistema Distribuido con N sitios. Sin embargo, muchas otras conclusiones pueden obtenerse al estudiar estas etiquetas de tiempo asociadas a diversos eventos. Este artículo muestra algunas propiedades interesantes de estos vectores. Por ejemplo, mediante el análisis del máximo entre dos relojes vectoriales asociados a eventos en una historia distribuida, se puede determinar que ciertos valores vectoriales nunca serán etiquetas de tiempo en esa misma historia distribuida. El producto punto permite establecer una separación en la red de sitios de dos conjuntos que no tuvieron comunicación por un lapso de tiempo. La longitud y otras propiedades geométricas pueden interpretarse para ser utilizadas en algunas aplicaciones.",
+        "pages": "",
+        "lien_article": "https://scholar.google.com/scholar?cluster=10175597585593609929&hl=en&oi=scholarr",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "Large-scale distributed deep learning: A study of mechanisms and trade-offs with pytorch",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:u9iWguZQMMsC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=12775968971078503463",
+        "auteurs": [
+            "Elvis Rojas",
+            "Fabricio Quirós-Corella",
+            "Terry Jones",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2021-10-06",
+        "type_titre": "Latin American High Performance Computing Conference",
+        "type": "Livre",
+        "editeurs": "Springer International Publishing",
+        "description": "Artificial intelligence is a transforming technology for creating new scientific discoveries, services, and products. Its full potential is achieved when massive data repositories and large-scale computing systems are available. Both factors are becoming easier to obtain daily as sensor networks constantly create open-data archives, and Moore’s law still makes supercomputing power more accessible. However, as deep learning models become larger to tackle data complexity, researchers must determine how to speed up training in those models. This paper uses an experimental approach to try to understand the algorithms and trade-offs associated with distributed deep learning. This study used the Summit supercomputer at Oak Ridge National Laboratory to determine that existing distributed deep learning mechanisms scale in execution time. However, as more nodes are used, accuracy degrades significantly. To …",
+        "pages": "177-192",
+        "lien_article": "https://link.springer.com/chapter/10.1007/978-3-031-04209-6_13",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "Progress on the small modular stellarator SCR-1: new diagnostics and heating scenarios",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:a0OBvERweLwC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=8029887120765229757",
+        "auteurs": [
+            "F Coto-Vílchez",
+            "VI Vargas",
+            "R Solano-Piedra",
+            "MA Rojas-Quesada",
+            "LA Araya-Solano",
+            "AA Ramírez",
+            "M Hernández-Cisneros",
+            "JE Pérez-Hidalgo",
+            "A Köhn-Seemann",
+            "F Cerdas",
+            "F Vílchez-Coto",
+            "D Jiménez",
+            "L Campos-Duarte",
+            "E Meneses",
+            "M González-Vega",
+            "S Arias"
+        ],
+        "date_de_publication": "2020-08-01",
+        "type_titre": "Journal of Plasma Physics",
+        "type": "Revue",
+        "editeurs": "Cambridge University Press",
+        "description": "This work presents updates in the diagnostics systems, magnetohydrodynamics (MHD) calculations and simulations of microwave heating scenarios of the small modular Stellarator of Costa Rica 1 (SCR-1). Similarly, the design of a flexible bolometer and magnetic diagnostics (a set of Mirnov coils, Rogowski coils and two diamagnetic loops) are introduced. Furthermore, new MHD equilibrium calculations for the plasma of the SCR-1 device were performed using the VMEC code including the poloidal cross-section of the magnetic flux surfaces at different toroidal positions, profiles of the rotational transform, magnetic well, magnetic shear and total magnetic field norm. Charged particle orbits in vacuum magnetic field were computed by the magnetic field solver BS-SOLCTRA (Vargas et al. In 27th IAEA Fusion Energy Conference (FEC 2018), 2018. IAEA). A visualization framework was implemented using Paraview …",
+        "pages": "815860401",
+        "lien_article": "https://www.cambridge.org/core/journals/journal-of-plasma-physics/article/progress-on-the-small-modular-stellarator-scr1-new-diagnostics-and-heating-scenarios/D2CE0C215461D12AAC4A04A3661B9818",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "Analyzing convergence in consistency models for distributed objects",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:UeHWp8X0CEIC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=4028753001821292942",
+        "auteurs": [
+            "Francisco J Torres-Rojas",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2005-01-01",
+        "type_titre": "Principles of Distributed Systems: 8th International Conference, OPODIS 2004, Grenoble, France, December 15-17, 2004, Revised Selected Papers 8",
+        "type": "Conférence",
+        "editeurs": "Springer Berlin Heidelberg",
+        "description": " At instant t, two or more sites could perceive different values for the same distributed object X. However, depending on the consistency protocol used, it might be expected that, after a while, every site in the system should see the same value for this object. In this paper, we present a formalization of the concept of convergence and analyze its relationships with several consistency models. Among other things, we claim that, by itself, sequential consistency is not a convergent protocol.",
+        "pages": "346-356",
+        "lien_article": "https://link.springer.com/chapter/10.1007/11516798_25",
+        "lien_pdf": "https://www.researchgate.net/profile/Toshimitsu-Masuzawa/publication/221039253_A_Self-stabilizing_Link-Coloring_Protocol_Resilient_to_Byzantine_Faults_in_Tree_Networks/links/02e7e51ccd6b7505e3000000/A-Self-stabilizing-Link-Coloring-Protocol-Resilient-to-Byzantine-Faults-in-Tree-Networks.pdf#page=251"
+    },
+    {
+        "titre": "Possible and Impossible Vector Clock Sets.",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:Y0pCki6q_DkC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=11256001068630893096",
+        "auteurs": [
+            "Esteban Meneses",
+            "Francisco J Torres-Rojas"
+        ],
+        "date_de_publication": "2004-06-01",
+        "type_titre": "PDPTA",
+        "type": "Conférence",
+        "editeurs": "",
+        "description": "It is well known that vector clocks capture perfectly the causality relationship among events in a distributed system. However, there are some interesting properties of vector clocks that are still to be explored. In particular, we are interested in discovering whether there is an efficient procedure for deciding if a given set of vector clocks is contained in some distributed history. We call this the possible vector clock set problem.",
+        "pages": "1416-1422",
+        "lien_article": "https://www.academia.edu/download/77648510/Possible_and_Impossible_Vector_Clock_Set20211229-20924-197krh.pdf",
+        "lien_pdf": "https://www.academia.edu/download/77648510/Possible_and_Impossible_Vector_Clock_Set20211229-20924-197krh.pdf"
+    },
+    {
+        "titre": "Survey of Large-scale Database Systems",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:ZHo1McVdvXMC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=3119248063822666388",
+        "auteurs": [
+            "So Youn Lee",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "",
+        "type_titre": "Online] https://wiki. engr. illinois. edu/download/attach ments/197298696/survey. pdf",
+        "type": "Revue",
+        "editeurs": "",
+        "description": "",
+        "pages": "",
+        "lien_article": "https://scholar.google.com/scholar?cluster=3119248063822666388&hl=en&oi=scholarr",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "OKSP: a novel deep learning automatic event detection pipeline for seismic monitoring in Costa Rica",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:nb7KW1ujOQ8C",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=5203397786373700161",
+        "auteurs": [
+            "Leonardo van der Laat",
+            "Ronald JL Baldares",
+            "Esteban J Chaves",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2021-11-04",
+        "type_titre": "2021 IEEE 3rd International Conference on BioInspired Processing (BIP)",
+        "type": "Conférence",
+        "editeurs": "IEEE",
+        "description": "Small magnitude earthquakes are the most abundant but the most difficult to locate robustly and well due to their low amplitudes and high frequencies usually obscured by heterogeneous noise sources. They highlight crucial information about the stress state and the spatio-temporal behavior of fault systems during the earthquake cycle, therefore, its full characterization is then crucial for improving earthquake hazard assessment. Modern deep learning algorithms along with the increasing computational power and efficiency are exploiting the continuously growing seismological databases, worldwide, allowing scientists to improve the completeness for earthquake catalogs, systematically detecting and locating smaller magnitude earthquakes and reducing the errors introduced mainly by human intervention through traditional approaches in seismological observatories. In this work, we introduce OKSP, a novel deep …",
+        "pages": "1-6",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/9612832/",
+        "lien_pdf": "https://arxiv.org/pdf/2109.02723"
+    },
+    {
+        "titre": "Predictive Power Consumption Model for Compute Intensive Applications in Clustered ARM A53 Embedded Systems",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:fPk4N6BV_jEC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=8183785426202954331",
+        "auteurs": [
+            "Jose Somarribas",
+            "Esteban Meneses",
+            "Kimberly Olivas"
+        ],
+        "date_de_publication": "2020-02-25",
+        "type_titre": "2020 IEEE 11th Latin American Symposium on Circuits & Systems (LASCAS)",
+        "type": "Conférence",
+        "editeurs": "IEEE",
+        "description": "High power consumption has been a concern in x86 architectures. In this same line, alternatives to x86 have been explored in order to have similar or higher ratio of computing capabilities with less power consumption. In order to find a power and cost efficient alternative for supercomputer architectures this paper explores the implementation of a low power ARM cluster based on embedded systems and analyses the cluster power consumption while running MiniMD, a compute intensive molecular dynamics workload. Based on MiniMD data, it is presented a predictive power consumption model for compute intensive applications with a 5% correlation error from real power measurements. The model also correlates within 3% error against Linpack measurements. Linpack is the compute intensive benchmark responsible for the \"Top 500 supercomputers\" ranking. Finally, by using the created model, power …",
+        "pages": "1-4",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/9069048/",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "Evaluando la resiliencia de modelos de deep learning",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:SeFeTyx0c_EC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=5386834730551536138",
+        "auteurs": [
+            "Bogdan Nicolae",
+            "Esteban Meneses Rojas",
+            "Elvis Rojas"
+        ],
+        "date_de_publication": "2020-01-01",
+        "type_titre": "Tecnología en Marcha",
+        "type": "Revue",
+        "editeurs": "Editorial Tecnológica de Costa Rica",
+        "description": "Los modelos de Aprendizaje Profundo se han convertido en una valiosa herramienta para resolver problemas complejos en muchas áreas críticas. Es importante proveer confiabilidad en las salidas de la ejecución de estos modelos, aún si se producen fallos durante la ejecución. En este artículo presentamos la evaluación de la confiabilidad de tres modelos de aprendizaje profundo. Usamos un conjunto de datos de ImageNet y desarrollamos un inyector de fallos para realizar las pruebas. Los resultados muestran que entre los modelos hay una diferencia en la sensibilidad a los fallos. Además, hay modelos que a pesar del incremento en la tasa de fallos pueden mantener bajos los valores de error.",
+        "pages": "25-30",
+        "lien_article": "https://dialnet.unirioja.es/servlet/articulo?codigo=7523595",
+        "lien_pdf": "https://dialnet.unirioja.es/descarga/articulo/7523595.pdf"
+    },
+    {
+        "titre": "Modelling road saturation dynamics on a complex transportation network based on GPS navigation software data",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:HoB7MX3m0LUC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=8003776472209662496",
+        "auteurs": [
+            "Mariana Cubero-Corella",
+            "Esteban Durán-Monge",
+            "Warner Díaz",
+            "Esteban Meneses",
+            "Steffan Gómez-Campos"
+        ],
+        "date_de_publication": "2020-01-01",
+        "type_titre": "High Performance Computing: 6th Latin American Conference, CARLA 2019, Turrialba, Costa Rica, September 25–27, 2019, Revised Selected Papers 6",
+        "type": "Conférence",
+        "editeurs": "Springer International Publishing",
+        "description": " High traffic concentration during weekdays in the Great Metropolitan Area of Costa Rica causes severe traffic congestion and high costs for the population. It is crucial to deeply understand the dynamics of traffic congestion to design and implement long term solutions. Given the lack of official data to study traffic congestion, we model it using a transportation network based on data captured throughout the year 2018 by a GPS navigation software application (Waze), provided by the Ministry of Public Works and Transportation (MOPT in Spanish). In this paper, we focus on the data transformation procedure to create the transportation network and propose a traffic congestion classification with the available data. We developed a practical methodology which consists of four main stages: data preparation, road network modelling, road saturation estimation, and saturation dynamics analysis. The results show it is …",
+        "pages": "136-149",
+        "lien_article": "https://link.springer.com/chapter/10.1007/978-3-030-41005-6_10",
+        "lien_pdf": "https://www.researchgate.net/profile/Steffan-Gomez-Campos/publication/339227628_Modelling_Road_Saturation_Dynamics_on_a_Complex_Transportation_Network_Based_on_GPS_Navigation_Software_Data/links/5e53fe21299bf1bdb837a6b6/Modelling-Road-Saturation-Dynamics-on-a-Complex-Transportation-Network-Based-on-GPS-Navigation-Software-Data.pdf"
+    },
+    {
+        "titre": "Analyzing Communication Features and Community Structure of HPC Applications",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:lSLTfruPkqcC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=7458186981532664629",
+        "auteurs": [
+            "Manfred Calvo",
+            "Diego Jiménez",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2019-01-01",
+        "type_titre": "High Performance Computing: 5th Latin American Conference, CARLA 2018, Bucaramanga, Colombia, September 26–28, 2018, Revised Selected Papers 5",
+        "type": "Conférence",
+        "editeurs": "Springer International Publishing",
+        "description": " A few exascale machines are scheduled to become operational in the next couple of years. Reaching such achievement required the HPC community to overcome obstacles in programmability, power management, memory hierarchy, and reliability. Similar challenges are to be faced in the pursuit of greater performance gains. In particular, design of interconnects stands out as a major hurdle. Computer networks for extreme-scale system will need a deeper understanding of the communication characteristics of applications that will run on those systems. We analyzed a set of nine representative HPC applications and created a catalog of well-defined communication patterns that constitute building blocks for modern scientific codes. Furthermore, we found little difference between popular community-detection algorithms, which tend to form few but relatively big communities.",
+        "pages": "239-254",
+        "lien_article": "https://link.springer.com/chapter/10.1007/978-3-030-16205-4_18",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "Conversion of electrostatic Bernstein waves in the SCR-1 stellarator using a full wave code",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:ns9cj8rnVeAC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=3857424365276209768",
+        "auteurs": [
+            "VI Vargas",
+            "A Kohn",
+            "E Meneses",
+            "D Jiménez",
+            "A Garro-Vargas",
+            "R Solano-Piedra",
+            "F Coto-Vílchez",
+            "MA Rojas-Quesada",
+            "D López-Rodríguez",
+            "J Sánchez-Castro"
+        ],
+        "date_de_publication": "2018-01-01",
+        "type_titre": "27th IAEA Fusion Energy Conference (FEC 2018). IAEA",
+        "type": "Revue",
+        "editeurs": "",
+        "description": "The small modular SCR-1 Stellarator (R= 247.7 mm, R/a= 6.2, ιa= 0.264) has an ECRH system of 2.45 GHz (5 kW) with an average magnetic field of 41.99 mT. This work presents the results of converting electrostatic Bernstein waves in the SCR-1 Stellarator using the full wave code IPF-FDMC, taking the 3D magnetic field obtained by VMEC code as input. New microwave heating scenarios that take the SCR-1's vacuum vessel into account in order to improve the OX conversion due to reflection of the incoming radiation from the ECRH system are presented. The percentage of single pass OX mode conversion is nearly 10% to 12%. Other important aspects of the work are focused on the BS-SOLCTRA (Biot-Savart Solver for Compute and Trace Magnetic Fields) code, developed by our research group, and its way to convert it into a parallel and high-performance computing platform. This code allows calculations of the 3D vacuum magnetic field and the visualization of the magnetic flux surfaces at SCR-1. Similarly, the results of the comparison of the flux surfaces measured with an electron beam and different kinds of fluorescent rods with computed flux surfaces by means of the BS-SOLCTRA code are shown. Finally, magnetic and energy diagnostics have been developed with special requirements based on the SCR-1 geometry so the design, data analysis tools and measurement technique are introduced.",
+        "pages": "",
+        "lien_article": "https://nucleus-new.iaea.org/sites/fusionportal/Shared%20Documents/FEC%202018/fec2018-preprints/preprint0737.pdf",
+        "lien_pdf": "https://nucleus-new.iaea.org/sites/fusionportal/Shared%20Documents/FEC%202018/fec2018-preprints/preprint0737.pdf"
+    },
+    {
+        "titre": "From knights corner to landing: A case study based on a hodgkin-huxley neuron simulator",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:k_IJM867U9cC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=7618345671794389456",
+        "auteurs": [
+            "George Chatzikonstantis",
+            "Diego Jiménez",
+            "Esteban Meneses",
+            "Christos Strydis",
+            "Harry Sidiropoulos",
+            "Dimitrios Soudris"
+        ],
+        "date_de_publication": "2017-06-18",
+        "type_titre": "International Conference on High Performance Computing",
+        "type": "Livre",
+        "editeurs": "Springer International Publishing",
+        "description": " Brain modeling has been presenting significant challenges to the world of high-performance computing (HPC) over the years. The field of computational neuroscience has been developing a demand for physiologically plausible neuron models, that feature increased complexity and thus, require greater computational power. We explore Intel’s newest generation of Xeon Phi computing platforms, named Knights Landing (KNL), as a way to match the need for processing power and as an upgrade over the previous generation of Xeon Phi models, the Knights Corner (KNC). Our neuron simulator of choice features a Hodgkin-Huxley-based (HH) model which has been ported on both generations of Xeon Phi platforms and aggressively draws on both platforms’ computational assets. The application uses the OpenMP interface for efficient parallelization and the Xeon Phi’s vectorization buffers for Single-Instruction …",
+        "pages": "363-375",
+        "lien_article": "https://link.springer.com/chapter/10.1007/978-3-319-67630-2_27",
+        "lien_pdf": "https://neurocomputinglab.com/wp-content/uploads/2020/06/From-Knights-Corner-to-Landing.pdf"
+    },
+    {
+        "titre": "A fault-tolerance protocol for parallel applications with communication imbalance",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:j3f4tGmQtD8C",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=8842198527494474823",
+        "auteurs": [
+            "Esteban Meneses",
+            "Laxmikant V Kalé"
+        ],
+        "date_de_publication": "2015-10-17",
+        "type_titre": "2015 27th International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD)",
+        "type": "Conférence",
+        "editeurs": "IEEE",
+        "description": "The predicted failure rates of future supercomputers loom the groundbreaking research large machines are expected to foster. Therefore, resilient extreme-scale applications are an absolute necessity to effectively use the new generation of supercomputers. Rollback-recovery techniques have been traditionally used in HPC to provide resilience. Among those techniques, message logging provides the appealing features of saving energy, accelerating recovery, and having low performance penalty. Its increased memory consumption is, however, an important downside. This paper introduces memory-constrained message logging (MCML), a general framework for decreasing the memory footprint of message-logging protocols. In particular, we demonstrate the effectiveness of MCML in maintaining message logging feasible for applications with substantial communication imbalance. This type of applications appear …",
+        "pages": "162-169",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/7379847/",
+        "lien_pdf": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=dbe663e7a7372075a5dd872bd6d67d44680440dc"
+    },
+    {
+        "titre": "Measuring contribution of HTML features in web document clustering",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:UebtZRa9Y70C",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=8699189111564062595",
+        "auteurs": [
+            "Esteban Meneses",
+            "Oldemar Rodrıguez-Rojas"
+        ],
+        "date_de_publication": "2008-01-01",
+        "type_titre": "CLEI Electronic Journal",
+        "type": "Revue",
+        "editeurs": "",
+        "description": "Documents in HTML format have many features to analyze, from the terms in special sections to the phrases that appear in the whole document. However, it is important to decide which feature contributes the most to separate documents according to classes. Given this information, it is possible not to include certain feature in the representation for the document, given that it is expensive to compute and doesn’t contribute enough in the clustering process. By using a novel representation model and the standard k-means algorithm, we discovered that terms in the body of document contributes the most, followed by terms in other sections. Suffix tree provides poor contribution in that scenario, while term order graphs influence a little the partition. We used 4 known datasets to support the conclusions.",
+        "pages": "7",
+        "lien_article": "https://pdfs.semanticscholar.org/6338/62fc32b3d74c9915e5826cee750e94dfc520.pdf",
+        "lien_pdf": "https://pdfs.semanticscholar.org/6338/62fc32b3d74c9915e5826cee750e94dfc520.pdf"
+    },
+    {
+        "titre": "Effective representations for web document clustering",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:W7OEmFMy1HYC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=10880281416434346495",
+        "auteurs": [
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2007-01-01",
+        "type_titre": "Master's thesis, Instituto Tecnologico de Costa Rica",
+        "type": "Revue",
+        "editeurs": "",
+        "description": "No problem is too small or too trivial if we can really do something about it.",
+        "pages": "",
+        "lien_article": "https://scholar.google.com/scholar?cluster=10880281416434346495&hl=en&oi=scholarr",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "Time and Order Considerations in Consistency Models for Web Caching.",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:eQOLeE2rZwMC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=5627423762908160095",
+        "auteurs": [
+            "Esteban Meneses",
+            "Francisco J Torres-Rojas"
+        ],
+        "date_de_publication": "2005-01-01",
+        "type_titre": "PDPTA",
+        "type": "Conférence",
+        "editeurs": "",
+        "description": "Consistency is a necessary consideration when dealing with web caching. Although this technique accelerates the web experience for the user, it must provide consistency, ie, the objects in the cache must be fresh and all the relationships among them must be valid. Both problems have been addressed by several web caching strategies ([4],[5],[7],[9],[12],[18],[23],[25],[26]). However, their formal properties are not completely understood, because practical issues frequently overcome theoretical ones in the web community. In order to offer an environment where formal characteristics can be proved, it is necessary to consider two dimensions in consistency: time and order [2]. These two facets permit an understanding of how fast the changes made in some object are updated in its copies, and what order relationships exist in the events of the system. This paper aims to present both consistency dimensions in order to clarify, analyze and prove, in a formal fashion, properties of web caching consistency models.",
+        "pages": "761-767",
+        "lien_article": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=9a677145d374b077c12b7bc249a905de4ffa978f",
+        "lien_pdf": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=9a677145d374b077c12b7bc249a905de4ffa978f"
+    },
+    {
+        "titre": "A Large-Scale Epidemic Simulation Framework for Realistic Social Contact Networks",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:q3oQSFYPqjQC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=12449168646550752596",
+        "auteurs": [
+            "Joy Kitson",
+            "Ian Costello",
+            "Jiangzhuo Chen",
+            "Diego Jiménez",
+            "Stefan Hoops",
+            "Henning Mortveit",
+            "Esteban Meneses",
+            "Jae-Seung Yeom",
+            "Madhav V Marathe",
+            "Abhinav Bhatele"
+        ],
+        "date_de_publication": "2024-01-16",
+        "type_titre": "arXiv preprint arXiv:2401.08124",
+        "type": "Revue",
+        "editeurs": "",
+        "description": "Global pandemics can wreak havoc and lead to significant social, economic, and personal losses. Preventing the spread of infectious diseases requires implementing interventions at different levels of government, and evaluating the potential impact and efficacy of those preemptive measures. Agent-based modeling can be used for detailed studies of epidemic diffusion and possible interventions. We present Loimos, a highly parallel simulation of epidemic diffusion written on top of Charm++, an asynchronous task-based parallel runtime. Loimos uses a hybrid of time-stepping and discrete-event simulation to model disease spread. We demonstrate that our implementation of Loimos is able to scale to large core counts on an HPC system. In particular, Loimos is able to simulate a US-scale synthetic interaction network in an average of 1.497 seconds per simulation day when executed on 16 nodes on Rivanna at the University of Virginia, processing around 428 billion interactions (person-person edges) in under five minutes for an average of 1.4 billion traversed edges per second (TEPS).",
+        "pages": "",
+        "lien_article": "https://arxiv.org/abs/2401.08124",
+        "lien_pdf": "https://arxiv.org/pdf/2401.08124"
+    },
+    {
+        "titre": "Exploring the effects of silent data corruption in distributed deep learning training",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:4fKUyHm3Qg0C",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=185987195694238976",
+        "auteurs": [
+            "Elvis Rojas",
+            "Diego Pérez",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2022-11-02",
+        "type_titre": "2022 IEEE 34th International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD)",
+        "type": "Conférence",
+        "editeurs": "IEEE",
+        "description": "The profound impact of recent developments in artificial intelligence is unquestionable. The applications of deep learning models are everywhere, from advanced natural language processing to highly accurate prediction of extreme weather. Those models have been continuously increasing in complexity, becoming much more powerful than their original versions. In addition, data to train the models is becoming more available as technological infrastructures sense and collect more readings. Consequently, distributed deep learning training is often times necessary to handle intricate models and massive datasets. Running a distributed training strategy on a supercomputer exposes the models to all the considerations of a large-scale machine; reliability is one of them. As supercomputers integrate a colossal number of components, each fabricated on an ever decreasing feature-size, faults are common during …",
+        "pages": "21-30",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/9980980/",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "Implementing a GPU-Portable Field Line Tracing Application with OpenMP Offload",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:sSrBHYA8nusC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=9878135232322311706",
+        "auteurs": [
+            "Diego Jiménez",
+            "Javier Herrera-Mora",
+            "Markus Rampp",
+            "Erwin Laure",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2022-09-26",
+        "type_titre": "Latin American High Performance Computing Conference",
+        "type": "Livre",
+        "editeurs": "Springer International Publishing",
+        "description": "Accelerated computing is becoming more diverse as new vendors and architectures come into play. Although platform-specific programming models promise ease of development and better control over performance, they still restrict the portability of scientific applications. As the OpenMP offloading specification becomes adopted by more compilers, this programming model stands out as a vendor-neutral portable approach to heterogeneous programming. In this study, we port a plasma physics oriented field line tracing code from a CPU-based MPI+OpenMP approach to a GPU accelerated version, using OpenMP’s offloading capabilities. We analyze GPU performance across different vendors with respect to the original CPU version and test both prescriptive and descriptive approaches to accelerator programming. A maximum \\documentclass[12pt]{minimal}     \\usepackage{amsmath}     \\usepackage{wasysym …",
+        "pages": "31-46",
+        "lien_article": "https://link.springer.com/chapter/10.1007/978-3-031-23821-5_3",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "A Comparative Evaluation of Parallel Programming Python Tools for Particle-in-Cell on Symmetric Multiprocessors",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:B3FOqHPlNUQC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=4541576642831431497",
+        "auteurs": [
+            "Oscar Blandino H",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2022-09-26",
+        "type_titre": "Latin American High Performance Computing Conference",
+        "type": "Livre",
+        "editeurs": "Springer International Publishing",
+        "description": "The Python programming language has established itself as a popular alternative for implementing scientific computing workflows. Its massive adoption across a wide spectrum of disciplines has created a strong community that develops tools for solving complex problems in science and engineering. In particular, there are several parallel programming libraries for Python codes that target multicore processors. We aim at comparing the performance and scalability of a subset of three popular libraries (Multiprocessing, PyMP, and Torcpy). We use the Particle-in-cell (PIC) method as a benchmark. This method is an attractive option for understanding physical phenomena, specially in plasma physics. A pre-existing PIC code implementation was modified to integrate Multiprocessing, PyMP, and Torcpy. The three tools were tested on a manycore and on a multicore processor by running different problem sizes. The …",
+        "pages": "1-15",
+        "lien_article": "https://link.springer.com/chapter/10.1007/978-3-031-23821-5_1",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "Calibration of Traffic Simulations Using Simulated Annealing and GPS Navigation Records",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:XiSMed-E-HIC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=13576634038318013734",
+        "auteurs": [
+            "Carlos Gamboa-Venegas",
+            "Steffan Gómez-Campos",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2021-12-01",
+        "type_titre": "Annual International Conference on Information Management and Big Data",
+        "type": "Livre",
+        "editeurs": "Springer International Publishing",
+        "description": "A traffic simulation tool provides a virtual environment to efficiently analyze current traffic conditions and quickly measure the impact of changes to either transport infrastructure or driving rules. Realizing the full potential of traffic simulations depends on correct parameter setting. In this work, we propose a method to calibrate traffic simulations using available transportation data from Costa Rica. The data comes from Global Position System (GPS) navigation records that only show the traffic speed in different sectors. The calibration algorithm aims to solve the inverse problem of finding the actual traffic flows in all routes to accurately reproduce real traffic conditions. We managed to calibrate the simulations for four case studies and leveraged our program to design solutions that ease traffic conditions in those scenarios. The impact and applications of this work are plenty. First, additional calibration techniques can be …",
+        "pages": "17-33",
+        "lien_article": "https://link.springer.com/chapter/10.1007/978-3-031-04447-2_2",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "Understanding COVID-19 Epidemic in Costa Rica Through Network-Based Modeling",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:p2g8aNsByqUC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=3761713067366102750",
+        "auteurs": [
+            "Mariela Abdalah",
+            "Cristina Soto",
+            "Melissa Arce",
+            "Eduardo Cruz",
+            "Jöao Maciel",
+            "Camila Clozato",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2021-10-06",
+        "type_titre": "Latin American High Performance Computing Conference",
+        "type": "Livre",
+        "editeurs": "Springer International Publishing",
+        "description": "As a result of the critical health situation caused by COVID-19, governments and researchers have acknowledged the significance of epidemic models for understanding a transmissible disease and assessing public policies, in order to determine which ones are truly effective in mitigating its propagation. We apply a modified SEIR model to characterize the behavior of the COVID-19 epidemic in the context of Costa Rica, employing a contact network to simulate the social connections among the inhabitants. Then, we use this model to weigh up the impact of important sanitary restrictions by simulating different scenarios associated to vaccination, authorization for organizing social events, and reopening of the school system. Our validation tests show that the obtained model is precise. In the scenario evaluation, simulations estimate that a constant vaccination reduces the reported cases by 45% and deaths by 42% in …",
+        "pages": "61-75",
+        "lien_article": "https://link.springer.com/chapter/10.1007/978-3-031-04209-6_5",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "Understanding failures through the lifetime of a top-level supercomputer",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:NhqRSupF_l8C",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=17824155037329310809",
+        "auteurs": [
+            "Elvis Rojas",
+            "Esteban Meneses",
+            "Terry Jones",
+            "Don Maxwell"
+        ],
+        "date_de_publication": "2021-08-01",
+        "type_titre": "Journal of Parallel and Distributed Computing",
+        "type": "Revue",
+        "editeurs": "Academic Press",
+        "description": "High performance computing systems are required to solve grand challenges in many scientific disciplines. These systems assemble many components to be powerful enough for solving extremely complex problems. An inherent consequence is the intricacy of the interaction of all those components, especially when failures come into the picture. It is crucial to develop an understanding of how these systems fail to design reliable supercomputing platforms in the future. This paper presents the results on studying multi-year failure and workload records of a powerful supercomputer that topped the world rankings. We provide a thorough analysis of the data and characterize the reliability of the system through several dimensions: failure classification, failure-rate modelling, and interplay between failures and workload. The results shed some light on the dynamics of top-level supercomputers and sensitive areas ripe for …",
+        "pages": "27-41",
+        "lien_article": "https://www.sciencedirect.com/science/article/pii/S0743731521000782",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "Adaptive plasma physics simulations: Dealing with load imbalance using charm++",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:P5F9QuxV20EC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=14495076124174188525",
+        "auteurs": [
+            "Diego Jiménez",
+            "Esteban Meneses",
+            "VI Vargas"
+        ],
+        "date_de_publication": "2021-07-17",
+        "type_titre": "Practice and Experience in Advanced Research Computing",
+        "type": "Livre",
+        "editeurs": "",
+        "description": " High Performance Computing (HPC) is nearing the exascale era and several challenges have to be addressed in terms of application development. Future parallel programming models should not only help developers take full advantage of the underlying machine but they should also account for highly dynamic runtime conditions, including frequent hardware failures. In this paper, we analyze the porting process of a plasma confinement simulator from a traditional MPI+OpenMP approach to a parallel objects based model like Charm++. The main driver for this effort is the existence of load imbalanced input scenarios that pure OpenMP scheduling can not solve. By using Charm++ adaptive runtime and integrated balancing strategies, we were able to increase total CPU usage from 45.2% to 80.2%, achieving a 1.64 × acceleration, after load balancing, over the MPI+OpenMP implementation on a specific input …",
+        "pages": "1-8",
+        "lien_article": "https://dl.acm.org/doi/abs/10.1145/3437359.3465566",
+        "lien_pdf": "https://www.researchgate.net/profile/Ivan-Vargas-Blanco/publication/353323831_Adaptive_Plasma_Physics_Simulations_Dealing_with_Load_Imbalance_using_Charm/links/6126a92a3be6c17839c47c9c/Adaptive-Plasma-Physics-Simulations-Dealing-with-Load-Imbalance-using-Charm.pdf"
+    },
+    {
+        "titre": "Towards photorealistic visualizations for plasma confinement simulations",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:1sJd4Hv_s6UC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=9332483751340958762",
+        "auteurs": [
+            "Luis Campos-Duarte",
+            "Diego Jiménez",
+            "Esteban Meneses",
+            "Ricardo Solano-Piedra",
+            "Esteban Pérez",
+            "VI Vargas",
+            "Ernesto Rivera-Alvarado"
+        ],
+        "date_de_publication": "2021-07-17",
+        "type_titre": "Practice and Experience in Advanced Research Computing",
+        "type": "Livre",
+        "editeurs": "",
+        "description": " As the world moves away from traditional energy sources, based on fossil fuels, one promising clean alternative source is nuclear fusion. To accelerate the required breakthroughs in that community, numerical simulations and scientific visualizations over high-performance computing systems are mandatory. The proper display of data resulting from the simulation is key to the design, tune-up, and dissemination of nuclear fusion reactors. We present a computer-graphics model that uses the output of numerical simulations to create visually plausible images of plasma confinement. The model is based on a combination of computer graphics techniques implemented on a ray-tracing framework.",
+        "pages": "1-4",
+        "lien_article": "https://dl.acm.org/doi/abs/10.1145/3437359.3465608",
+        "lien_pdf": "https://www.researchgate.net/profile/Ivan-Vargas-Blanco/publication/353323590_Towards_Photorealistic_Visualizations_for_Plasma_Confinement_Simulations/links/6126a98716a18371926d8f3f/Towards-Photorealistic-Visualizations-for-Plasma-Confinement-Simulations.pdf"
+    },
+    {
+        "titre": "The impact of school reopening strategies during COVID-19: A case study of Sao Paulo, Brazil",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:dshw04ExmUIC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=444456240071844543",
+        "auteurs": [
+            "Eduardo HM Cruz",
+            "João M Maciel",
+            "Camila Clozato",
+            "Matheus S Serpa",
+            "Philippe OA Navaux",
+            "Esteban Meneses",
+            "Mariela Abdalah",
+            "Matthias Diener"
+        ],
+        "date_de_publication": "2020-10-13",
+        "type_titre": "arXiv preprint arXiv:2010.08426",
+        "type": "Revue",
+        "editeurs": "",
+        "description": "During the COVID-19 pandemic, many countries opted for strict public health measures, including closing schools. They have now started relaxing some of those restrictions. To avoid overwhelming health systems, predictions for the number of new COVID-19 cases need to be considered when choosing a school reopening strategy. Using computer simulation, we analyze different strategies to reopen schools in the Sao Paulo Metropolitan Area, including the official reopening plan. Our results indicate that reopening schools with all students at once has a big impact on the number of new COVID-19 cases, which could cause a collapse of the health system. On the other hand, a controlled school reopening avoids the collapse of the health system, with a maximum ICU occupancy between 48.8% and 97.8%, depending on how people attending school follow sanitary measures. Postponing the schools' return date for after a vaccine becomes available can save up to 37,753 lives just in the Sao Paulo Metropolitan Area.",
+        "pages": "",
+        "lien_article": "https://arxiv.org/abs/2010.08426",
+        "lien_pdf": "https://arxiv.org/pdf/2010.08426"
+    },
+    {
+        "titre": "Towards a model to estimate the reliability of large-scale hybrid supercomputers",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:f2IySw72cVMC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=16923663900981951199",
+        "auteurs": [
+            "Elvis Rojas",
+            "Esteban Meneses",
+            "Terry Jones",
+            "Don Maxwell"
+        ],
+        "date_de_publication": "2020-01-01",
+        "type_titre": "Euro-Par 2020: Parallel Processing: 26th International Conference on Parallel and Distributed Computing, Warsaw, Poland, August 24–28, 2020, Proceedings 26",
+        "type": "Conférence",
+        "editeurs": "Springer International Publishing",
+        "description": " Supercomputers stand as a fundamental tool for developing our understanding of the universe. State-of-the-art scientific simulations, big data analyses, and machine learning executions require high performance computing platforms. Such infrastructures have been growing lately with the addition of thousands of newly designed components, calling their resiliency into question. It is crucial to solidify our knowledge on the way supercomputers fail. Other recent studies have highlighted the importance of characterizing failures on supercomputers. This paper aims at modelling component failures of a supercomputer based on Mixed Weibull distributions. The model is built using a real-life multi-year failure record from a leadership-class supercomputer. Using several key observations from the data, we designed an analytical model that is robust enough to represent each of the main components of …",
+        "pages": "37-51",
+        "lien_article": "https://link.springer.com/chapter/10.1007/978-3-030-57675-2_3",
+        "lien_pdf": "https://repositorio.una.ac.cr/bitstream/handle/11056/26728/Towards%20a%20model%20to%20estimate%20the%20reliability.pdf?sequence=4"
+    },
+    {
+        "titre": "Parallelization of a magnetohydrodynamics model for plasma simulation",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:NaGl4SEjCO4C",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=9191086342253053340",
+        "auteurs": [
+            "Daniel Alvarado",
+            "Alvaro de la Ossa",
+            "Francisco Frutos-Alfaro",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2018-11-07",
+        "type_titre": "2018 IEEE 38th Central America and Panama Convention (CONCAPAN XXXVIII)",
+        "type": "Conférence",
+        "editeurs": "IEEE",
+        "description": "Plasma simulations are inherently complex due to the numerous and intricate processes that naturally occur to matter in this state. Computer simulations and visualizations of plasma help researchers and scientists understand the physics that takes place in it. We have developed a parallel implementation of an application used to simulate and visualize the process of convection in plasma cells. This application implements a magnetohydrodynamics (MHD) approach to plasma modeling by numerically solving a fourth-order two-dimensional differential scheme. Results of experimentation with our parallel implementation are presented and analyzed. We managed to speedup the program by a factor of nearly 42× after parallelizing the code with OpenMP and using 128 cores on our Intel Xeon Phi KNL server. We also achieved an almost linear scalability of the execution time when increasing the size of the spatial and …",
+        "pages": "1-6",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/8596448/",
+        "lien_pdf": "http://repositorio.conare.ac.cr:8080/bitstream/handle/20.500.12337/7675/Parallelization_of_a_Magnetohydrodynamics.pdf?sequence=3&isAllowed=y"
+    },
+    {
+        "titre": "Algorithm for history reconstruction of viral recombination events: preliminary results",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:YFjsv_pBGBYC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=6791503925754712908",
+        "auteurs": [
+            "Carlos Gómez",
+            "Gabriel González",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2018-07-18",
+        "type_titre": "2018 IEEE International Work Conference on Bioinspired Intelligence (IWOBI)",
+        "type": "Conférence",
+        "editeurs": "IEEE",
+        "description": "An accurate understanding of the evolutionary history of virus species could help in the development of prevention measures or new treatments. Most current tools offer phylogenetic analysis focused on mutations as the main evolutionary mechanism and ignore inconsistencies caused by recombination events. This work intends to describe an algorithm for history reconstruction of recombination events detected from a set of viral genomic sequences. Preliminary results are provided from the analysis of some sequences of Human Adenovirus D with the proposed algorithm.",
+        "pages": "1-8",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/8464134/",
+        "lien_pdf": "http://repositorio.conare.ac.cr:8080/bitstream/handle/20.500.12337/4002/Algorithm%20for%20History%20Reconstruction%20of%20Viral%20Recombination%20Events_G%C3%93MEZ_GONZ%C3%81LEZ_MENESES.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "titre": "Accelerating Discovery and Innovation through Advanced Computing: Perspective of a High-Performance Computing Scientist in Costa Rica",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:hMod-77fHWUC",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=11878644582526466880",
+        "auteurs": [
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2018-05-11",
+        "type_titre": "Computing in Science & Engineering",
+        "type": "Revue",
+        "editeurs": "IEEE",
+        "description": "A new generation of computational scientists is currently being trained across Costa Rica, mainly at research laboratories in public universities. This new wave of scientists is expected to further increase the impact of advanced computing in conceiving creative, powerful ways to understand the universe and solve complex problems.",
+        "pages": "36-38",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/8357991/",
+        "lien_pdf": "https://ieeexplore.ieee.org/iel7/5992/8357983/08357991.pdf"
+    },
+    {
+        "titre": "Developing a Web Caching Architecture with Configurable Consistency: A Proposal.",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:YsMSGLbcyi4C",
+        "lien_citation": "https://scholar.google.fr/scholar?oi=bibs&hl=fr&cites=2383181812307537144",
+        "auteurs": [
+            "Francisco J Torres-Rojas",
+            "Esteban Meneses",
+            "Alexander Carballo"
+        ],
+        "date_de_publication": "2005-01-01",
+        "type_titre": "WEBIST",
+        "type": "Conférence",
+        "editeurs": "",
+        "description": "In recent years, Web Caching has been considered one of the key areas to improve web usage efficiency. However, caching web objects proposes many considerations about the validity of the cache. Ideally, it would be valuable to have a consistent cache, where no invalid relationships among objects are held. Several alternatives have been offered to keep consistency in the web cache, each one being better in different situations and for diverse requirements. Usually, web cachers implement just one strategy for maintaining consistency, sometimes giving bad results if circumstances are not appropriate for such strategy. Given that, a web cacher where this policy can be adapted to different situations, will offer good results in an execution with changing conditions. A web caching architecture is proposed as a testbed for consistency models, allowing both timing and ordering issues to be considered.",
+        "pages": "110-116",
+        "lien_article": "https://www.scitepress.org/PublishedPapers/2005/12318/12318.pdf",
+        "lien_pdf": "https://www.scitepress.org/PublishedPapers/2005/12318/12318.pdf"
+    },
+    {
+        "titre": "A characterization of soft-error sensitivity in data-parallel and model-parallel distributed deep learning",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:1qzjygNMrQYC",
+        "lien_citation": "https://scholar.google.com",
+        "auteurs": [
+            "Elvis Rojas",
+            "Diego Pérez",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2024-08-01",
+        "type_titre": "Journal of Parallel and Distributed Computing",
+        "type": "Revue",
+        "editeurs": "Academic Press",
+        "description": "The latest advances in artificial intelligence deep learning models are unprecedented. A wide spectrum of application areas is now thriving thanks to available massive training datasets and gigantic complex neural network models. Those two characteristics demand outstanding computing power that only advanced computing platforms can provide. Therefore, distributed deep learning has become a necessity in capitalizing on the potential of cutting-edge artificial intelligence. Two basic schemes have emerged in distributed learning. First, the data-parallel approach, which aims at dividing the training dataset into multiple computing nodes. Second, the model-parallel approach, which splits layers of a model into several computing nodes. Each scheme has its upsides and downsides, particularly when running on large machines that are susceptible to soft errors. Those errors occur as a consequence of several …",
+        "pages": "104879",
+        "lien_article": "https://www.sciencedirect.com/science/article/pii/S0743731524000431",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "High Performance Computing: 10th Latin American Conference, CARLA 2023, Cartagena, Colombia, September 18-22, 2023, Revised Selected Papers",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:V3AGJWp-ZtQC",
+        "lien_citation": "https://scholar.google.com",
+        "auteurs": [
+            "Carlos Jaime Barrios Hernandez",
+            "Silvio Rizzi",
+            "Esteban Meneses",
+            "Esteban Mocskos",
+            "Jose M Monsalve Diaz",
+            "Javier Montoya"
+        ],
+        "date_de_publication": "2024-01-01",
+        "type_titre": "",
+        "type": "",
+        "editeurs": "Springer",
+        "description": "",
+        "pages": "",
+        "lien_article": "https://scholar.google.com/scholar?cluster=4891890875222946313&hl=en&oi=scholarr",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "Automatic Classification of Seismo-Volcanic Signals with Deep Learning: The Case of Turrialba Volcano",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:BrmTIyaxlBUC",
+        "lien_citation": "https://scholar.google.com",
+        "auteurs": [
+            "Daniel Amador Salas",
+            "Manuel Zumbado",
+            "Javier Pacheco",
+            "Mauricio Mora",
+            "Leonardo van der Laat",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2023-11-28",
+        "type_titre": "2023 IEEE 5th International Conference on BioInspired Processing (BIP)",
+        "type": "Conférence",
+        "editeurs": "IEEE",
+        "description": "Monitoring and surveillance of volcanic activity is crucial to properly forecast the associated hazards. In this context, the analysis of volcanic seismicity plays a fundamental role. There are different seismic signals associated with volcanic activity, such as: volcano tectonic earthquakes (VT), long period earthquakes (LP) or low frequency earthquakes, earthquakes associated with explosions, hybrid earthquakes, deep LP earth-quakes and tremors. These are originated due to the movement or pumping of magma, fracturing of the rock under the surface, sound vibrations in the emission conduits, magma gasification processes, collapse of the magmatic chamber and explosions originated by the eruption. The identification and classification of these signals is a complex and time-consuming proces due to the lack of applicability of conventional tectonic earthquake location procedures and the difficulty experienced by …",
+        "pages": "1-6",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/10379326/",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "Evaluation of Alternatives to Accelerate Scientific Numerical Calculations on Graphics Processing Units Using Python",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:mvPsJ3kp5DgC",
+        "lien_citation": "https://scholar.google.com",
+        "auteurs": [
+            "Johansell Villalobos",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2023-09-18",
+        "type_titre": "Latin American High Performance Computing Conference",
+        "type": "Livre",
+        "editeurs": "Springer Nature Switzerland",
+        "description": "In this paper, the Numba, JAX, CuPy, PyTorch, and TensorFlow Python GPU accelerated libraries were benchmarked using scientific numerical kernels on a NVIDIA V100 GPU. The benchmarks consisted of a simple Monte Carlo estimation, a particle interaction kernel, a stencil evolution of an array, and tensor operations. The benchmarking procedure included general memory consumption measurements, a statistical analysis of scalability with problem size to determine the best libraries for the benchmarks, and a productivity measurement using source lines of code (SLOC) as a metric. It was statistically determined that the Numba library outperforms the rest on the Monte Carlo, particle interaction, and stencil benchmarks. The deep learning libraries show better performance on tensor operations. The SLOC count was similar for all the libraries except Numba which presented a higher SLOC count which implies …",
+        "pages": "3-20",
+        "lien_article": "https://link.springer.com/chapter/10.1007/978-3-031-52186-7_1",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "Ten Billion Events in Three Minutes: Scaling an Agent-basedEpidemic Simulation on Realistic Social Contact Networks",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:eflP2zaiRacC",
+        "lien_citation": "https://scholar.google.com",
+        "auteurs": [
+            "J Kitson",
+            "I Costello",
+            "J Chen",
+            "S Hoops",
+            "E Meneses",
+            "H Mortveit",
+            "J Yeom",
+            "M Marathe",
+            "A Bhatele"
+        ],
+        "date_de_publication": "2023-04-05",
+        "type_titre": "",
+        "type": "",
+        "editeurs": "Lawrence Livermore National Laboratory (LLNL), Livermore, CA (United States)",
+        "description": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58",
+        "pages": "",
+        "lien_article": "https://www.osti.gov/servlets/purl/2202911",
+        "lien_pdf": "https://www.osti.gov/servlets/purl/2202911"
+    },
+    {
+        "titre": "Implementing a GPU-Portable Field Line Tracing Application with OpenMP Offload",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:geHnlv5EZngC",
+        "lien_citation": "https://scholar.google.com",
+        "auteurs": [
+            "Javier Herrera-Mora",
+            "Markus Rampp",
+            "Erwin Laure",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2022-12-20",
+        "type_titre": "High Performance Computing: 9th Latin American Conference, CARLA 2022, Porto Alegre, Brazil, September 26–30, 2022, Revised Selected Papers",
+        "type": "Revue",
+        "editeurs": "Springer Nature",
+        "description": "Accelerated computing is becoming more diverse as new vendors and architectures come into play. Although platform-specific programming models promise ease of development and better control over performance, they still restrict the portability of scientific applications. As the OpenMP offloading specification becomes adopted by more compilers, this programming model stands out as a vendor-neutral portable approach to heterogeneous programming. In this study, we port a plasma physics oriented field line tracing code from a CPU-based MPI+ OpenMP approach to a GPU accelerated version, using OpenMP’s offloading capabilities. We analyze GPU performance across different vendors with respect to the original CPU version and test both prescriptive and descriptive approaches to accelerator programming. A maximum 6× acceleration over the CPU implementation was achieved using OpenMP’s high-level offloading directives. In addition, we demonstrate portability across three different vendor GPUs with no code modifications.",
+        "pages": "31",
+        "lien_article": "https://books.google.com/books?hl=en&lr=&id=wVKjEAAAQBAJ&oi=fnd&pg=PA31&dq=info:V7gtIFSmWT4J:scholar.google.com&ots=tW5pzsaxaf&sig=Us7vewJlxulGi99aohkOm8k2RfM",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "An Evaluation of a Ray-Tracing Based Model for Photorealistic Image Rendering of Confined Plasma in Stellarators",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:8AbLer7MMksC",
+        "lien_citation": "https://scholar.google.com",
+        "auteurs": [
+            "Luis Campos",
+            "Diego Jiménez",
+            "Silvio H Rizzi",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2022-12-01",
+        "type_titre": "Computación y Sistemas",
+        "type": "Revue",
+        "editeurs": "Instituto Politécnico Nacional, Centro de Investigación en Computación",
+        "description": "As the world moves away from traditional energy sources based on fossil fuels, several alternatives have been explored. One promising clean energy source is nuclear fusion. The fusion of hydrogen isotopes may provide generous consumable energy gains. However, nuclear fusion reactors are not ready to become a productive mechanism yet. To get a better understanding of plasma, numerical simulations and scientific visualizations over high-performance computing systems are mandatory. The results from the simulations and a proper display of the data are key to design and tune up nuclear fusion reactors. It is also thanks to the international collaboration effort such as the advisory contribution and tools of researchers from the Argonne National Laboratory in the United States in conjunction with the National Center for High Technology of Costa Rica that this work was successfully carried out. In a previous work, we explored a new approach of the scientific visualization of plasma confinement, presenting one model to generate realistic plasma representations. This work presents an evaluation of the expected quality of the images rendered with the created model. We propose a concept called visual plausibility as an evaluation attribute to rate each rendered image by physicists that already know about the plasma appearance.",
+        "pages": "1649-1659",
+        "lien_article": "https://www.scielo.org.mx/scielo.php?pid=S1405-55462022000401649&script=sci_arttext",
+        "lien_pdf": "https://www.scielo.org.mx/scielo.php?pid=S1405-55462022000401649&script=sci_arttext"
+    },
+    {
+        "titre": "Early Experiences of Noise-Sensitivity Performance Analysis of a Distributed Deep Learning Framework",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:tS2w5q8j5-wC",
+        "lien_citation": "https://scholar.google.com",
+        "auteurs": [
+            "Elvis Rojas",
+            "Michael Knobloch",
+            "Nour Daoud",
+            "Esteban Meneses",
+            "Bernd Mohr"
+        ],
+        "date_de_publication": "2022-09-05",
+        "type_titre": "2022 IEEE International Conference on Cluster Computing (CLUSTER)",
+        "type": "Conférence",
+        "editeurs": "IEEE",
+        "description": "Deep Learning (DL) applications are used to solve complex problems efficiently. These applications require complex neural network models composed of millions of parameters and huge amounts of data for proper training. This is only possible by parallelizing the necessary computations by so-called distributed deep learning (DDL) frameworks over many GPUs distributed over multiple nodes of a HPC cluster. These frameworks mostly utilize the compute power of the GPUs and use only a small portion of the available compute power of the CPUs in the nodes for I/O and inter-process communication, leaving many CPU cores idle and unused. The more powerful the base CPU in the cluster nodes, the more compute resources are wasted. In this paper, we investigate how much of this unutilized compute resources could be used for executing other applications without lowering the performance of the DDL …",
+        "pages": "516-522",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/9912667/",
+        "lien_pdf": "https://juser.fz-juelich.de/record/910530/files/HPCEuropeLatAm2022.pdf"
+    },
+    {
+        "titre": "A Performance Evaluation of Adaptive MPI for a Particle-In-Cell Code",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:vRqMK49ujn8C",
+        "lien_citation": "https://scholar.google.com",
+        "auteurs": [
+            "Christian Asch",
+            "Diego Jiménez",
+            "Markus Rampp",
+            "Erwin Laure",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2022-09-05",
+        "type_titre": "2022 IEEE International Conference on Cluster Computing (CLUSTER)",
+        "type": "Conférence",
+        "editeurs": "IEEE",
+        "description": "In the quest for extreme-scale supercomputers, the High Performance Computing (HPC) community has developed many resources (programming paradigms, architectures, method-ologies, numerical methods) to face the multiple challenges along the way. One of those resources are task-based parallel program-ming tools. The availability of mature programming models, pro-gramming languages, and runtime systems that use task-based parallelism represent a favorable ecosystem. The fundamental premise of these tools is their ability to naturally cope with dynamically changing execution conditions, i.e. adaptivity. In this paper, we explore Adaptive MPI, a parallel-object framework, as a mechanism to provide, among other features, automatic and dynamic load balancing for a particle-in-cell application. We ported a pre-existing MPI application on the Adaptive MPI infrastructure and highlight the changes required …",
+        "pages": "506-511",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/9912717/",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "Understanding COVID-19 Epidemic in Costa Rica Through Network-Based Modeling",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:VOx2b1Wkg3QC",
+        "lien_citation": "https://scholar.google.com",
+        "auteurs": [
+            "Jöao Maciel",
+            "Camila Clozato",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2022-04-11",
+        "type_titre": "High Performance Computing: 8th Latin American Conference, CARLA 2021, Guadalajara, Mexico, October 6–8, 2021, Revised Selected Papers",
+        "type": "Revue",
+        "editeurs": "Springer Nature",
+        "description": "As a result of the critical health situation caused by COVID-19, governments and researchers have acknowledged the significance of epidemic models for understanding a transmissible disease and assessing public policies, in order to determine which ones are truly effective in mitigating its propagation. We apply a modified SEIR model to characterize the behavior of the COVID-19 epidemic in the context of Costa Rica, employing a contact network to simulate the social connections among the inhabitants. Then, we use this model to weigh up the impact of important sanitary restrictions by simulating different scenarios associated to vaccination, authorization for organizing social events, and reopening of the school system. Our validation tests show that the obtained model is precise. In the scenario evaluation, simulations estimate that a constant vaccination reduces the reported cases by 45% and deaths by 42% in the best case where the infection dies out. In contrast, opening the schools with the totality of students increases the number of reported cases by 46% and deaths by 39% in the worst case. Finally, our model predicts that allowing social events causes an increase of 24% in reported infections and 17% more deaths, specially if people gather with close contacts.",
+        "pages": "61",
+        "lien_article": "https://books.google.com/books?hl=en&lr=&id=LgxqEAAAQBAJ&oi=fnd&pg=PA61&dq=info:hKQl8sCJJMYJ:scholar.google.com&ots=ANTe8AecwB&sig=d8jamgL4AHPPy2H5HczIQ4jHdO0",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "High Performance Computing: 8th Latin American Conference, CARLA 2021, Guadalajara, Mexico, October 6–8, 2021, Revised Selected Papers",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:fQNAKQ3IYiAC",
+        "lien_citation": "https://scholar.google.com",
+        "auteurs": [
+            "Isidoro Gitler",
+            "Carlos Jaime Barrios Hernández",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2022-04-11",
+        "type_titre": "",
+        "type": "",
+        "editeurs": "Springer Nature",
+        "description": "This book constitutes revised selected papers of the 8th Latin American High Performance Computing Conference, CARLA 2021, held in Guadalajara, Mexico, in October 2021. Due to the COVID-19 pandemic the conference was held in a virtual mode. The 16 revised full papers and 2 short papers presented were carefully reviewed and selected out of 45 submissions. The papers included in this book are organized according to the topics on​ high performance computing; high performance computing and artificial intelligence; high performance computing applications.",
+        "pages": "",
+        "lien_article": "https://books.google.com/books?hl=en&lr=&id=LgxqEAAAQBAJ&oi=fnd&pg=PR5&dq=info:5YJEHGZlhX8J:scholar.google.com&ots=ANTe8AecxE&sig=Vtjjsk8ntq_CRgIDtJb5VqIawdc",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "A Comparative Evaluation of Modern Architectures for the Non-Local Means Filter using Performance Primitives Libraries and Compiler Directive APIs",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:SP6oXDckpogC",
+        "lien_citation": "https://scholar.google.com",
+        "auteurs": [
+            "Manuel Zumbado-Corrales",
+            "Jorge Castro",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2021-11-04",
+        "type_titre": "2021 IEEE 3rd International Conference on BioInspired Processing (BIP)",
+        "type": "Conférence",
+        "editeurs": "IEEE",
+        "description": "The performance achieved by an application is limited by architectural features such as program data access and processing patterns. Parallelization approaches exhibit dissimilar performance and have a direct impact in application execution time. Additionally, developing parallel code involves additional complexity and productivity for programmers to accelerate or rewrite the program. In this paper, we present a comparative performance evaluation of a CPU, GPU, and many-core (Xeon Phi KNL) architectures for the Non-Local Means filter. We asses the effect of different data access and processing patterns in two computational optimizations developed for the aforementioned filter. We follow a top-down approach in terms of the parallelization approach chosen, starting from performance primitives as a first step to give easy drop-in acceleration and then compiler directives with frameworks such as OpenMP and …",
+        "pages": "1-6",
+        "lien_article": "https://ieeexplore.ieee.org/abstract/document/9612827/",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "On the Detection of Silent Data Corruptions in HPC Applications Using Redundant Multi-threading",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:abG-DnoFyZgC",
+        "lien_citation": "https://scholar.google.com",
+        "auteurs": [
+            "Diego Pérez",
+            "Thomas Ropars",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2020-08-24",
+        "type_titre": "European Conference on Parallel Processing",
+        "type": "Livre",
+        "editeurs": "Springer International Publishing",
+        "description": " This paper studies the use of Redundant Multi-Threading (RMT) to detect Silent Data Corruptions in HPC applications. To understand if it can be a viable solution in an HPC context, we study two software optimizations to reduce RMT performance overhead by reducing the amount of data exchanged between the replicated threads. We conduct experiments with representative HPC workloads to measure the performance gains obtained through these optimizations, and the error detection coverage they achieve. In the best case, when running on a processor that features Simultaneous Multi-Threading, our results show that the overhead can be as low as 1.4 without significantly reducing the ability to detect data corruptions.",
+        "pages": "290-302",
+        "lien_article": "https://link.springer.com/chapter/10.1007/978-3-030-71593-9_23",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "Evaluating resilience of deep learning models",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:eJXPG6dFmWUC",
+        "lien_citation": "https://scholar.google.com",
+        "auteurs": [
+            "Elvis Rojas",
+            "Bogdan Nicolae",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2020-01-01",
+        "type_titre": "",
+        "type": "",
+        "editeurs": "Instituto Tecnológico de Costa Rica",
+        "description": "Deep learning applications have become a valuable tool to solve complex problems in many critical areas. It is important to provide reliability on the outputs of those applications, even if failures occur during execution. In this paper, we present a reliability evaluation of three deep learning models. We use an ImageNet dataset and a homebrew fault injector to make all the tests. The results show there is a difference in failure sensitivity among the models. Also, there are models that despite an increase in the failure rate can keep the resulting error values low.",
+        "pages": "",
+        "lien_article": "https://repositorio.una.ac.cr/handle/11056/26727",
+        "lien_pdf": "https://repositorio.una.ac.cr/bitstream/handle/11056/26727/Evaluating%20Resilience.pdf?sequence=1"
+    },
+    {
+        "titre": "Locating seismo-volcanic signals in Turrialba Volcano (Costa Rica) using Python and Advanced Computing: a case of multidisciplinary collaboration for scientific development",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:bFI3QPDXJZMC",
+        "lien_citation": "https://scholar.google.com",
+        "auteurs": [
+            "Guillermo Cornejo-Suárez",
+            "Leonardo van-der-Laat",
+            "Esteban Meneses",
+            "Mauricio M Mora",
+            "Javier Fco Pacheco"
+        ],
+        "date_de_publication": "2019-03-12",
+        "type_titre": "",
+        "type": "",
+        "editeurs": "Editorial Tecnológica de Costa Rica (entidad editora)",
+        "description": "Low frequency seismo-volcanic signals are generated by the internal motion of fluids like magma, gases and water. They commonly occur before or together with erupting activity. Therefore, there study is fundamental for monitoring volcanic activity and assessment of volcanic risk. Nevertheless, because of their source complexity, it’s not possible to use the classical procedures for seismic location, which were developed for locating the more common tectonic earthquakes. Moreover, the volcanic edifice heterogeneity modifies the waveform of seimovolcanic signals, making the process of finding its location more challenging. Hence, signals must be processed using other methods that, because of their computational complexity, require advanced computing platforms (supercomputers), specially if real-time processing is required. However, seismic observatories of volcano monitoring in Central America have limited resources and may not afford in-house professional software developers. The present work analyzes a study case about a collaborative experience between specialists in volcano seismology and in advanced computing. We developed a computational platform to locate seismo-volcanic signals in Turrialba Volcano. Our principal conclusion is that the creation of multidisciplinary collaboration networks allow resource maximization to tackle and overcome many limitations common in our context (lack of human resource, technology, low budget, among others).",
+        "pages": "",
+        "lien_article": "https://www.academia.edu/download/95356015/3764.pdf",
+        "lien_pdf": "https://www.academia.edu/download/95356015/3764.pdf"
+    },
+    {
+        "titre": "High Performance Computing",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:M05iB0D1s5AC",
+        "lien_citation": "https://scholar.google.com",
+        "auteurs": [
+            "Esteban Meneses",
+            "Harold Castro",
+            "Carlos Jaime Barrios Hernández",
+            "Raul Ramos-Pollan"
+        ],
+        "date_de_publication": "2019-01-01",
+        "type_titre": "",
+        "type": "",
+        "editeurs": "Springer International Publishing",
+        "description": "The use and development of high-performance computing (HPC) in Latin America is steadily growing. New challenges come from the capabilities provided by clusters, grids, and distributed systems for HPC, promoting research and innovation in many scientific disciplines. Building on the great success of the previous editions, the Latin American Conference on High-Performance Computing (CARLA 2018) was held in Bucaramanga, Colombia, during September 26–28. The main goal of CARLA 2018 was to provide a regional forum to foster the growth of the HPC community in Latin America through the exchange and dissemination of new ideas, techniques, and research projects. The conference featured invited talks from academy and industry as well as short-and full-paper sessions presenting both mature work and new ideas in research and industrial applications.The list of topics included: parallel algorithms …",
+        "pages": "",
+        "lien_article": "https://link.springer.com/content/pdf/10.1007/978-3-030-16205-4.pdf",
+        "lien_pdf": "https://www.researchgate.net/profile/Jose-A-Morinigo/publication/332095212_Benchmarking_LAMMPS_Sensitivity_to_Task_Location_Under_CPU-Based_Weak-Scaling/links/5d31600c299bf1547cc2705d/Benchmarking-LAMMPS-Sensitivity-to-Task-Location-Under-CPU-Based-Weak-Scaling.pdf"
+    },
+    {
+        "titre": "Localizando señales sismo-volcánicas del volcán Turrialba (Costa Rica) usando Python y Computación Avanzada: un caso de colaboración multidisciplinar para el desarrollo científico",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:RYcK_YlVTxYC",
+        "lien_citation": "https://scholar.google.com",
+        "auteurs": [
+            "Mauricio Mora",
+            "Javier Fco Pacheco Alvarado",
+            "Guillermo Cornejo Suárez",
+            "Leonardo van der Laat Muñoz",
+            "Esteban Meneses Rojas"
+        ],
+        "date_de_publication": "2019-01-01",
+        "type_titre": "Tecnología en Marcha",
+        "type": "Revue",
+        "editeurs": "Editorial Tecnológica de Costa Rica",
+        "description": "Las señales sismo-volcánicas de baja frecuencia son generadas por el movimiento interno de magma, gases, agua, entre otros. Suelen preceder o acompañar la actividad eruptiva. Por lo tanto, estudiarlos resulta fundamental para el monitoreo de la actividad volcánica y una apropiada estimación de la amenaza. Sin embargo, la complejidad del mecanismo de la fuente hace que los procedimientos clásicos de localización de sismos generados por procesos tectónicos, que son los más comunes, no puedan ser utilizados para los volcánicos. A esto se suma la heterogeneidad de los edificios volcánicos que modifican en gran medida las formas de onda de las señales sismo-volcánicas, lo que también dificulta su procesamiento. Es por ello que se requiere aplicar otro tipo de métodos de tratamiento de señal los cuales, por su complejidad computacional, requieren de plataformas de computación avanzada (supercomputadoras), sobretodo cuando se precisa de resultados en tiempo real. No obstante, los observatorios o entes encargados de la auscultación y monitoreo volcánico en la región centroamericana tienen recursos limitados y no pueden mantener un departamento completo de desarrollo de softwareespecializado. La presente ponencia analiza un caso de estudio, en el cual se desarrolló un trabajo colaborativo entre especialistas en sismología volcánica y en computación avanzada, quienes implementaron una plataforma computacional para la localización de señales sismo-volcánicas en el Volcán Turrialba, Costa Rica. Nuestra principal conclusión es que la creación de redes de colaboración multidisciplinaria es una opción …",
+        "pages": "18-26",
+        "lien_article": "https://dialnet.unirioja.es/servlet/articulo?codigo=7444339",
+        "lien_pdf": "https://dialnet.unirioja.es/descarga/articulo/7444339.pdf"
+    },
+    {
+        "titre": "Conversion of Electrostatic Bernstein Waves in the SCR-1 Stellarator Using a Full Wave Code",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:b0M2c_1WBrUC",
+        "lien_citation": "https://scholar.google.com",
+        "auteurs": [
+            "VI Vargas-Blanco",
+            "R Solano-Piedra",
+            "F Coto-Vílchez",
+            "MA Rojas-Quesada",
+            "D López-Rodríguez",
+            "Castro Sánchez",
+            "J Asenjo",
+            "J Mora",
+            "A Köhn",
+            "E Meneses",
+            "D Jiménez",
+            "A Garro-Vargas"
+        ],
+        "date_de_publication": "2018-01-01",
+        "type_titre": "",
+        "type": "",
+        "editeurs": "",
+        "description": "[en] Full text: The small modular SCR-1 Stellarator (R= 247.7 mm, R/a= 6.2, l a= 0.264) has an ECRH system of 2.45 GHz (5 kW) with an average magnetic field of 41.99 mT. Few studies on conversion of electrostatic Bernstein waves under these conditions have been performed in stellarators. This work presents the results of converting electrostatic Bernstein waves in the SCR-1 stellarator using the full wave code IPF-FDMC, taking the 3D magnetic field obtained by VMEC code as input and the experimental electron density profile obtained using a Langmuir probe. New microwave heating scenarios that take the SCR-1’s vacuum vessel into account in order to improve the OX conversion due to reflection of the incoming radiation from the ECRH system are presented. The percentage of single pass OX mode conversion is around 3%. The design of an antenna with its characteristics and locations according to the SCR-1 view ports is explained. Other important aspects of this work are focussed on the BS-SOLCTRA (Biot-Savart Solver for Compute and Trace Magnetic Fields) code, developed by our research group, and its way to convert it into a parallel and high performance computing platform. This code allows calculations of the 3D vacuum magnetic field and the visualization of the magnetic flux surfaces at SCR-1. Similarly, the results of the comparison of the flux surfaces measured with an electron beam and different kinds of fluorescent rods with computed flux surfaces by means of the BS-SOLCTRA code are shown. Finally, magnetic and energy diagnostics have been developed with special requirements based on the SCR-1 geometry so the …",
+        "pages": "",
+        "lien_article": "https://inis.iaea.org/search/search.aspx?orig_q=RN:50052436",
+        "lien_pdf": ""
+    },
+    {
+        "titre": "Framework para Simulación en Paralelo de Fenómenos Sismológicos y Vulcanológicos",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:u_35RYKgDlwC",
+        "lien_citation": "https://scholar.google.com",
+        "auteurs": [
+            "Esteban Meneses-Rojas",
+            "Luis Guillermo Cornejo",
+            "Yuen Law",
+            "Rodolfo Mora"
+        ],
+        "date_de_publication": "2018-01-01",
+        "type_titre": "",
+        "type": "",
+        "editeurs": "Instituto Tecnológico de Costa Rica. Vicerrectoría de Investigación y Extensión. Escuela de Ingeniería en Computación.",
+        "description": "Costa Rica es un país situado en el llamado Cinturón de Fuego del Pacífico, una zona altamente sísmica que comprende países en ambos extremos del Océano Pacífico. En Costa Rica, en promedio, se experimenta un sismo de magnitud 4.0 o superior diariamente. Es fundamental para el país contar con una plataforma computacional para entender mejor los fenómenos sismológicos y el efecto que pueden tener los sismos en la sociedad. Este proyecto tuvo como objetivo principal identificar las necesidades de simulación y procesamiento de datos de los observatorios sismológicos del país (OVSICORI y RSN) y construir un framework que permitiera ejecutar esos programas. El entregable principal fue una primera versión del framework para obtener sismogramas sintéticos. Se diseñó una plataforma que simula sismos computacionalmente y que a la vez asocia información geográfica para crear videos del sismo con información del entorno físico. Esta integración permite una visualización enriquecida de los fenómenos. El framework integra varias herramientas de código libre que ejecutan en arquitecturas paralelas y que tienen la capacidad de simular una amplia variedad de escenarios. Este tipo de infraestructura es esencial para el país y demuestra el potencial que existe en la colaboración científica y el uso de tecnologías de computación avanzada.",
+        "pages": "",
+        "lien_article": "https://repositoriotec.tec.ac.cr/handle/2238/11073",
+        "lien_pdf": "https://repositoriotec.tec.ac.cr/bitstream/handle/2238/11073/framework_simulaci%C3%B3n_paralelo_fenomenos_sismologicos.pdf?sequence=1"
+    },
+    {
+        "titre": "Full-wave simulation of mode-converted electron Bernstein waves at very low magnetic field in the SCR-1 Stellarator",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:blknAaTinKkC",
+        "lien_citation": "https://scholar.google.com",
+        "auteurs": [
+            "Ricardo Solano Piedra",
+            "Andreína Garro Vargas",
+            "Diego Jiménez Vargas",
+            "Esteban Meneses Rojas",
+            "Alf Köhn",
+            "Federico Coto Vílchez",
+            "Víctor Iván Vargas Blanco",
+            "Rojas Quesada",
+            "Luis Daniel López Rodríguez",
+            "J Sánchez Castro",
+            "José Asenjo",
+            "Jonathan Mora"
+        ],
+        "date_de_publication": "2018-01-01",
+        "type_titre": "",
+        "type": "",
+        "editeurs": "IEEE International Work Conference on Bioinspired Intelligence (IWOBI)",
+        "description": "The generation of electron Bernstein waves in SCR-1 plasma was studied through the coupling between the incident electromagnetic radiation and charged particles of the plasma. The microwave scenarios performed with the IPF-FDMC full wave code allowed to recognize the localizations along the radial coordinate at the z= 0 position where this coupling occurred by looking for high variations of the electric field amplitude of the incident electromagnetic radiation [2]. The IPF-FDMC full wave input parameters were obtained by VMEC equilibrium and the value of the experimental electron line-averaged density.",
+        "pages": "",
+        "lien_article": "https://www.researchgate.net/profile/Ivan-Vargas-Blanco/publication/332061538_Full-wave_simulation_of_mode-converted_electron_Bernstein_waves_at_very_low_magnetic_field_in_the_SCR-1_Stellarator/links/5c9d36b2299bf111694dbcd6/Full-wave-simulation-of-mode-converted-electron-Bernstein-waves-at-very-low-magnetic-field-in-the-SCR-1-Stellarator.pdf",
+        "lien_pdf": "https://www.researchgate.net/profile/Ivan-Vargas-Blanco/publication/332061538_Full-wave_simulation_of_mode-converted_electron_Bernstein_waves_at_very_low_magnetic_field_in_the_SCR-1_Stellarator/links/5c9d36b2299bf111694dbcd6/Full-wave-simulation-of-mode-converted-electron-Bernstein-waves-at-very-low-magnetic-field-in-the-SCR-1-Stellarator.pdf"
+    },
+    {
+        "titre": "Exploring Application-Level Message-Logging in Scalable HPC Programs",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:maZDTaKrznsC",
+        "lien_citation": "https://scholar.google.com",
+        "auteurs": [
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2018-01-01",
+        "type_titre": "High Performance Computing: 4th Latin American Conference, CARLA 2017, Buenos Aires, Argentina, and Colonia del Sacramento, Uruguay, September 20-22, 2017, Revised Selected Papers 4",
+        "type": "Conférence",
+        "editeurs": "Springer International Publishing",
+        "description": " The next generation of supercomputers will require HPC applications to handle failures. This paper presents, through an example application, the benefits of logging messages at the application level. The proposed method will do both, provide resilience to failures and improve performance.",
+        "pages": "250-254",
+        "lien_article": "https://link.springer.com/chapter/10.1007/978-3-319-73353-1_17",
+        "lien_pdf": "https://www.academia.edu/download/77648388/Exploring_20Application-Level_20Message-Logging_20in_20Scalable_20HPC_20Programs_MENESES.pdf"
+    },
+    {
+        "titre": "Parallel Programming Tools in Python",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:4OULZ7Gr8RgC",
+        "lien_citation": "https://scholar.google.com",
+        "auteurs": [
+            "Guillermo Cornejo-Suárez",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2017-01-01",
+        "type_titre": "Memorias de congresos TEC",
+        "type": "Revue",
+        "editeurs": "",
+        "description": "The Python programming language is widely used in scien-tific computing. Five rankings on the popularity of program-ming languages with different methodologies [1],[2],[3],[4] and [5] list Python in position 1, 4, 2, 3 and 3, respectively. Those rankings considered the number of results returned by web searches, Github projects, questions tagged in StackOver-flow, open job positions, among other variables. As stated in [6], in 2015 approximately 10% of all computer jobs at Texas Advanced Computing Center were Python applications. Also, there exists specific modules for a wide diversity of scientific disciplines. Because of this strong code base and ease of use, Python is commonly the first language learned by engineering, basic and applied science students.",
+        "pages": "",
+        "lien_article": "https://revistas.tec.ac.cr/index.php/memorias/article/view/4523",
+        "lien_pdf": "https://revistas.tec.ac.cr/index.php/memorias/article/download/4523/4094"
+    },
+    {
+        "titre": "Diseño de una infraestructura de computación de alto rendimiento para objetos paralelos en un lenguaje de alto nivel",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:zA6iFVUQeVQC",
+        "lien_citation": "https://scholar.google.com",
+        "auteurs": [
+            "Esteban Meneses-Rojas"
+        ],
+        "date_de_publication": "2017-01-01",
+        "type_titre": "",
+        "type": "",
+        "editeurs": "Instituto Tecnológico de Costa Rica. Escuela de Ingeniería en Computación.",
+        "description": "La computación paralela ha alcanzado una posición predominante en la última década gracias a la abundancia de arquitecturas computacionales de múltiples núcleos. Explotar el poder computacional disponible en los sistemas modernos ofrece una enorme posibilidad de avanzar el estado del arte en la ciencia y la ingeniería. El modelo de programación de objetos paralelos ofrece muchas ventajas con respecto a otros modelos en computación paralela. Sin embargo, este modelo no ha sido explorado en el contexto de lenguajes de alto nivel. Este proyecto se enfocó en explorar las posibilidades de diseño de un sistema de computación de alto rendimiento para objetos paralelos en un lenguaje de alto nivel. Para lograr ese objetivo se hizo una recolección exhaustiva de herramientas en el lenguaje Python para computación de alto rendimiento. Esa colección demostró la oportunidad que existe al combinar los dos dominios: objetos paralelos y un lenguaje de alto nivel. Además, el proyecto creó un panorama de las posibilidades de diseño de tal combinación.",
+        "pages": "",
+        "lien_article": "https://repositoriotec.tec.ac.cr/handle/2238/9974",
+        "lien_pdf": "https://repositoriotec.tec.ac.cr/bitstream/handle/2238/9974/dise%C3%B1o_infraestructura_computacion_alto_rendimiento.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "titre": "Algoritmos alternos de bajo coste para la comparación de rutas metabólicas en plantas",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:3s1wT3WcHBgC",
+        "lien_citation": "https://scholar.google.com",
+        "auteurs": [
+            "Esteban Meneses-Rojas",
+            "Esteban Arias-Méndez"
+        ],
+        "date_de_publication": "2017-01-01",
+        "type_titre": "",
+        "type": "",
+        "editeurs": "Instituto Tecnológico de Costa Rica. Escuela de Ingeniería en Computación",
+        "description": "Las rutas metabólicas proveen información clave para alcanzar un mejor entendimiento de la vida y sus procesos; esta información es útil para el mejoramiento de la medicina, la agronomía, farmacia y otras áreas similares. La herramienta de análisis principal usada para estudiar estas rutas está basada en la idea de la comparación de rutas, usando estructuras de datos tipo grafos. La comparación de grafos ha sido definida como una tarea computacionalmente compleja.Se proponen 2 algoritmos con enfoques diferentes que simplifican el problema de comparar rutas representadas como grafos. El primer algoritmo consiste en la transformación de una estructura grafo de 2 dimensiones a una estructura de 1 dimensión, posteriormente alinear los datos correspondientes usando la estructura 1D reducida. El segundo algoritmo consiste en realizar un análisis de pares entre grafos, es decir una relación de 2 nodos iguales presentes en ambos grafos, para eliminar las similitudes, y finalmente mostrar las diferencias al usuario.",
+        "pages": "",
+        "lien_article": "https://repositoriotec.tec.ac.cr/handle/2238/9977",
+        "lien_pdf": "https://repositoriotec.tec.ac.cr/bitstream/handle/2238/9977/algoritmos_alternos_bajo_coste_comparaci%C3%B3n_rutas.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "titre": "Using Community Detection Algorithms to Identify Clusters of Ranks in an MPI Application Based on the Communication Matrix",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:35N4QoGY0k4C",
+        "lien_citation": "https://scholar.google.com",
+        "auteurs": [
+            "Manfred Calvo-Sánchez",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2017-01-01",
+        "type_titre": "Memorias de congresos TEC",
+        "type": "Revue",
+        "editeurs": "",
+        "description": "In the MPI parallel programming model, communication remains the bottleneck that prevents applications to achieve greater performance and scalability. Due to this problem it is important to know the behavior of this communication in each application. For this reason, we propose the use of community detection algorithms to identify from the communication matrix the clusters of ranks that maximize intracluster communication and minimize intercluster communication. The aim of this project is providing another tool to identify how you can improve the performance of a MPI application.",
+        "pages": "",
+        "lien_article": "https://revistas.tec.ac.cr/index.php/memorias/article/view/4518",
+        "lien_pdf": "https://revistas.tec.ac.cr/index.php/memorias/article/download/4518/4090"
+    },
+    {
+        "titre": "Leveraging Modern Multi-core Processor Features to Efficiently Deal with Silent Errors",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:vV6vV6tmYwMC",
+        "lien_citation": "https://scholar.google.com",
+        "auteurs": [
+            "Diego Pérez",
+            "Thomas Ropars",
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2017-01-01",
+        "type_titre": "Memorias de congresos TEC",
+        "type": "Revue",
+        "editeurs": "",
+        "description": "Since current multi-core processors are more com-plex systems on a chip than previous generations, some transient errors may happen, go undetected by the hardware and can potentially corrupt the result of an expensive calculation. Because of that, techniques such as Instruction Level Redundancy or checkpointing are utilized to detect and correct these soft errors; however these mechanisms are highly expensive, adding a lot of resource overhead. Hardware Transactional Memory (HTM) exposes a very convenient and efficient way to revert the state of a core’s cache, which can be utilized as a recovery technique. An experimental prototype has been created that uses such feature to recover the previous state of the calculation when a soft error has been found. The combination of HTM, Hyper-Threading and Memory Protection Extensions may further improve the performance, applicability and confidence of our technique.",
+        "pages": "",
+        "lien_article": "https://revistas.tec.ac.cr/index.php/memorias/article/view/4514",
+        "lien_pdf": "https://revistas.tec.ac.cr/index.php/memorias/article/download/4514/4086"
+    },
+    {
+        "titre": "Reducing the Overhead of Message Logging in Fault-Tolerant HPC Applications",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:isC4tDSrTZIC",
+        "lien_citation": "https://scholar.google.com",
+        "auteurs": [
+            "Esteban Meneses"
+        ],
+        "date_de_publication": "2017-01-01",
+        "type_titre": "High Performance Computing: Third Latin American Conference, CARLA 2016, Mexico City, Mexico, August 29–September 2, 2016, Revised Selected Papers 3",
+        "type": "Conférence",
+        "editeurs": "Springer International Publishing",
+        "description": " With the exascale era within reach, the high performance computing community is preparing to embrace the challenges associated with extreme-scale systems. Resilience raises as one of the major hurdles in making those systems usable for the advance of science and industry. Message logging is a well-known strategy to provide fault tolerance, one that is promising due to its ability to avoid global restart. However, message-logging protocols may suffer considerable overhead if implemented for the general case. This paper introduces a new message-logging protocol that leverages the benefits of a flexible parallel programming paradigm. We evaluate the protocol using a particular type of applications and demonstrate it can keep a low performance penalization when scaling up to 128,000 cores.",
+        "pages": "204-218",
+        "lien_article": "https://link.springer.com/chapter/10.1007/978-3-319-57972-6_15",
+        "lien_pdf": "https://www.academia.edu/download/77648385/Reducing_20the_20Overhead_20of_20Message.pdf"
+    },
+    {
+        "titre": "Dynamic Load Balancing Strategies for Parallel Reacting Flow Simulations",
+        "lien_page": "https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=mY4WHU4AAAAJ&pagesize=100&citation_for_view=mY4WHU4AAAAJ:e5wmG9Sq2KIC",
+        "lien_citation": "https://scholar.google.com",
+        "auteurs": [
+            "Patrick Pisciuneri",
+            "Esteban Meneses",
+            "Peyman Givi"
+        ],
+        "date_de_publication": "2014-11-01",
+        "type_titre": "APS Division of Fluid Dynamics Meeting Abstracts",
+        "type": "Revue",
+        "editeurs": "",
+        "description": "Load balancing in parallel computing aims at distributing the work as evenly as possible among the processors. This is a critical issue in the performance of parallel, time accurate, flow simulators. The constraint of time accuracy requires that all processes must be finished with their calculation for a given time step before any process can begin calculation of the next time step. Thus, an irregularly balanced compute load will result in idle time for many processes for each iteration and thus increased walltimes for calculations. Two existing, dynamic load balancing approaches are applied to the simplified case of a partially stirred reactor for methane combustion. The first is Zoltan, a parallel partitioning, load balancing, and data management library developed at the Sandia National Laboratories. The second is Charm++, which is its own machine independent parallel programming system developed at the University of …",
+        "pages": "R31. 001",
+        "lien_article": "https://ui.adsabs.harvard.edu/abs/2014APS..DFDR31001P/abstract",
+        "lien_pdf": ""
+    }
+]

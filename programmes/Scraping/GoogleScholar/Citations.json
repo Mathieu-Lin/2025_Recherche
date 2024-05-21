@@ -1,0 +1,186 @@
+[
+    {
+        "titre_cit": "Hydee: Failure containment without event logging for large scale send-deterministic mpi applications",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "On the use of cluster-based partial message logging to improve fault tolerance for mpi hpc applications",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "Using simulation to evaluate the performance of resilience strategies at scale",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "Scalable group-based checkpoint/restart for large-scale message-passing systems",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "Minimum process coordinated checkpointing scheme for ad hoc networks",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "Dynamic load balance for optimized message logging in fault tolerant hpc applications",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "A novel roll-back mechanism for performance enhancement of asynchronous checkpointing and recovery",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "Scalable message-logging techniques for effective fault tolerance in HPC applications",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "A recovery scheme for cluster federations using sender-based message logging",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "Second-level algorithms, superrecursivity, and recovery problem in distributed systems",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "A resilient hierarchical checkpointing algorithm for distributed systems running on cluster federation",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "Trading off logging overhead and coordinating overhead to achieve efficient rollback recovery",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "Performance comparison of hierarchical checkpoint protocols grid computing",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "An improved RF loopback for test time reduction",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "A comparison between different checkpoint schemes with advantages and disadvantages",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "Using simulation to evaluate the performance of resilience strategies and process failures",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "Domino-effect free crash recovery for concurrent failures in cluster federation",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "A new roll-forward checkpointing/recovery mechanism for cluster federation",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "Fault Tolerance for High-Performance Applications Using Structured Parallelism Models.",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "HydEE: Vers un protocole de recouvrement arrière hiérarchique pour les machines exascales",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "Portable checkpointing for parallel applications",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "A novel recovery approach for cluster federations",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "The Design and performance of a checkpointing scheme for mobile ad hoc networks",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "Contributions à la réplication de données dans les systèmes distribués à grande échelle",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "HydEE: Vers un protocole de recouvrement arrière hiérarchique pour les machines exascales De l'exploitation du déterminisme des émissions dans les protocoles de …",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "Nouveaux Protocoles de Tolérances aux Fautes pour les Applications MPI du Calcul Haute Performance",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "Novel crash recovery approach for concurrent failures in cluster federation",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "Evaluating the impact of a coordinated checkpointing in distributed data streams processing systems using discrete event simulation",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "On composition of checkpoint and recovery protocols for distributed systems",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "Un protocole de recouvrement arrière hiérarchique pour applications MPI de très grande taille avec émissions déterministes",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "An efficient recovery mechanism with checkpointing approach for cluster federation",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "A Compression between Different Checkpoints Scheme",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "Clustering and Recovery Mechanism using Check Pointing to Improve the Performance of Recovery System",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "Hierarchical Checkpoint Protocol in Data Grids",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "Using Rollback Avoidance to Mitigate Failures in Next-Generation Extreme-Scale Systems",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "Performance comparison of hierarchical checkpoint protocols grid computing",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "Fault Survivability of Lightweight Operating Systems for exascale",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "基于动态分组的两级检查点算法",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "A Damage Assessment Model in a Distributed System",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "Hierarchical composition of coordinated checkpoint with pessimistic message logging",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "A recovery scheme for cluster federations using sender-based message logging",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "A new roll-forward checkpointing/recovery mechanism for cluster federation",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "A new efficient recovery algorithm for cluster federations",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "A new asynchronous checkpointing/recovery mechanism for cluster federations",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "一种低费用的协调检查点算法",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    },
+    {
+        "titre_cit": "具有 O (n) 消息复杂度的非阻塞检查点算法 ①",
+        "titre": "Hybrid checkpointing for parallel applications in cluster federations"
+    }
+]

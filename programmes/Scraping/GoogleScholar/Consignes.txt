@@ -1,0 +1,11 @@
+Si vous voulez des citations, attention il faut scraper :
+1er : Auteur en insérant le lien de la page de l'auteur
+2ème : Scraper Citations
+3ème : Enreg Chercheur
+4ème : Scraper all_authors() 
+5ème : Enreg Citations
+
+
+Serveur SQL : XAMPP 
+id : root
+mdp : "" 
