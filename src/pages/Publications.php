@@ -71,7 +71,7 @@
 
                 echo "</div>";
                 // Ajout du bouton pour voir la publication
-                echo "<a href='publication.php?id=$publication_id'><button>Voir la publication</button></a>";
+                echo "<a href='?page=DetailPub&id=$publication_id'><button>Voir la publication</button></a>";
             }
         } else {
             echo "<p>Aucune publication trouvée.</p>";

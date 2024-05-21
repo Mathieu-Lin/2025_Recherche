@@ -24,6 +24,8 @@ require_once("./lib/Database.php");
             require_once('./src/pages/Accueil.php');
         } elseif ($page == "Publications") {
             require_once('./src/pages/Publications.php');
+        } elseif ($page == "DetailPub") {
+            require_once('./src/pages/DetailPub.php');
         } elseif ($page == "Graphe") {
             require_once('./src/pages/Graphe.php');
         } elseif ($page == "ProfilAuteur" && $_SESSION["id_author"] != "") {
