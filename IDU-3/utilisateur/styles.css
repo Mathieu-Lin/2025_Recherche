@@ -1,14 +1,15 @@
 body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
 }
 
 .profile-container {
     background: white;
+    border-radius: 50px;
     width: 100%;
-    max-width: 800px; /* Augmenté pour mieux ajuster plus de champs */
+    max-width: 800px; 
     margin: 30px auto;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -20,9 +21,9 @@ body {
 }
 
 .profile-image img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
 }
 
 .btn {
@@ -33,10 +34,12 @@ body {
     margin-top: 10px;
     cursor: pointer;
     border-radius: 5px;
+    width: calc(100% - 10px); 
 }
 
 .btn:hover {
-    background-color: #2e0dea;
+    background: linear-gradient(to right, #dd2476, #ff512f);
+    transform: scale(1.05);
 }
 
 .profile-form form {
@@ -44,17 +47,19 @@ body {
     flex-direction: column;
 }
 
-input[type="text"],
+input[type="text"]:disabled,
 input[type="email"],
 input[type="tel"],
 input[type="password"],
+input[type="date"],
+input[type="number"],
 textarea {
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: calc(100% - 22px); /* Ajustement pour l'espacement */
+    width: calc(100% - 22px); 
 }
 
 textarea {
@@ -62,18 +67,46 @@ textarea {
 }
 
 button[type="submit"] {
-    background-color: #2e0dea;
-    color: white;
-    padding: 10px 20px;
+    width: 50%;
+    background: linear-gradient(to right, #ff512f, #dd2476);
+    color: #fff;
+    padding: 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
+    font-size: 1.2rem;
     cursor: pointer;
-}
-
-button[type="submit"]:hover {
-    background-color: #45a049;
+    transition: background 0.3s, transform 0.3s;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    margin: 0 auto; /* Centrer le bouton */
+    display: block; /* Assurer que le bouton est en mode bloc */
 }
 
 label {
     font-weight: bold;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+}
+
+.publication-section {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.publication-section input[type="text"],
+.publication-section input[type="date"],
+.publication-section input[type="number"],
+.publication-section textarea {
+    padding: 10px;
+    width: calc(100% - 22px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
