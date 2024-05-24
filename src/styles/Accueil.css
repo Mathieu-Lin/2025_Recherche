@@ -1,3 +1,10 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 
 
 .logo img {
@@ -32,6 +39,42 @@ nav ul li a {
     text-decoration: none;
 }
 
+.border-line {
+    height: 2px; /* Height of the white line */
+    background-color: white; /* Color of the white line */
+    width: 100%;
+}
+
+.hero {
+    background-image: url('../../assets/fond1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 300px; /* Adjust as necessary */
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+}
+
+.hero-logo {
+    height: 150px; /* Adjust as necessary */
+    background: transparent; /* Ensure the background is transparent */
+}
+
+.hero-slogan {
+    font-size: 24px; /* Adjust as necessary */
+    font-weight: bold;
+    margin-left: 20px; /* Space between logo and slogan */
+}
+
 main {
     padding: 20px;
     margin-bottom: 100px; /* Espace pour le footer */
@@ -44,11 +87,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow-x: auto;
-}
-
-.logo-container-first {
-    margin: 0 10px 0px 200px;
 }
 
 .logo-container {
@@ -57,65 +95,6 @@ main {
 
 .logo-container img {
     max-height: 100px;
-}
-
-.home-search {
-    background-color: #162850;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-.home-search .white_bold {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.home-search .input-group {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.home-search .input-group input {
-    width: 80%;
-    padding: 10px;
-    font-size: 16px;
-}
-
-.home-search .input-group button.search-button {
-    padding: 10px 20px;
-    background-color: #0066cc;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.home-search .browse-domain {
-    margin-top: 20px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.home-search .wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.home-search .wrapper a {
-    margin: 5px;
-    padding: 10px 20px;
-    background-color: #2a5d9f;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.home-search .wrapper a:hover {
-    background-color: #1a3d6f;
 }
 
 .about {
@@ -127,37 +106,92 @@ main {
     background-color: #f8f9fa;
 }
 
-.about h2 {
-    width: 100%;
+.about .feature {
+    flex: 1;
+    margin: 20px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about .feature img {
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.about .feature h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #004080;
+}
+
+.about .feature p {
+    font-size: 14px;
+    color: #333;
+    text-align: left; /* Left align the text */
+}
+
+/* New section styles */
+.bibliometrie {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    margin-top: 20px;
+}
+
+.bibliometrie-header {
+    background-color: #004080;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.bibliometrie-header h2 {
+    margin: 0;
+    padding-left: 10px;
+}
+
+.bibliometrie-content {
+    padding: 20px;
+}
+
+.bibliometrie-content p {
+    font-size: 16px;
+    color: #333;
+}
+
+.bibliometrie-content ul {
+    padding-left: 20px;
+}
+
+.bibliometrie-content ul li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.team {
+    padding: 40px 20px;
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+.team h2 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
-.about p {
-    width: 100%;
-    font-size: 16px;
-    margin-bottom: 20px;
-}
-
-.about ul {
-    width: 100%;
+.team ul {
     list-style: none;
     padding: 0;
-    text-align: left;
 }
 
-.about ul li {
-    font-size: 16px;
+.team ul li {
+    font-size: 18px;
     margin-bottom: 10px;
-}
-
-.logo-section{
-    background-color: #f0f0f0; padding: 20px; display: flex; justify-content: center; align-items: center;
-
-
-}
-
-.logo-container {
-    margin-right: 20px;
 }

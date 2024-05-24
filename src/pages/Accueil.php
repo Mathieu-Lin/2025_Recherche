@@ -8,102 +8,118 @@
 
 <body>
     <?php require_once("./src/components/header.php"); ?>
-    <section class="home-search" id="scroll-down">
-        <div class="white_bold">
-            <span> 1 338 156 </span> documents scientifiques,
-            <span> 3 662 796 </span> références
-        </div>
-        <form action="/search/index" method="get" id="searchNG">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="input-group position-relative">
-                        <input type="text" name="q" class="form-control autocompletesearch ui-autocomplete-input" autocomplete="off" placeholder="Rechercher..." required>
-                        <button type="submit" aria-label="search" class="search-button">
-                            Rechercher
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </form>
-        <div class="white_bold browse-domain">
-            Consulter Polyrecherche par discipline
-        </div>
-        <div>
-            <div class="wrapper" id="wrapperDomain">
-                <a href="/search/index/?q=domain_t:chim">Chimie</a>
-                <a href="/search/index/?q=domain_t:stat">Statistiques </a>
-                <a href="/search/index/?q=domain_t:phys">Physique </a>
-                <a href="/search/index/?q=domain_t:shs">Sciences de l'Homme et Société</a>
-                <a href="/search/index/?q=domain_t:sdu">Planète et Univers </a>
-                <a href="/search/index/?q=domain_t:info">Informatique </a>
-                <a href="/search/index/?q=domain_t:spi">Sciences de l'ingénieur </a>
-                <a href="/search/index/?q=domain_t:math">Mathématiques </a>
-                <a href="/search/index/?q=domain_t:nlin">Science non linéaire </a>
-                <a href="/search/index/?q=domain_t:sdv">Sciences du Vivant </a>
-                <a href="/search/index/?q=domain_t:sde">Sciences de l'environnement</a>
-                <a href="/search/index/?q=domain_t:qfin">Économie et finance quantitative </a>
-                <a href="/search/index/?q=domain_t:scco">Sciences cognitives</a>
-            </div>
+
+
+    <div class="border-line"></div> <!-- White line -->
+
+    <section class="hero">
+        <div class="hero-content">
+            <img src="assets/polyRecherche (3).png" alt="Polyrecherche Logo" class="hero-logo">
+            <h1 class="hero-slogan">Partager librement les savoirs</h1>
         </div>
     </section>
-    <section class="about">
-        <h2>Challenges Scientifiques et Collaboration</h2>
-        <p>Les chercheurs sont regroupés dans des laboratoires tels que le LISTIC ou autre, où ils travaillent sur des thématiques variées mais souvent liées, comme l'intelligence artificielle (IA). Par exemple, certains se spécialisent dans les modèles de langage (LLM) tandis que d'autres se concentrent sur le traitement d'images. Polyrecherche facilite la collaboration et le partage d'informations entre ces chercheurs, en offrant une plateforme où ils peuvent publier et accéder à des travaux de recherche, participer à des projets collaboratifs, et suivre les évolutions dans leur domaine respectif.</p>
 
-        <h2>Gestion et Visualisation des Publications</h2>
-        <p>Actuellement, le suivi des activités de recherche se fait principalement par le biais des publications dans des conférences et des journaux scientifiques. Polyrecherche va plus loin en automatisant la collecte de ces publications, en construisant des graphes de citations (indiquant quels articles citent quels autres articles) et en fournissant des tableaux de bord statistiques. Ces outils permettent d'avoir une vue d'ensemble de l'activité de recherche, tant au niveau du laboratoire qu'au niveau individuel.</p>
+    <main>
+        <section class="about">
+            <div class="feature">
+                <img src="assets/challange.jpg" alt="Challenges Logo">
+                <h2>Challenges Scientifiques et Collaboration</h2>
+                <p>Polyrecherche facilite la collaboration et le partage d'informations entre ces chercheurs, en offrant une plateforme où ils peuvent publier et accéder à des travaux de recherche, participer à des projets collaboratifs, et suivre les évolutions dans leur domaine respectif.</p>
+            </div>
 
-        <h2>Bibliométrie et Analyse de Données</h2>
-        <p>Notre plateforme offre des fonctionnalités avancées de bibliométrie, permettant de récupérer automatiquement les publications des chercheurs, de construire des graphes de citations, et d'analyser comment les travaux sont cités au fil du temps. Avec un volume de données pouvant atteindre 200 articles et 8000 citations, Polyrecherche relève les défis du Big Data en proposant des outils robustes pour traiter et visualiser ces données.</p>
+            <div class="feature">
+                <img src="assets/publish.png" alt="Gestion Logo">
+                <h2>Gestion et Visualisation des Publications</h2>
+                <p>Polyrecherche va plus loin en automatisant la collecte de ces publications, en construisant des graphes de citations (indiquant quels articles citent quels autres articles) et en fournissant des tableaux de bord statistiques. Ces outils permettent d'avoir une vue d'ensemble de l'activité de recherche, tant au niveau du laboratoire qu'au niveau individuel.</p>
+            </div>
 
-        <h2>Fonctionnalités Clés</h2>
-        <ul>
-            <li><strong>Publications :</strong> Publiez et accédez à des articles scientifiques, des thèses, et d'autres types de travaux de recherche.</li>
-            <li><strong>Collaboration :</strong> Collaborez avec d'autres chercheurs à travers des projets de recherche partagés.</li>
-            <li><strong>Recherche :</strong> Utilisez notre moteur de recherche avancé pour trouver des publications pertinentes.</li>
-            <li><strong>Profil :</strong> Créez et gérez votre profil d'utilisateur, incluant votre CV, vos publications et vos projets.</li>
-            <li><strong>Visualisation :</strong> Visualisez des graphes de citations et des tableaux de bord statistiques pour analyser les tendances de recherche.</li>
-        </ul>
+            <div class="feature">
+                <img src="assets/bibliométrie.jpg" alt="Bibliométrie Logo">
+                <h2>Bibliométrie et Analyse de Données</h2>
+                <p>Notre plateforme offre des fonctionnalités avancées de bibliométrie, permettant de récupérer automatiquement les publications des chercheurs, de construire des graphes de citations, et d'analyser comment les travaux sont cités au fil du temps. Avec un volume de données pouvant atteindre 200 articles et 8000 citations.</p>
+            </div>
+
+            <div class="feature">
+                <img src="assets/fonctionnalité.png" alt="Fonctionnalités Logo">
+                <h2>Fonctionnalités Clés</h2>
+                <p>Publiez et accédez à des articles scientifiques, des thèses, et d'autres types de travaux de recherche.Collaborez avec d'autres chercheurs à travers des projets de recherche partagés.Visualisez des graphes de citations et des tableaux de bord statistiques pour analyser les tendances de recherche. Trouver des publications pertinentes. Créez et gérez votre profil de chercheur, incluant vos publications et vos projets.</p>
+            </div>
+        </section>
+
+        <!-- "Qu'est-ce que la bibliométrie ?" Section -->
+        <section class="bibliometrie">
+            <div class="bibliometrie-header">
+                <h2>Qu'est-ce que la bibliométrie ?</h2>
+            </div>
+            <div class="bibliometrie-content">
+                <p>Selon <a href="https://www.academie-sciences.fr" target="_blank">l'Académie des Sciences</a>, « on entend généralement par bibliométrie, mais il vaudrait mieux dire évaluation bibliométrique, l'ensemble des procédures qui contribuent à l'évaluation de la production scientifique d’un chercheur (ou d’un ensemble de chercheurs) :</p>
+                <ul>
+                    <li>à partir du nombre de ses publications,</li>
+                    <li>à partir du prestige des revues dans lesquelles elles ont été faites,</li>
+                    <li>à partir des citations auxquelles elles ont donné lieu.</li>
+                </ul>
+                <p>En tout état de cause, la bibliométrie ne mesure pas la qualité d’un chercheur mais seulement ses citations, sans préjuger des raisons qui l’ont amené à être cité. »</p>
+            </div>
+        </section>
+
+        <!-- "Outils d'analyse bibliométriques" Section -->
+        <section class="bibliometrie">
+            <div class="bibliometrie-header">
+                <h2>Outils d'analyse bibliométriques</h2>
+            </div>
+            <div class="bibliometrie-content">
+                <p>Pour calculer les indicateurs bibliométriques, des outils recensent les publications scientifiques et leurs citations (émises et reçues). Gérés par des sociétés commerciales, certains d’entre eux ne sont accessibles que sur abonnement. Malgré des évolutions constantes, ils rencontrent tous des limites qui peuvent être :</p>
+                <ul>
+                    <li>une couverture des publications scientifiques partielle (les sciences humaines et sociales y sont moins représentées) et parfois inconnue</li>
+                    <li>des doublons dans les références bibliographiques</li>
+                    <li>une prise en compte de toutes les citations, sans niveau de valeur (non-exclusion des auto-citations ; citations négatives...)</li>
+                    <li>l’absence de prise en compte de la qualité des articles, que seule l’évaluation par les pairs permet de connaître, et des autres aspects de l’activité de recherche, comme l’enseignement, qui permettraient d’obtenir une évaluation fiable du chercheur.</li>
+                </ul>
+                <p><strong>Les deux bases principales sont :</strong></p>
+                <ul>
+                    <li>
+                        <strong>HAL</strong> : HAL (Hyper Articles en Ligne) est une archive ouverte pluridisciplinaire destinée au dépôt et à la diffusion d'articles scientifiques de niveau recherche, publiés ou non, et de thèses, émanant des établissements d’enseignement et de recherche français ou étrangers, des laboratoires publics ou privés. HAL garantit la pérennité des documents déposés et assure une visibilité internationale aux travaux de recherche.
+                        <br>
+                        <a href="https://hal.archives-ouvertes.fr/" target="_blank">
+                            <img src="assets/hal.png" alt="HAL Logo" class="bibliometrie-logo">
+                        </a>
+                    </li>
+                    <li>
+                        <strong>Google Scholar</strong> : Google Scholar utilise la puissance du moteur du même nom pour indexer et dépouiller les articles scientifiques présents sur le Web. Simple d’utilisation et gratuit, sa couverture des publications est inconnue : cet outil est à utiliser avec précaution.
+                        <br>
+                        <a href="https://scholar.google.com/" target="_blank">
+                            <img src="assets/scholar.jpg" alt="Google Scholar Logo" class="bibliometrie-logo">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="team">
+            <h2>Équipe de Réalisation</h2>
+            <ul>
+                <li>RAHOU Zakaria</li>
+                <li>SBAI Sami</li>
+                <li>DAHMANE Ibtissam</li>
+                <li>IDDOUCH Ikram</li>
+                <li>LIN Mathieu</li>
+                <li>MAKBOUL Ottman</li>
+            </ul>
+        </section>
 
         <div class="logo-section">
-            <div class="logo-container-first">
-                <a href="https://www.univ-smb.fr/listic/" target="_blank" rel="noopener">
-                    <img style="height: 100px;" src="./assets/LISTIC_logo.jpeg" alt="LISTIC - USMB">
+            <div class="logo-container">
+                <a href="https://www.polytech.univ-smb.fr/" target="_blank" rel="noopener">
+                    <img src="assets\LogoPolytechAcChy.png" alt="Polytech Annecy">
                 </a>
             </div>
             <div class="logo-container">
                 <a href="https://www.univ-smb.fr/" target="_blank" rel="noopener">
-                    <img style="height: 100px;" src="./assets/LogoUSMB.png" alt="Université Savoie Mont Blanc">
-                </a>
-            </div>
-            <div class="logo-container">
-                <a href="https://www.polytech.univ-smb.fr/" target="_blank" rel="noopener">
-                    <img style="height: 100px;" src="./assets/LogoPolytechAcChy.png" alt="Polytech Annecy">
-                </a>
-            </div>
-
-            <div class="logo-container">
-                <a href="https://edytem.osug.fr/" target="_blank" rel="noopener">
-                    <img style="height: 100px;" src="./assets/LogoEDYTEM.jpg" alt="EDYTEM">
-                </a>
-            </div>
-            <div class="logo-container">
-                <a href="https://www.cnrs.fr/fr" target="_blank" rel="noopener">
-                    <img style="height: 100px;" src="./assets/LogoCNRS.jpg" alt="CNRS">
-                </a>
-            </div>
-            <div class="logo-container">
-                <a href="https://scholar.google.com/" target="_blank" rel="noopener">
-                    <img style="height: 100px;" src="./assets/LogoGoogleScholar.jpg" alt="Google Scholar">
-                </a>
-            </div>
-            <div class="logo-container">
-                <a href="https://hal.science/" target="_blank" rel="noopener">
-                    <img style="height: 100px;" src="./assets/LogoHAL.png" alt="HAL">
+                    <img src="assets\LogoUSMB.png" alt="Université Savoie Mont Blanc">
                 </a>
             </div>
         </div>
-    </section>
+    </main>
 
     <?php
     require_once("./src/components/footer.php");

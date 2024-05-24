@@ -7,8 +7,6 @@
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <title>PolyRecherche - Graphe</title>
 </head>
-<!-- <body style="background-image: url('assets/background.png');"> -->
-
 <body style="background-color:gainsboro;">
     <?php require_once("./src/components/header.php"); ?>
     <main>
@@ -116,7 +114,7 @@
         .data(citations)
         .enter().append("line")
         .attr("class", "link")
-        .attr("marker-end", "url(#arrowhead)") // Use this line for directed graph arrows
+        .attr("marker-end", "url(#arrowhead)") 
         .style("stroke", "#999")
         .style("stroke-width", "0.5px");
 
@@ -124,7 +122,7 @@
             .data(simulation.nodes())
             .enter().append("circle")
             .attr("class", "node")
-            .attr("r", 5)  // Rayon du cercle
+            .attr("r", 5)
             .on("mouseover", function(d) {
                 // Afficher le nom du titre lorsque la souris passe sur le nœud
                 svg.append("text")
