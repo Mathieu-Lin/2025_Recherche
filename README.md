@@ -21,15 +21,14 @@ Autres (à suivre)
 
 Créer une fichier bd_app.php dans le dossier public_html.
 
-Dans le fichier bd_app :
+Dans le fichier bd_app.php :
 
-<?PHP
 $mysqlUsername = "Votre login";
-$mysqlPassword  = "votre mot de passe";
+$mysqlPassword = "votre mot de passe";
 $mysqlDatabase = "votre login";
 $mysqlHost = "tp-epua:3308";
 
-Pour executer le web : 
+Pour executer le web :
 https://tp-epua.univ-smb.fr/~linm/2025_Recherche/2025_Recherche.php
 
 Ce notice concerne seulement les personnels de l'Université Savoie Mont Blanc.
