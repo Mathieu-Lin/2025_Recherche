@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost:3308
--- Généré le : lun. 20 mai 2024 à 11:05
+-- Généré le : sam. 25 mai 2024 à 14:07
 -- Version du serveur :  5.7.33
 -- Version de PHP : 7.4.33
 
@@ -48,8 +48,7 @@ CREATE TABLE `2025_authors` (
   `phone_number` varchar(100) DEFAULT NULL,
   `job` varchar(100) DEFAULT NULL,
   `description` text,
-  `update_date` date NOT NULL,
-  `profile_picture` blob
+  `update_date` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -72,7 +71,7 @@ CREATE TABLE `2025_editors` (
 CREATE TABLE `2025_links` (
   `id_publication` int(11) NOT NULL,
   `id_attachment` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -130,8 +129,7 @@ CREATE TABLE `2025_users` (
   `registration_date` date NOT NULL,
   `description` text,
   `update_date` date NOT NULL,
-  `id_author` int(11) DEFAULT NULL,
-  `profile_picture` blob
+  `id_author` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -160,7 +158,7 @@ ALTER TABLE `2025_editors`
 -- Index pour la table `2025_links`
 --
 ALTER TABLE `2025_links`
-  ADD PRIMARY KEY (`id_publication`,`id_attachment`),
+  ADD PRIMARY KEY (`id_publication`,`id_attachment`) USING BTREE,
   ADD KEY `fk_attachment_link` (`id_attachment`);
 
 --

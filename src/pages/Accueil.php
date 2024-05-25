@@ -96,14 +96,14 @@
         </section>
 
         <section class="team">
-            <h2>Équipe de Réalisation</h2>
+            <h2>Équipe de Réalisation 2023-2024</h2>
             <ul>
                 <li>RAHOU Zakaria</li>
                 <li>SBAI Sami</li>
                 <li>DAHMANE Ibtissam</li>
                 <li>IDDOUCH Ikram</li>
                 <li>LIN Mathieu</li>
-                <li>MAKBOUL Ottman</li>
+                <li>MAKBOUL Othman</li>
             </ul>
         </section>
 

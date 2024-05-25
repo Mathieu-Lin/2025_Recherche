@@ -1,11 +1,17 @@
 Notice d'utilisation / Charte d'utilisation
 
-- Pages
-Tu mets juste php et les balises
+Créer une fichier bd_app.php dans le dossier public_html.
 
-- Styles 
-Tu mets juste le style adapté pour UNE page
+Dans le fichier bd_app :
 
-- Requests
-Tu mets des fonctions qui font une requete SQL pour UNE page
+<?PHP
+$mysqlUsername = "Votre login";
+$mysqlPassword  = "votre mot de passe";
+$mysqlDatabase = "votre login";
+$mysqlHost = "tp-epua:3308";
+
+Pour executer le web : 
+https://tp-epua.univ-smb.fr/~linm/2025_Recherche/2025_Recherche.php
+
+Ce notice concerne seulement les personnels de l'Université Savoie Mont Blanc.
 
